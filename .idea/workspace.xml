@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" name="Default" comment="" />
+    <ignored path="sharetools.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/style.css" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376621437828" ignored="false" />
+    <file path="/site.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376636851396" ignored="false" />
+    <file path="/urls.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376622942933" ignored="false" />
+    <file path="/Dummy.txt" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376618521859" ignored="false" />
+    <file path="/home.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376622632672" ignored="false" />
+    <file path="/index.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376620390800" ignored="false" />
+    <file path="/periodic-table.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376621514325" ignored="false" />
+    <file path="/settings.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376619107368" ignored="false" />
+    <file path="/jsdecoder.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376623429977" ignored="false" />
+    <file path="/config.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376642183475" ignored="false" />
+    <file path="/beautify-javascript.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376632379272" ignored="false" />
+    <file path="/javascript-encrypt.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376636722991" ignored="false" />
+    <file path="/web-color.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376637349102" ignored="false" />
+    <file path="/calendar.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376638272275" ignored="false" />
+    <file path="/pinyin.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376640348454" ignored="false" />
+    <file path="/jinzhi.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376641048739" ignored="false" />
+    <file path="/unit.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376641870533" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="sharetools" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="calendar.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/calendar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="929" column="5" selection-start="27971" selection-end="27971" vertical-scroll-proportion="-7.967742">
+              <folding>
+                <element signature="e#22325#22351#0" expanded="true" />
+                <element signature="e#22475#22497#0" expanded="true" />
+                <element signature="e#22642#22664#0" expanded="true" />
+                <element signature="e#22686#22708#0" expanded="true" />
+                <element signature="e#24853#24913#0" expanded="true" />
+                <element signature="e#24972#25042#0" expanded="true" />
+                <element signature="e#25100#25150#0" expanded="true" />
+                <element signature="e#25171#25238#0" expanded="true" />
+                <element signature="e#25381#25403#0" expanded="true" />
+                <element signature="e#25447#25469#0" expanded="true" />
+                <element signature="e#25680#25702#0" expanded="true" />
+                <element signature="e#27217#27239#0" expanded="true" />
+                <element signature="e#27293#27315#0" expanded="true" />
+                <element signature="e#27369#27391#0" expanded="true" />
+                <element signature="e#27445#27467#0" expanded="true" />
+                <element signature="e#27527#27549#0" expanded="true" />
+                <element signature="e#27684#27706#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calculator.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/calculator.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1544" column="0" selection-start="24576" selection-end="24576" vertical-scroll-proportion="-47.35294">
+              <folding>
+                <element signature="e#16644#16679#0" expanded="true" />
+                <element signature="e#16732#16767#0" expanded="true" />
+                <element signature="e#16819#16854#0" expanded="true" />
+                <element signature="e#16941#16959#0" expanded="true" />
+                <element signature="e#17016#17034#0" expanded="true" />
+                <element signature="e#17114#17132#0" expanded="true" />
+                <element signature="e#17410#17429#0" expanded="true" />
+                <element signature="e#17554#17573#0" expanded="true" />
+                <element signature="e#17695#17717#0" expanded="true" />
+                <element signature="e#17882#17904#0" expanded="true" />
+                <element signature="e#18007#18029#0" expanded="true" />
+                <element signature="e#18132#18154#0" expanded="true" />
+                <element signature="e#18320#18342#0" expanded="true" />
+                <element signature="e#18488#18510#0" expanded="true" />
+                <element signature="e#18619#18641#0" expanded="true" />
+                <element signature="e#18812#18834#0" expanded="true" />
+                <element signature="e#18980#19002#0" expanded="true" />
+                <element signature="e#19133#19155#0" expanded="true" />
+                <element signature="e#19310#19332#0" expanded="true" />
+                <element signature="e#19478#19500#0" expanded="true" />
+                <element signature="e#19629#19651#0" expanded="true" />
+                <element signature="e#19920#19938#0" expanded="true" />
+                <element signature="e#20067#20085#0" expanded="true" />
+                <element signature="e#20214#20232#0" expanded="true" />
+                <element signature="e#20361#20379#0" expanded="true" />
+                <element signature="e#20520#20538#0" expanded="true" />
+                <element signature="e#20801#20820#0" expanded="true" />
+                <element signature="e#20933#20952#0" expanded="true" />
+                <element signature="e#21065#21084#0" expanded="true" />
+                <element signature="e#21197#21215#0" expanded="true" />
+                <element signature="e#21323#21341#0" expanded="true" />
+                <element signature="e#21446#21464#0" expanded="true" />
+                <element signature="e#21616#21635#0" expanded="true" />
+                <element signature="e#21748#21767#0" expanded="true" />
+                <element signature="e#21880#21899#0" expanded="true" />
+                <element signature="e#22012#22030#0" expanded="true" />
+                <element signature="e#22138#22156#0" expanded="true" />
+                <element signature="e#22285#22303#0" expanded="true" />
+                <element signature="e#22451#22470#0" expanded="true" />
+                <element signature="e#22575#22594#0" expanded="true" />
+                <element signature="e#22707#22726#0" expanded="true" />
+                <element signature="e#22839#22857#0" expanded="true" />
+                <element signature="e#22965#22983#0" expanded="true" />
+                <element signature="e#23088#23106#0" expanded="true" />
+                <element signature="e#23260#23279#0" expanded="true" />
+                <element signature="e#23384#23403#0" expanded="true" />
+                <element signature="e#23503#23522#0" expanded="true" />
+                <element signature="e#23635#23653#0" expanded="true" />
+                <element signature="e#23761#23779#0" expanded="true" />
+                <element signature="e#23877#23895#0" expanded="true" />
+                <element signature="e#24040#24059#0" expanded="true" />
+                <element signature="e#24181#24200#0" expanded="true" />
+                <element signature="e#24322#24341#0" expanded="true" />
+                <element signature="e#24463#24482#0" expanded="true" />
+                <element signature="e#24604#24623#0" expanded="true" />
+                <element signature="e#24746#24765#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pinyin.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/pinyin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="87" column="19" selection-start="3086" selection-end="3086" vertical-scroll-proportion="-3.935484">
+              <folding>
+                <element signature="e#3301#3333#0" expanded="true" />
+                <element signature="e#3406#3437#0" expanded="true" />
+                <element signature="e#3510#3555#0" expanded="true" />
+                <element signature="e#3743#3777#0" expanded="true" />
+                <element signature="e#3846#3877#0" expanded="true" />
+                <element signature="e#3906#3924#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="health.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/health.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="136" column="79" selection-start="2457" selection-end="2457" vertical-scroll-proportion="-8.382353">
+              <folding>
+                <element signature="e#2412#2445#0" expanded="true" />
+                <element signature="e#2761#2794#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jinzhi.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/jinzhi.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="1" selection-start="722" selection-end="722" vertical-scroll-proportion="-20.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="unit.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/unit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="22" selection-start="161" selection-end="161" vertical-scroll-proportion="18.14516">
+              <folding>
+                <element signature="e#20616#20649#0" expanded="true" />
+                <element signature="e#21054#21087#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="css-format.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/css-format.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="69" column="12" selection-start="1765" selection-end="1765" vertical-scroll-proportion="0.6381579">
+              <folding>
+                <element signature="e#1529#1561#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hz.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/pinyin/hz.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/common/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="37" selection-start="1680" selection-end="1680" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="beautify-javascript.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/beautify-javascript.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="0" selection-start="1721" selection-end="1721" vertical-scroll-proportion="-5.0588236">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/templates/template.html" />
+        <option value="$PROJECT_DIR$/templates/simple2traditional.html" />
+        <option value="$PROJECT_DIR$/templates/regex-test.html" />
+        <option value="$PROJECT_DIR$/templates/beautify-javascript.html" />
+        <option value="$PROJECT_DIR$/templates/javascript-encrypt.html" />
+        <option value="$PROJECT_DIR$/templates/shared/site.html" />
+        <option value="$PROJECT_DIR$/templates/web-color.html" />
+        <option value="$PROJECT_DIR$/templates/calendar.html" />
+        <option value="$PROJECT_DIR$/templates/safe-day.html" />
+        <option value="$PROJECT_DIR$/templates/calculator.html" />
+        <option value="$PROJECT_DIR$/templates/pinyin.html" />
+        <option value="$PROJECT_DIR$/templates/health.html" />
+        <option value="$PROJECT_DIR$/templates/jinzhi.html" />
+        <option value="$PROJECT_DIR$/templates/unit.html" />
+        <option value="$PROJECT_DIR$/app/common/config.py" />
+        <option value="$PROJECT_DIR$/templates/css-format.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1688" />
+    <option name="height" value="1006" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharetools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharetools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharetools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharetools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharetools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharetools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharetools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharetools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharetools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharetools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharetools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharetools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharetools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\project\formal\sharetools\templates" />
+      <recent name="D:\work\project\formal\sharetools\static\js\jinzhi" />
+      <recent name="D:\work\project\formal\sharetools\static\js\pinyin" />
+      <recent name="D:\work\project\formal\sharetools\static\js\beauty" />
+      <recent name="D:\work\project\formal\sharetools\static\js\jsdecoder" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django server.sharetools">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sharetools" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sharetools" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="sharetools" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sharetools" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Django server.sharetools" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" name="Default" comment="" />
+      <created>1376616345353</created>
+      <updated>1376616345353</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="1688" height="1006" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25337422" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/static/js/beauty/beautify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/jsdecoder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="235" column="54" selection-start="8788" selection-end="8788" vertical-scroll-proportion="-1.382353">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/javascript-encrypt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="29" selection-start="1080" selection-end="1080" vertical-scroll-proportion="-8.088235">
+          <folding>
+            <element signature="e#565#583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/shared/site.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="23" selection-start="2955" selection-end="2955" vertical-scroll-proportion="-15.441176">
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web-color.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="311" column="7" selection-start="9361" selection-end="9361" vertical-scroll-proportion="-14.705882">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/safe-day.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1319" column="0" selection-start="13546" selection-end="13546" vertical-scroll-proportion="-14.617647">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/beautify-javascript.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1721" selection-end="1721" vertical-scroll-proportion="-5.0588236">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/calendar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="929" column="5" selection-start="27971" selection-end="27971" vertical-scroll-proportion="-7.967742">
+          <folding>
+            <element signature="e#22325#22351#0" expanded="true" />
+            <element signature="e#22475#22497#0" expanded="true" />
+            <element signature="e#22642#22664#0" expanded="true" />
+            <element signature="e#22686#22708#0" expanded="true" />
+            <element signature="e#24853#24913#0" expanded="true" />
+            <element signature="e#24972#25042#0" expanded="true" />
+            <element signature="e#25100#25150#0" expanded="true" />
+            <element signature="e#25171#25238#0" expanded="true" />
+            <element signature="e#25381#25403#0" expanded="true" />
+            <element signature="e#25447#25469#0" expanded="true" />
+            <element signature="e#25680#25702#0" expanded="true" />
+            <element signature="e#27217#27239#0" expanded="true" />
+            <element signature="e#27293#27315#0" expanded="true" />
+            <element signature="e#27369#27391#0" expanded="true" />
+            <element signature="e#27445#27467#0" expanded="true" />
+            <element signature="e#27527#27549#0" expanded="true" />
+            <element signature="e#27684#27706#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/calculator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1544" column="0" selection-start="24576" selection-end="24576" vertical-scroll-proportion="-47.35294">
+          <folding>
+            <element signature="e#16644#16679#0" expanded="true" />
+            <element signature="e#16732#16767#0" expanded="true" />
+            <element signature="e#16819#16854#0" expanded="true" />
+            <element signature="e#16941#16959#0" expanded="true" />
+            <element signature="e#17016#17034#0" expanded="true" />
+            <element signature="e#17114#17132#0" expanded="true" />
+            <element signature="e#17410#17429#0" expanded="true" />
+            <element signature="e#17554#17573#0" expanded="true" />
+            <element signature="e#17695#17717#0" expanded="true" />
+            <element signature="e#17882#17904#0" expanded="true" />
+            <element signature="e#18007#18029#0" expanded="true" />
+            <element signature="e#18132#18154#0" expanded="true" />
+            <element signature="e#18320#18342#0" expanded="true" />
+            <element signature="e#18488#18510#0" expanded="true" />
+            <element signature="e#18619#18641#0" expanded="true" />
+            <element signature="e#18812#18834#0" expanded="true" />
+            <element signature="e#18980#19002#0" expanded="true" />
+            <element signature="e#19133#19155#0" expanded="true" />
+            <element signature="e#19310#19332#0" expanded="true" />
+            <element signature="e#19478#19500#0" expanded="true" />
+            <element signature="e#19629#19651#0" expanded="true" />
+            <element signature="e#19920#19938#0" expanded="true" />
+            <element signature="e#20067#20085#0" expanded="true" />
+            <element signature="e#20214#20232#0" expanded="true" />
+            <element signature="e#20361#20379#0" expanded="true" />
+            <element signature="e#20520#20538#0" expanded="true" />
+            <element signature="e#20801#20820#0" expanded="true" />
+            <element signature="e#20933#20952#0" expanded="true" />
+            <element signature="e#21065#21084#0" expanded="true" />
+            <element signature="e#21197#21215#0" expanded="true" />
+            <element signature="e#21323#21341#0" expanded="true" />
+            <element signature="e#21446#21464#0" expanded="true" />
+            <element signature="e#21616#21635#0" expanded="true" />
+            <element signature="e#21748#21767#0" expanded="true" />
+            <element signature="e#21880#21899#0" expanded="true" />
+            <element signature="e#22012#22030#0" expanded="true" />
+            <element signature="e#22138#22156#0" expanded="true" />
+            <element signature="e#22285#22303#0" expanded="true" />
+            <element signature="e#22451#22470#0" expanded="true" />
+            <element signature="e#22575#22594#0" expanded="true" />
+            <element signature="e#22707#22726#0" expanded="true" />
+            <element signature="e#22839#22857#0" expanded="true" />
+            <element signature="e#22965#22983#0" expanded="true" />
+            <element signature="e#23088#23106#0" expanded="true" />
+            <element signature="e#23260#23279#0" expanded="true" />
+            <element signature="e#23384#23403#0" expanded="true" />
+            <element signature="e#23503#23522#0" expanded="true" />
+            <element signature="e#23635#23653#0" expanded="true" />
+            <element signature="e#23761#23779#0" expanded="true" />
+            <element signature="e#23877#23895#0" expanded="true" />
+            <element signature="e#24040#24059#0" expanded="true" />
+            <element signature="e#24181#24200#0" expanded="true" />
+            <element signature="e#24322#24341#0" expanded="true" />
+            <element signature="e#24463#24482#0" expanded="true" />
+            <element signature="e#24604#24623#0" expanded="true" />
+            <element signature="e#24746#24765#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/pinyin/hz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pinyin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="19" selection-start="3086" selection-end="3086" vertical-scroll-proportion="-3.935484">
+          <folding>
+            <element signature="e#3301#3333#0" expanded="true" />
+            <element signature="e#3406#3437#0" expanded="true" />
+            <element signature="e#3510#3555#0" expanded="true" />
+            <element signature="e#3743#3777#0" expanded="true" />
+            <element signature="e#3846#3877#0" expanded="true" />
+            <element signature="e#3906#3924#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/health.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="79" selection-start="2457" selection-end="2457" vertical-scroll-proportion="-8.382353">
+          <folding>
+            <element signature="e#2412#2445#0" expanded="true" />
+            <element signature="e#2761#2794#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/jinzhi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="1" selection-start="722" selection-end="722" vertical-scroll-proportion="-20.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="22" selection-start="161" selection-end="161" vertical-scroll-proportion="18.14516">
+          <folding>
+            <element signature="e#20616#20649#0" expanded="true" />
+            <element signature="e#21054#21087#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/common/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="37" selection-start="1680" selection-end="1680" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/css-format.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="12" selection-start="1765" selection-end="1765" vertical-scroll-proportion="0.6381579">
+          <folding>
+            <element signature="e#1529#1561#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

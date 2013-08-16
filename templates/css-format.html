@@ -1,0 +1,76 @@
+{% extends "shared/site.html" %}
+{% block head %}
+{% endblock %}
+
+
+{% block main-content %}
+
+
+                    <script language="JavaScript">
+/*到sharejs.com获取更多的JavaScript代码*/
+<!--
+function $() {
+  var elements = new Array();
+  for (var i = 0; i < arguments.length; i++) {
+    var element = arguments[i];
+    if (typeof element == "string")
+      element = document.getElementById(element);
+    if (arguments.length == 1)
+      return element;
+    elements.push(element);
+  }
+  return elements;
+}
+
+//CSS代码格式化和加密化
+function CSSencode(code)
+{
+ code = code.replace(/\n/ig,"");
+ code = code.replace(/(\s){2,}/ig,"$1");
+ code = code.replace(/\t/ig,"");
+ code = code.replace(/\n\}/ig,"\}");
+ code = code.replace(/\n\{\s*/ig,"\{");
+ code = code.replace(/(\S)\s*\}/ig,"$1\}");
+ code = code.replace(/(\S)\s*\{/ig,"$1\{");
+ code = code.replace(/\{\s*(\S)/ig,"\{$1");
+ return code;
+}
+
+function CSSdecode(code)
+{
+ code = code.replace(/(\s){2,}/ig,"$1");
+ code = code.replace(/(\S)\s*\{/ig,"$1\n{");
+ code = code.replace(/\*\/(.[^\}\{]*)}/ig,"\*\/\n$1}");
+ code = code.replace(/\/\*/ig,"\n\/\*");
+ code = code.replace(/;\s*(\S)/ig,";\n\t$1");
+ code = code.replace(/\}\s*(\S)/ig,"\}\n$1");
+ code = code.replace(/\n\s*\}/ig,"\n\}");
+ code = code.replace(/\{\s*(\S)/ig,"\{\n\t$1");
+ code = code.replace(/(\S)\s*\*\//ig,"$1\*\/");
+ code = code.replace(/\*\/\s*([^\}\{]\S)/ig,"\*\/\n\t$1");
+ code = code.replace(/(\S)\}/ig,"$1\n\}");
+ code = code.replace(/(\n){2,}/ig,"\n");
+ return code;
+}
+
+
+//-->
+</script>
+
+
+<textarea name="" rows="" cols="" style="width:100%;height:300px;" id="code">
+/*请将CSS代码复制到这里*/
+.box,input {
+height:20px;
+background-color: #ffffff;
+ }
+</textarea>
+<br>
+<input type="submit" onclick="$('code').value = CSSdecode($('code').value);" value="格式化">
+&nbsp;&nbsp;
+<input type="submit" onclick="$('code').value = CSSencode($('code').value);" value="加密化[尽量减少css大小]" />
+<br>
+大家在使用的时候最好，先格式化一下，然后再加密化。
+
+
+{% endblock %}

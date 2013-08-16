@@ -1,0 +1,94 @@
+{% extends "shared/site.html" %}
+{% block head %}
+<style type="text/css">
+.outp{
+background-color:#EAEAEA;
+width:100%;
+text-align:left;
+border-color:lightgrey;
+border-style:outset;
+border-width:2px;
+font-family:verdana;
+font-size:8pt;
+font-weight:normal;
+}
+</style>
+    
+{% endblock %}
+
+
+{% block main-content %}
+
+<form name="fa">
+<br>
+<table cellpadding="5" cellspacing=0 border=0 width="100%">
+<tr><td colspan="2">
+<ol><li>在下面的输入框内输入JavaScript代码或者HTML代码<li>选择加密 <b>标识码</b>
+<li>点击 <b>加密</b> 按钮
+</ol></td></tr>
+<tr valign="top">
+<td width="80%">
+<textarea id="f2"  style="width:100%" rows="15" wrap="off">
+<SCRIPT LANGUAGE="javascript">
+// SAMPLE SCRIPT #1
+alert('welcome to sharejs.com');
+</SCRIPT>
+
+<SCRIPT LANGUAGE="javascript" SRC="your_js_file.js">
+// SAMPLE SCRIPT #2 - CALLING AN EXTERNAL JS FILE
+</SCRIPT>
+</textarea>
+</td>
+<td>
+<br><br>
+标识码:<br>
+<select name="et" onchange="encN=this.selectedIndex+1">
+<option selected>1
+<option>2
+<option>3
+<option>4
+<option>5
+</select>
+<br><br>
+<input type="button" value="加密" onclick="writeOut()"><br><br>
+<input type="reset" value="重置">
+</td>
+</tr>
+</table>
+<br><br>
+
+
+<ol>
+<li>添加Javascript代码到上面的文本框.
+<li>选择一个加密标识码.
+<li>点击加密按钮.
+<li>把加密后的代码复制到网页内，替换原来的JavaScript代码。 粘贴后的代码应该保证在一行上，不要使用自动换行，否则脚本无法运行。
+</ol>
+<a href="javascript:document.fa.output.focus();document.fa.output.select();">Select All...</a><br>
+<textarea name="output" class="outp" rows="15">
+Encoded output will be displayed here...
+</textarea>
+
+</form>
+
+
+<script language="javascript">
+
+var encN=1;
+
+// ENCODES, IN UNICODE FORMAT, ALL TEXT AND THEN ESCAPES THE OUTPUT
+function encodeTxt(s){
+s=escape(s);
+var ta=new Array();
+for(i=0;i<s.length;i++)ta[i]=s.charCodeAt(i)+encN;
+return ""+escape(eval("String.fromCharCode("+ta+")"))+encN;
+}
+
+// WRITES THE DECODED OUTPUT, ALONG WITH THE ESCAPED DECODER FUNCTION TO THE DIV
+function writeOut(){
+document.forms["fa"].output.value="<"+"script language=javascript"+">document.write(unescape('%3C%73%63%72%69%70%74%20%6C%61%6E%67%75%61%67%65%3D%22%6A%61%76%61%73%63%72%69%70%74%22%3E%66%75%6E%63%74%69%6F%6E%20%64%46%28%73%29%7B%76%61%72%20%73%31%3D%75%6E%65%73%63%61%70%65%28%73%2E%73%75%62%73%74%72%28%30%2C%73%2E%6C%65%6E%67%74%68%2D%31%29%29%3B%20%76%61%72%20%74%3D%27%27%3B%66%6F%72%28%69%3D%30%3B%69%3C%73%31%2E%6C%65%6E%67%74%68%3B%69%2B%2B%29%74%2B%3D%53%74%72%69%6E%67%2E%66%72%6F%6D%43%68%61%72%43%6F%64%65%28%73%31%2E%63%68%61%72%43%6F%64%65%41%74%28%69%29%2D%73%2E%73%75%62%73%74%72%28%73%2E%6C%65%6E%67%74%68%2D%31%2C%31%29%29%3B%64%6F%63%75%6D%65%6E%74%2E%77%72%69%74%65%28%75%6E%65%73%63%61%70%65%28%74%29%29%3B%7D%3C%2F%73%63%72%69%70%74%3E'));dF('"+encodeTxt(document.forms['fa'].f2.value)+"')<"+"/script>";
+}
+
+</script>
+
+{% endblock %}

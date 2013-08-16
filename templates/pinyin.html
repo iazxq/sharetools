@@ -1,0 +1,113 @@
+{% extends "shared/site.html" %}
+{% block head %}
+
+<style>
+#mainBox{margin:20px auto 0 0}
+.free10{font-size:20px; text-align:left; width:90%; margin:0 auto; font-weight:bold}
+#menu{margin:0 0 15px 0; background:#E29F36 url(images/bar.gif) bottom repeat-x; height:34px; padding-left:5%; min-width:700px; clear:both}
+#menu li{
+	list-style:none; float:left; margin:5px 5px 5px 0; padding-right:5px;
+	width:85px; display:block; border-right:1px solid #fff;
+	text-align:left;}
+#menu li a,#menu li span{
+	text-decoration:none; color:#fff; position:relative; margin:-5px 0 -5px 0;
+	display:block; height:28px; line-height:28px; text-align:center; font-size:14px}
+#menu li a:hover,#menu li span{background-color:#765000}
+
+#tip{border:1px solid #BFAF00;
+	color:#008000; margin:0 auto;
+	background-color:#fff; text-align:left; position:relative}
+#tip_switch{position:absolute; right:10px; top:10px; font-size:12px}
+h2{margin:5px; font-size:22px;}
+p{margin:5px 10px; text-indent:2em; font-family:"宋体"}
+
+#content{margin:10px auto 0 auto; text-align:left; border:1px solid #BFAF00}
+#content form,#inf,#cc,#cl{margin:10px}
+#cc{text-align:center; height:270px}
+#err{margin-left:15px; color:#f00}
+#py, #result,#QpenInput,#hanzi,.hanzi{border:1px solid #F6D0B8; height:28px; line-height:28px;font-size:22px; width:500px; font-family:Verdana}
+#hanzi{width:400px}.hanzi{width:190px}
+#tip,#content{width:60%; min-width:700px; margin-left:150px;}
+.jiayin{width:60%; min-width:700px; margin-left:150px; color:#B97C00;}
+.jiayin a:link,.jiayin a:visited {text-decoration:none; font-size:12px;color:#B97C00;}
+.jiayin a:hover {text-decoration:none;font-size:12px; color:#FF0000;}
+
+.jianfan{width:60%; min-width:700px; margin-left:150px;border:#E29F36 1px solid;}
+.jianfan a:link,.jianfan a:visited {text-decoration:none; font-size:12px;color:#000000;}
+.jianfan a:hover {text-decoration:none;font-size:12px;color:#000000;}
+.jianfan01{padding:11px 0 3px 20px}
+.jianfan02{font-size:14px;font-weight:bold;}
+.jianfan03{ text-align:center; padding-top:3px; color:#999999}
+.jianfan03 a:link,.jianfan03 a:visited {text-decoration:none; font-size:12px;color:#999999}
+.jianfan03 a:hover {text-decoration:none;font-size:12px;color:#999999;}
+</style>
+<SCRIPT LANGUAGE="JavaScript" src="/static/js/pinyin/hz.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function pinyin(cc){
+	var str='';
+	var s;
+	for(var i=0;i<cc.length;i++){
+	//alert(cc.charAt(i)+" = "+cc.charCodeAt(i));
+		if(icibahy.indexOf(cc.charAt(i))!=-1&&cc.charCodeAt(i)>200){
+			s=1;
+			while(icibahy.charAt(icibahy.indexOf(cc.charAt(i))+s)!=","){
+				str+=icibahy.charAt(icibahy.indexOf(cc.charAt(i))+s);
+				s++;
+			}
+
+			str+=" ";
+		}
+		else{
+			str+=cc.charAt(i);
+		}
+	}
+	return str;
+}
+
+function resetAll(){
+	document.getElementById('source').value="";
+	document.getElementById('to').value="";
+}
+
+function zhuanPinyin()
+{
+	var source=document.getElementById('source').value;
+	var toPinyin=pinyin(source);
+	document.getElementById('to').value=toPinyin;
+}
+//-->
+</SCRIPT>
+
+{% endblock %}
+
+
+{% block main-content %}
+       <div id="mainBox">
+
+	 <div id="tip">
+        <p>第一步、先在下面文字框内输入一段中文；</p>
+		<p>第二步、点击“开始转换”按钮，就可以得到你想要的汉字拼音。<p>
+		<p>特别说明：汉字转拼音系统是通过机器自动生成结果，本站不对转换后的拼音是否正确负责，仅供参考。
+        </div>
+    </div>
+	<div class="blank_20"></div>
+    <div class="jianfan">
+	 <div style="padding:5px 20px 0 20px;">
+	 <textarea onload="this.value=''" name="comment" id="source" rows="6" style="width:98%;height:145px;">
+         欢迎来到脚本分享网在线工具,tools.sharejs.com
+	 </textarea>
+	 </div>
+	 <div style="padding:10px 33px 10px 0; float:right">
+		<input type="button" value=" 开始转换 " onclick="zhuanPinyin()">&nbsp;&nbsp;&nbsp;<input type="button" value=" 清空 " onclick="resetAll()" />
+	 </div>
+
+	 <div class="blank_10"></div>
+	 <div style="padding:0px 20px 20px 20px">
+	 <textarea onload="this.value=''" name="comment" id="to" rows="6" style="width:98%;height:145px;"></textarea>
+	 </div>
+	 <div style="clear:both"></div>
+</div>
+
+
+{% endblock %}

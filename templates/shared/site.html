@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{{ tool.name }} - 脚本分享网在线小工具</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{{ tool.content }}" />
+<meta name="keywords" content="{{ tool.keywords }}" />
+<meta name="baidu-tc-verification" content="3e8294dabe46e8def7d4b790be59d4cc" />
+<link href="/static/css/style.css" rel="stylesheet" type="text/css">
+{%block head%}{%endblock%}
+</head>
+
+<body class="bg index">
+<div id="container">
+<!--header-->
+<div id="header">
+        <div class="topnav fl">
+            <div class="top_links fr">
+                <a href="http://www.sharejs.com/rss/" target="_blank" class="rss">订阅RSS</a>
+                <a href="http://www.sharejs.com/sitemap/" target="_blank" class="sitemap">网站地图</a>
+            </div>
+        </div>
+        <div class="logopart fl">
+            <div class="logo fl">
+                <a href="/" title="脚本分享网在线工具 tools.sharejs.com">脚本分享网在线工具</a>
+            </div>
+        </div>
+        <div class="navigation fl">
+             <ul class="ulcl">
+                <li>
+                    <strong>代码 </strong>
+                    <span><a href="http://www.sharejs.com/codes/">代码分享</a></span>
+                    <span><a href="http://www.sharejs.com/js">脚本.特效</a></span>
+                    <span><a href="http://www.sharejs.com/tutorial">教程.文章</a></span>
+                    <span><a href="http://www.sharejs.com/software">软件.资源</a></span>
+                    <span><a href="http://www.sharejs.com/jquery">jQuery.插件</a></span>
+                    <span><a href="http://www.sharejs.com/tool">脚本工具</a></span>
+                </li>
+                <li>
+                    <strong>资源</strong>
+                    <span><a href="http://www.sharejs.com/vector">矢量素材</a></span>
+                    <span><a href="http://www.sharejs.com/png">PNG图标</a></span>
+                    <span><a href="http://www.sharejs.com/template">网页模板</a></span>
+                    <span><a href="http://www.sharejs.com/qq">QQ表情</a></span>
+                    <span><a href="http://www.sharejs.com/software/ebook">开发手册</a></span>
+					<span><a href="http://en.sharejs.com">Code Snippets</a></span>
+                </li>
+            </ul>
+        </div>
+
+</div>
+<!--header end-->
+
+<!--body-->
+ <div class="hl_wrap"> </div>
+ <div class="current_nav">
+                <ul class="ulcl">
+                    <li><a href="http://www.sharejs.com">脚本分享网</a></li>
+                    <li> > </li>
+                    <li><a href="/">在线小工具</a></li>
+                    <li> > </li>
+                    <li><a href="./{{ name }}.html">{{ tool.name }}</a></li>
+                </ul>
+            </div>
+<div class="h30"> </div>
+
+<div id="wrapper" class="mh" >
+
+<h2 style="text-align: center">{{ tool.name }}</h2>
+<div class="h20"></div>
+<div class="content">{{ tool.content }}</div>
+<div class="h20"></div>
+    {% block main-content %}{% endblock %}
+</div>
+
+<div class="h30"></div>
+ <div class="current_nav">
+   <ul class="ulcl"><li> 在线小工具列表：</li></ul>
+ </div>
+<div>
+    <ul class="ulcl">
+        {% for key,value in tools.items %}
+        <li><a href="./{{ key }}.html">{{ value.name }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+<!--body end-->
+</div>
+
+
+<!--footer-->
+<div id="footer">
+    <div class="hl_wrap">
+
+    </div>
+    {% block link %}
+
+    {% endblock %}
+
+    <div class="copyright">
+        <div class="info">
+        <p>脚本分享网,分享开发的快乐.</p>
+        <p>Copyright &copy; {% now "Y" %} <a href="http://www.sharejs.com">sharejs.com</a> <a href="http://www.sharejs.com/" target="_blank">脚本分享网</a>  <a href="http://www.miibeian.gov.cn/">鄂ICP备12003056号</a> </p>
+        <p>
+            <script type="text/javascript" src="http://www.sharejs.com/js/tongji.js"></script>
+        </p>
+        </div>
+    </div>
+</div>
+<a class="gotop" href="#"></a>
+
+</body>
+</html>

@@ -1,0 +1,369 @@
+{% extends "shared/site.html" %}
+{% block head %}
+
+        <STYLE>TD {
+	BACKGROUND: #d3d3d3; TEXT-ALIGN: center
+}
+.qt {
+	BACKGROUND: #ffff00
+}
+.gt {
+	BACKGROUND: #d3d3d3
+}
+.yt {
+	BACKGROUND: #00ffff
+}
+.rz {
+	BACKGROUND: #c0c0c0
+}
+</STYLE>
+
+<SCRIPT language=JavaScript>
+<!--hide this script from crappy old browsers
+function prepare()
+{
+	window.setTimeout("window.status='元素周期表'",500);
+
+}
+function moveover(txt)
+{
+	window.status = txt;
+}
+function fillitin(Name, AtomicNumber,AtomicWeight, Shells, FillingOrbital, MeltingPoint, BoilingPoint)
+{
+	moveover(Name);
+	document.PeriodicTable.Name.value=Name;
+	document.PeriodicTable.AtomicNumber.value=AtomicNumber;
+	document.PeriodicTable.AtomicWeight.value=AtomicWeight;
+	document.PeriodicTable.Shells.value=Shells;
+	document.PeriodicTable.FillingOrbital.value=FillingOrbital;
+	document.PeriodicTable.MeltingPoint.value=MeltingPoint;
+	document.PeriodicTable.BoilingPoint.value=BoilingPoint;
+	window.setTimeout("prepare()",3500);
+}
+<!-- done hiding from old browsers -->
+</SCRIPT>
+
+{% endblock %}
+{% block main-content %}
+
+
+
+<CENTER>
+<TABLE
+style="BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid"
+cellSpacing=0 borderColorDark=#e8e8e8 cellPadding=2 width=562 bgColor=#ffffff
+border=3>
+  <TBODY>
+  <TR>
+    <TD width=554 height=80>
+      <FORM name=PeriodicTable method=post>
+      <TABLE cellSpacing=4 borderColorLight=#e8e8e8 border=1>
+        <CAPTION style="FONT-WEIGHT: 600">元素周期表</CAPTION>
+        <TBODY>
+        <TR>
+          <TD class=qt><A
+            href="javascript:fillitin('Hydrogen','1','1.0079','1','1s1','-259.14C','-252.87C');">H</A>
+          </TD>
+          <TD colSpan=16></TD>
+          <TD class=qt><A
+            href="javascript:fillitin('Helium','2','4.0026','2','1s2','-272C@26ATM','-268.6C');">He</A>
+          </TD></TR>
+        <TR>
+          <TD><A
+            href="javascript:fillitin('Lithium','3','6.94','2,1','2s1','180.54C','1347C');">Li</A></TD>
+          <TD><A
+            href="javascript:fillitin('Beryllium','4','9.01218','2,2','2s2','1278C','2970C');">Be</A></TD>
+          <TD colSpan=5>固体</TD>
+          <TD class=rz colSpan=5>人造元素</TD>
+          <TD><A
+            href="javascript:fillitin('Boron','5','10.81','2,3','2p1','2300C','2550C');">B</A></TD>
+          <TD><A
+            href="javascript:fillitin('Carbon','6','12.011','2,4','2p2','3500C','4827C');">C</A></TD>
+          <TD class=qt><A
+            href="javascript:fillitin('Nitrogen','7','14.0067','2,5','2p3','-209.9C','-195.8C');">N</A></TD>
+          <TD class=qt><A
+            href="javascript:fillitin('Oxygen','8','15.9994','2,6','2p4','-218.4C','-183.0C');">O</A></TD>
+          <TD class=qt><A
+            href="javascript:fillitin('Flourine','9','18.998403','2,7','2p5','-219.62C','-188.14C');">F</A></TD>
+          <TD class=qt><A
+            href="javascript:fillitin('Neon','10','20.17','2,8','2p6','-248.6C','-246.1C');">Ne</A></TD></TR>
+        <TR>
+          <TD><A
+            href="javascript:fillitin('Sodium','11','22.98977','2,8,1','3s1','97.8C','882.9C');">Na</A></TD>
+          <TD><A
+            href="javascript:fillitin('Magnesium','12','24.305','2,8,2','3s2','638.8C','1090C');">Mg</A></TD>
+          <TD class=qt colSpan=5>气体</TD>
+          <TD class=yt colSpan=5>液体</TD>
+          <TD><A
+            href="javascript:fillitin('Aluminum','13','26.98154','2,8,3','3p1','660.37C','2467C');">Al</A></TD>
+          <TD><A
+            href="javascript:fillitin('Silicon','14','28.0855','2,8,4','3p2','1410C','2355C');">Si</A></TD>
+          <TD><A
+            href="javascript:fillitin('Phosphorous','15','30.97376','2,8,5','3p3','44.1C','280C');">P</A></TD>
+          <TD><A
+            href="javascript:fillitin('Sulfur','16','32.06','2,8,6','3p4','112.8C','444.6C');">S</A></TD>
+          <TD class=qt><A
+            href="javascript:fillitin('Chlorine','17','35.453','2,8,7','3p5','-100.98C','-34.6C');">Cl</A></TD>
+          <TD class=qt><A
+            href="javascript:fillitin('Argon','18','39.948','2,8,8','3p6','-189.3C','-186C');">Ar</A></TD></TR>
+        <TR>
+          <TD><A
+            href="javascript:fillitin('Potassium','19','39.0983','2,8,8,1','4s1','63.65C','774C');">K</A></TD>
+          <TD><A
+            href="javascript:fillitin('Calcium','20','40.08','2,8,8,2','4s2','839C','1484.4C');">Ca</A></TD>
+          <TD><A
+            href="javascript:fillitin('Scandium','21','44.9559','2,8,9,2','3d1','1539C','2832C');">Sc</A></TD>
+          <TD><A
+            href="javascript:fillitin('Titanium','22','47.90','2,8,10,2','3d2','1660C','3287C');">Ti</A></TD>
+          <TD><A
+            href="javascript:fillitin('Vandium','23','50.9415','2,8,11,2','3d3','1890?0 C','3380 C');">V</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Chromium','24','51.996','2,8,13,1','3d5','1857C','2672C');">Cr</A></TD>
+          <TD><A
+            href="javascript:fillitin('Manganese','25','54.9380','2,8,13,2','3d5','1245C','1962C');">Mn</A></TD>
+          <TD><A
+            href="javascript:fillitin('Iron','26','55.847','2,8,14,2','3d6','1535C','2750C');">Fe</A></TD>
+          <TD><A
+            href="javascript:fillitin('Cobalt','27','58.9332','2,8,15,2','3d7','1495C','2870C');">Co</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Nickel','28','58.71','2,8,16,2','3d8','1453C','2732C');">Ni</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Copper','29','63.546','2,8,18,1','3d10','1083C','2567C');">Cu</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Zinc','30','65.38','2,8,18,2','3d10','419.58C','907C');">Zn</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Gallium','31','69.735','2,8,18,3','4p1','29.78C','2403C');">Ga</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Germanium','32','72.59','2,8,18,4','4p2','937.4C','2830C');">Ge</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Arsenic','33','74.9216','2,8,18,5','4p3','81C','Sublimesat613')">As</A></TD>
+          <TD><A
+            href="javascript:fillitin('Selenium','34','78.96','2,8,18,6','4p4','217C','684.9C');">Se</A>
+          </TD>
+          <TD class=yt><A
+            href="javascript:fillitin('Bromine','35','79.904','2,8,18,7','4p5','-7.2C','58.78C');">Br</A>
+          </TD>
+          <TD class=qt><A
+            href="javascript:fillitin('Krypton','36','83.80','2,8,18,8','4p6','-157.2C','-153.4C');">Kr</A>
+          </TD></TR>
+        <TR>
+          <TD><A
+            href="javascript:fillitin('Rubidium','37','85.467','2,8,18,8,1','5s1','38.89C','688C');">Rb</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Strontium','38','87.62','2,8,18,8,2','5s2','769C','1384C');">Sr</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Yttrium','39','88.9059','2,8,18,9,2','4d1','1523C','3337C');">Y</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Zirconium','40','91.22','2,8,18,10,2','4d2','1852? C','4377 C');">Zr</A></TD>
+          <TD><A
+            href="javascript:fillitin('Niobium','41','92.9064','2,8,18,13,1','4d4','2468?0 C','4927 C');">Nb</A></TD>
+          <TD><A
+            href="javascript:fillitin('Molybdenum','42','95.94','2,8,18,13,1','4d5','2617C','4612C');">Mo</A>
+          </TD>
+          <TD class=rz><A
+            href="javascript:fillitin('Technetium','43','98.9062','2,8,18,14,1','4d6','2200?0 C','4877 C');">Tc</A></TD>
+          <TD><A
+            href="javascript:fillitin('Ruthenium','44','101.07','2,8,18,15,1','4d7','2250C','3900C');">Ru</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Rhodium','45','102.9055','2,8,18,16,1','4d8','1966? C','3727 C');">Rh</A></TD>
+          <TD><A
+            href="javascript:fillitin('Palladium','46','106.4','2,8,18,18','4d10','1552C','2927C');">Pd</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Silver','47','107.868','2,8,18,18,1','4d10','961.93C','2212C');">Ag</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Cadmium','48','112.41','2,8,18,18,2','4d10','320.9C','765C');">Cd</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Indium','49','114.82','2,8,18,18,3','5p1','156.61C','2000?0 C');">In</A></TD>
+          <TD><A
+            href="javascript:fillitin('Tin','50','118.69','2,8,18,18,4','5p2','231.9C','2270C');">Sn</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Antimony','51','121.75','2,8,18,18,5','5p3','630C','1750C');">Sb</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Tellurium','52','127.60','2,8,18,18,6','5p4','449.5C','989.8C');">Te</A></TD>
+          <TD><A
+            href="javascript:fillitin('Iodine','53','126.9045','2,8,18,18,7','5p5','113.5C','184C@35atm')">I</A></TD>
+          <TD class=qt><A
+            href="javascript:fillitin('Xenon','54','131.30','2,8,18,18,8','5p6','-111.9C','-108.1C');">Xe</A>
+          </TD></TR>
+        <TR>
+          <TD><A
+            href="javascript:fillitin('Cesium','55','132.9054','2,8,18,18,8,1','6s1','28.5C','678.4C');">Cs</A></TD>
+          <TD><A
+            href="javascript:fillitin('Barium','56','137.33','2,8,18,18,8,2','6s2','725C','1140C');">Ba</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Lanthanum','57','138.9055','2,8,18,18,9,2','5d1','920C','3469C');">La</A></TD>
+          <TD><A
+            href="javascript:fillitin('Hafnium','72','178.49','2,8,18,32,10,2','5d2','2150C','5400C');">Hf</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Tantalum','73','180.947','2,8,18,32,11,2','5d3','2996C','5425?00 C');">Ta</A></TD>
+          <TD><A
+            href="javascript:fillitin('Tungsten','74','183.85','2,8,18,32,12,2','5d4','3410?0 C','5660 C');">W</A></TD>
+          <TD><A
+            href="javascript:fillitin('Rhenium','75','186.207','2,8,18,32,13,2','5d5','3180C','5627C');">Re</A></TD>
+          <TD><A
+            href="javascript:fillitin('Osmium','76','190.2','2,8,18,32,14,2','5d6','3045C','5027C');">Os</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Iridium','77','192.22','2,8,18,32,15,2','5d7','2410C','4527?00 C');">Ir</A></TD>
+          <TD><A
+            href="javascript:fillitin('Platinum','78','195.09','2,8,18,32,17,1','5d9','1772C','3827C');">Pt</A></TD>
+          <TD><A
+            href="javascript:fillitin('Gold','79','196.9665','2,8,18,32,18,1','5d10','1064.43C','2807C');">Au</A></TD>
+          <TD class=yt><A
+            href="javascript:fillitin('Mercury','80','200.59','2,8,18,32,18,2','5d10','-38.87C','356.58C');">Hg</A></TD>
+          <TD><A
+            href="javascript:fillitin('Thallium','81','204.37','2,8,18,32,18,3','6p1','303.5C','1457?0C');">Tl</A></TD>
+          <TD><A
+            href="javascript:fillitin('Lead','82','207.2','2,8,18,32,18,4','6p2','327.5C','1740C');">Pb</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Bismuth','83','208.9804','2,8,18,32,18,5','6p3','271.3C','1560?C');">Bi</A></TD>
+          <TD><A
+            href="javascript:fillitin('Polonium','84','(209)','2,8,18,32,18,6','6p4','254C','962C');">Po</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Astatine','85','(210)','2,8,18,32,18,7','6p5','302C','337C');">At</A>
+          </TD>
+          <TD class=qt><A
+            href="javascript:fillitin('Radon','86','(222)','2,8,18,32,18,8','6p6','-71C','-61.8C');">Rn</A>
+          </TD></TR>
+        <TR>
+          <TD><A
+            href="javascript:fillitin('Francium','87','(223)','2,8,18,32,18,8,1','7s1','27C','677C');">Fr</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Radium','88','226.0254','2,8,18,32,18,8,2','7s2','700C','1737C');">Ra</A></TD>
+          <TD><A
+            href="javascript:fillitin('Actinium','89','(227)','2,8,18,32,18,9,2','6d1','1050C','3200?00 C');">Ac</A></TD>
+          <TD class=rz><A
+            href="javascript:fillitin('Unnilquadium','104','(260)','2,8,18,32,32,10,2','6d2','N/AC','N/AC');">Unq</A></TD>
+          <TD class=rz><A
+            href="javascript:fillitin('Unnilpentium','105','(260)','2,8,18,32,32,11,2','6d3','N/AC','N/AC');">Unp</A></TD>
+          <TD class=rz><A
+            href="javascript:fillitin('Unnilhexium','106','(263)','2,8,18,32,32,12,2','6d4','N/AC','N/AC');">Unh</A></TD>
+          <TD class=rz><A
+            href="javascript:fillitin('Unnilseptium','107','(262)','2,8,18,32,32,13,2','6d5','N/AC','N/AC');">Uns</A></TD>
+          <TD class=rz>Uno </TD>
+          <TD class=rz>Une </TD>
+          <TD class=rz>Uun </TD>
+          <TD class=rz>Uuu </TD>
+          <TD class=rz>Uub </TD>
+          <TD class=rz>Uut </TD>
+          <TD class=rz>Uuq </TD>
+          <TD class=rz>Uup </TD>
+          <TD class=rz>Uuh </TD>
+          <TD class=rz>Uus </TD>
+          <TD class=rz>Uuo </TD></TR>
+        <TR>
+          <TD colSpan=18><BR></TD></TR>
+        <TR>
+          <TD colSpan=3>镧系元素</TD>
+          <TD><A
+            href="javascript:fillitin('La','57','138.91','2,8,18,19,8,2','4f2','795C','3257C');">La</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Cerium','58','140.12','2,8,18,20,8,2','4f2','795C','3257C');">Ce</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Praseodymium','59','140.9077','2,8,18,21,8,2','4f3','935C','3127C');">Pr</A></TD>
+          <TD><A
+            href="javascript:fillitin('Neodymium','60','144.24','2,8,18,22,8,2','4f4','1010C','3127C');">Nd</A></TD>
+          <TD><A
+            href="javascript:fillitin('Promethium','61','(145)','2,8,18,23,8,2','4f5','N/AC','N/AC');">Pm</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Samarium','62','150.4','2,8,18,24,8,2','4f6','1072C','1900C');">Sm</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Europium','63','151.96','2,8,18,25,8,2','4f7','822C','1597C');">Eu</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Gadolinium','64','157.25','2,8,18,25,9,2','4f7','1311C','3233C');">Gd</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Terbium','65','158.9254','2,8,18,27,8,2','4f9','1360C','3041C');">Tb</A></TD>
+          <TD><A
+            href="javascript:fillitin('Dysprosium','66','162.50','2,8,18,28,8,2','4f10','1412C','2562C');">Dy</A></TD>
+          <TD><A
+            href="javascript:fillitin('Holmium','67','164.9304','2,8,18,29,8,2','4f11','1470C','2720C');">Ho</A></TD>
+          <TD><A
+            href="javascript:fillitin('Erbium','68','167.26','2,8,18,30,8,2','4f12','1522C','2510C');">Er</A>
+          </TD>
+          <TD><A
+            href="javascript:fillitin('Thulium','69','168.9342','2,8,18,31,8,2','4f13','1545C','1727C');">Tm</A></TD>
+          <TD><A
+            href="javascript:fillitin('Ytterbium','70','173.04','2,8,18,32,8,2','4f14','824C','1466C');">Yb</A></TD>
+          <TD><A
+            href="javascript:fillitin('Lutetium','71','174.96','2,8,18,32,9,2','4f14','1656C','3315C');">Lu</A></TD></TR>
+        <TR>
+          <TD colSpan=3>锕系元素</TD>
+          <TD><A
+            href="javascript:fillitin('Lawrencium','89','(227)','2,8,18,32,32,9,2','5f14','N/AC','N/AC');">Ac</A></TD>
+          <TD><A
+            href="javascript:fillitin('Thorium','90','232.0381','2,8,18,32,18,10,2','6d2','1750C','4790C');">Th</A></TD>
+          <TD><A
+            href="javascript:fillitin('Proactinium','91','231.0359','2,8,18,32,20,9,2','5f2','1600C','N/AC');">Pa</A></TD>
+          <TD><A
+            href="javascript:fillitin('Uranium','92','238.029','2,8,18,32,21,9,2','5f3','1132C','3818C');">U</A></TD>
+          <TD class=rz><A
+            href="javascript:fillitin('Neptunium','93','237.0482','2,8,18,32,23,8,2','5f4','640C','3902C');">Np</A></TD>
+          <TD class=rz><A
+            href="javascript:fillitin('Plutonium','94','(244)','2,8,18,32,24,8,2','5f6','639.5? C','3235?9 C');">Pu</A></TD>
+          <TD class=rz><A
+            href="javascript:fillitin('Americium','95','(243)','2,8,18,32,25,8,2','5f7','994C','2607C');">Am</A></TD>
+          <TD class=rz><A
+            href="javascript:fillitin('Curium','96','(247)','2,8,18,32,25,9,2','5f7','1340C','N/AC');">Cm</A>
+          </TD>
+          <TD class=rz><A
+            href="javascript:fillitin('Berkelium','97','(247)','2,8,18,32,26,9,2','5f8','N/AC','N/AC');">Bk</A></TD>
+          <TD class=rz><A
+            href="javascript:fillitin('Californium','98','(251)','2,8,18,32,28,8,2','5f9','N/AC','N/AC');">Cf</A></TD>
+          <TD class=rz><A
+            href="javascript:fillitin('Einsteinium','99','(254)','2,8,18,32,29,8,2','5f11','N/AC','N/AC');">Es</A></TD>
+          <TD class=rz><A
+            href="javascript:fillitin('Fremium','100','(257)','2,8,18,32,30,8,2','5f12','N/AC','N/AC');">Fm</A></TD>
+          <TD class=rz><A
+            href="javascript:fillitin('Mendelevium','101','(258)','2,8,18,32,31,8,2','5f13','N/AC','N/AC');">Md</A></TD>
+          <TD class=rz><A
+            href="javascript:fillitin('Nobelium','102','(259)','2,8,18,32,32,8,2','5f14','N/AC','N/AC');">No</A></TD>
+          <TD class=rz><A
+            href="javascript:fillitin('Lawrencium','103','(260)','2,8,18,32,32,9,2','5f14','N/AC','N/AC');">Lr</A></TD></TR></TBODY></TABLE><BR>
+      <TABLE cellSpacing=0 border=1>
+        <TBODY>
+        <TR>
+          <TD>名称:</TD>
+          <TD>序号:</TD>
+          <TD>重量:</TD>
+          <TD>排列:</TD>
+          <TD>轨道:</TD>
+          <TD>融点:</TD>
+          <TD>沸点:</TD></TR>
+        <TR>
+          <TD><INPUT size=15 name=Name> </TD>
+          <TD><INPUT size=3 name=AtomicNumber> </TD>
+          <TD><INPUT size=7 name=AtomicWeight> </TD>
+          <TD><INPUT size=15 name=Shells> </TD>
+          <TD><INPUT size=4 name=FillingOrbital> </TD>
+          <TD><INPUT size=7 name=MeltingPoint> </TD>
+          <TD><INPUT size=7 name=BoilingPoint>
+  </TD></TR></TBODY></TABLE></FORM></TD></TR></TBODY></TABLE>
+{% endblock %}

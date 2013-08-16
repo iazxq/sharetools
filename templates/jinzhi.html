@@ -1,0 +1,167 @@
+{% extends "shared/site.html" %}
+{% block head %}
+    <script type="text/javascript">
+    ss="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_@"
+var s7nx=10
+function v10toX(n,m)
+{
+m=String(m).replace(/ /gi,"")
+if(m=="")return ""
+if(parseInt(m)!=m){M("请输入整数！");return ""}
+var t=""
+var a=ss.substr(0,n)
+while(m!=0)
+{
+var b=m%n
+t=a.charAt(b)+t
+m=(m-b)/n
+}
+return t
+}
+
+function vXto10(n,m)
+{
+m=String(m).replace(/ /gi,"")
+if(m=="")return ""
+var a=ss.substr(0,n)
+if(eval("m.replace(/["+a+"]/gi,'')")!=""){M("请输入"+n+"进制数！");return ""}
+var t=0,c=1
+for(var x=m.length-1;x>-1;x--)
+{
+t+=c*(a.indexOf(m.charAt(x)))
+c*=n
+}
+return t
+}
+
+
+function vXtoY(n,m,y)
+{
+a=vXto10(n*1,m)
+if(a=="")return ""
+a=v10toX(y,a)
+return a
+}
+    </script>
+{% endblock %}
+
+
+{% block main-content %}
+<table border="0" cellpadding="3" cellspacing="1" bgcolor="#C6D4E5" align="center">
+						<form action="">
+						  <tr align="center">
+						    <td class="tab1">
+								<strong>请输入数据</strong>
+							</td>
+						    <td class="tab2">
+								<strong>进制换算结果</strong>
+							</td>
+						    <td class="tab3">
+								<strong>进制转换选项</strong>
+							</td>
+						  </tr>
+						  <tr>
+						    <td class="tab1">
+							十进制：<input type=text name=t1_10>
+							</td>
+						    <td class="tab2">
+							十六进制：<input type=text name=t1_16 readonly>
+							</td>
+						    <td class="tab3">
+							<input type=button onClick="t1_16.value=v10toX(16,t1_10.value)" value="10进制转16进制" onMouseOver="this.className='bt_mouseover'" onMouseOut="this.className='bt_mouseout'" name="button">
+							</td>
+						  </tr>
+						  <tr>
+						    <td class="tab1">
+								十六进制： <input type=text name=t2_16>
+							</td>
+						    <td class="tab2">
+								十进制： <input type=text name=t2_10 readonly>
+							</td>
+						    <td class="tab3">
+							<input type=button onClick="t2_10.value=vXto10(16,t2_16.value)" value="16进制转10进制" onMouseOver="this.className='bt_mouseover'" onMouseOut="this.className='bt_mouseout'" name="button2">
+							</td>
+						  </tr>
+						  <tr>
+						    <td class="tab1">
+								十进制：
+                  <input type=text name=t3_10>
+							</td>
+						    <td class="tab2">
+								二进制：
+                  <input type=text name=t3_2 readonly>
+							</td>
+						    <td class="tab3">
+								<input type=button onClick="t3_2.value=v10toX(2,t3_10.value)" value="10进制转2进制" onMouseOver="this.className='bt_mouseover'" onMouseOut="this.className='bt_mouseout'" name="button2">
+							</td>
+						  </tr>
+						  <tr>
+						    <td class="tab1">
+								二进制：
+                  <input type=text name=t4_2>
+
+							</td>
+						    <td class="tab2">
+								十进制：
+                  <input type=text name=t4_10 readonly>
+							</td>
+						    <td class="tab3">
+								<input type=button onClick="t4_10.value=vXto10(2,t4_2.value)" value="2进制转10进制" onMouseOver="this.className='bt_mouseover'" onMouseOut="this.className='bt_mouseout'" name="button2">
+							</td>
+						  </tr>
+						  <tr>
+						    <td class="tab1">
+								十进制：
+                  <input type=text name=t5_10>
+							</td>
+						    <td class="tab2">
+								六十四进制：
+                  <input type=text name=t5_64 readonly>
+							</td>
+						    <td class="tab3">
+								<input type=button onClick="t5_64.value=v10toX(64,t5_10.value)" value="10进制转64进制" onMouseOver="this.className='bt_mouseover'" onMouseOut="this.className='bt_mouseout'" name="button2">
+							</td>
+						  </tr>
+						  <tr>
+						    <td class="tab1">
+							六十四进制：
+                  <input type=text name=t6_64>
+							</td>
+						    <td class="tab2">
+							十进制：
+                  <input type=text name=t6_10 readonly>
+							</td>
+						    <td class="tab3">
+								<input type=button onClick="t6_10.value=vXto10(64,t6_64.value)" value="64进制转10进制" onMouseOver="this.className='bt_mouseover'" onMouseOut="this.className='bt_mouseout'" name="button2">
+							</td>
+						  </tr>
+						  <tr>
+						    <td class="tab1">
+<select name="s7nx">
+<script>
+t=""
+for(x=2;x<65;x++)t+="<option value="+x+">"+x+"</option>"
+document.write(t)
+</script>
+</select>进制
+                  <input name=t7_x type=text id="t7_x">
+
+							</td>
+						    <td class="tab2">
+<select name="s7ny">
+<script>
+t=""
+for(x=2;x<65;x++)t+="<option value="+x+">"+x+"</option>"
+document.write(t)
+</script>
+</select>进制
+								<input name=t7_y type=text id="t7_y" readonly>
+							</td>
+						    <td class="tab3">
+								<input type=button onClick="t7_y.value=vXtoY(s7nx.value,t7_x.value,s7ny.value)" value="X进制转Y进制" onMouseOver="this.className='bt_mouseover'" onMouseOut="this.className='bt_mouseout'" name="button2">
+							</td>
+						  </tr>
+						 </form>
+						</table>
+
+{% endblock %}

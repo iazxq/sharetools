@@ -1,0 +1,1092 @@
+{% extends "shared/site.html" %}
+{% block head %}
+
+        <SCRIPT language=JavaScript>
+/******************************************************
+* 在线网页配色工具  Share JavaScript (http://www.ShareJS.com)
+* 使用此脚本程序，请保留此声明
+* 获取此脚本以及更多的JavaScript程序，请访问 http://www.ShareJS.com
+******************************************************/
+function ChangeColor(form, ColorName)
+
+    { var ColorValue = " ";
+
+      if (ColorName == 'aliceblue')       ColorValue = "#F0F8FF";
+
+      if (ColorName == 'antiquewhite')  ColorValue = "#FAEBD7";
+
+      if (ColorName == 'aqua')       ColorValue = "#00FFFF";
+
+      if (ColorName == 'aquamarine')  ColorValue = "#7FFFD4";
+
+      if (ColorName == 'azure')  ColorValue = "#F0FFFF";
+
+      if (ColorName == 'beige')  ColorValue = "#F5F5DC";
+
+      if (ColorName == 'bisque')  ColorValue = "#FFE4C4";
+
+      if (ColorName == 'black')  ColorValue = "#000000";
+
+      if (ColorName == 'blanchedalmond')  ColorValue = "#FFEBCD";
+
+      if (ColorName == 'blue')  ColorValue = "#0000FF";
+
+      if (ColorName == 'blueviolet')  ColorValue = "#8A2BE2";
+
+      if (ColorName == 'brown')  ColorValue = "#A52A2A";
+
+      if (ColorName == 'burlywood')  ColorValue = "#DEB887";
+
+      if (ColorName == 'cadetblue')  ColorValue = "#5F9EA0";
+
+      if (ColorName == 'chartreuse')  ColorValue = "#7FFF00";
+
+      if (ColorName == 'chocolate')  ColorValue = "#D2691E";
+
+      if (ColorName == 'coral')  ColorValue = "#FF7F50";
+
+      if (ColorName == 'cornflowerblue')  ColorValue = "#6495ED";
+
+      if (ColorName == 'cornsilk')  ColorValue = "#FFF8DC";
+
+      if (ColorName == 'crimson')  ColorValue = "#DC143C";
+
+      if (ColorName == 'cyan')  ColorValue = "#00FFFF";
+
+      if (ColorName == 'darkblue')  ColorValue = "#00008B";
+
+      if (ColorName == 'darkcyan')  ColorValue = "#008B8B";
+
+      if (ColorName == 'darkgoldenrod')  ColorValue = "#B8860B";
+
+      if (ColorName == 'darkgray')  ColorValue = "#A9A9A9";
+
+      if (ColorName == 'darkgreen')  ColorValue = "#006400";
+
+      if (ColorName == 'darkkhaki')  ColorValue = "#BDB76B";
+
+      if (ColorName == 'darkmagenta')  ColorValue = "#8B008B";
+
+      if (ColorName == 'darkolivegreen')  ColorValue = "#556B2F";
+
+      if (ColorName == 'darkorange')  ColorValue = "#FF8C00";
+
+      if (ColorName == 'darkorchid')  ColorValue = "#9932CC";
+
+      if (ColorName == 'darkred')  ColorValue = "#8B0000";
+
+      if (ColorName == 'darksalmon')  ColorValue = "#E9967A";
+
+      if (ColorName == 'darkseagreen')  ColorValue = "#8FBC8F";
+
+      if (ColorName == 'darkslateblue')  ColorValue = "#483D8B";
+
+      if (ColorName == 'darkslategray')  ColorValue = "#2F4F4F";
+
+      if (ColorName == 'darkturquoise')  ColorValue = "#00CED1";
+
+      if (ColorName == 'darkviolet')  ColorValue = "#9400D3";
+
+      if (ColorName == 'deeppink')  ColorValue = "#FF1493";
+
+      if (ColorName == 'deepskyblue')  ColorValue = "#00BFFF";
+
+      if (ColorName == 'dimgray')  ColorValue = "#696969";
+
+      if (ColorName == 'dodgerblue')  ColorValue = "#1E90FF";
+
+      if (ColorName == 'firebrick')  ColorValue = "#B22222";
+
+      if (ColorName == 'floralwhite')  ColorValue = "#FFFAF0";
+
+      if (ColorName == 'forestgreen')  ColorValue = "#228B22";
+
+      if (ColorName == 'fuchsia')  ColorValue = "#FF00FF";
+
+      if (ColorName == 'gainsboro')  ColorValue = "#DCDCDC";
+
+      if (ColorName == 'ghostwhite')  ColorValue = "#F8F8FF";
+
+      if (ColorName == 'gold')  ColorValue = "#FFD700";
+
+      if (ColorName == 'goldenrod')  ColorValue = "#DAA520";
+
+      if (ColorName == 'gray')  ColorValue = "#808080";
+
+      if (ColorName == 'green')  ColorValue = "#008000";
+
+      if (ColorName == 'greenyellow')  ColorValue = "#ADFF2F";
+
+      if (ColorName == 'honeydew')  ColorValue = "#F0FFF0";
+
+      if (ColorName == 'hotpink')  ColorValue = "#FF69B4";
+
+      if (ColorName == 'indianred')  ColorValue = "#CD5C5C";
+
+      if (ColorName == 'indigo')  ColorValue = "#4B0082";
+
+      if (ColorName == 'ivory')  ColorValue = "#FFFFF0";
+
+      if (ColorName == 'khaki')  ColorValue = "#F0E68C";
+
+      if (ColorName == 'lavender')  ColorValue = "#E6E6FA";
+
+      if (ColorName == 'lavenderblush')  ColorValue = "#FFF0F5";
+
+      if (ColorName == 'lawngreen')  ColorValue = "#7CFC00";
+
+      if (ColorName == 'lemonchiffon')  ColorValue = "#FFFACD";
+
+      if (ColorName == 'lightblue')  ColorValue = "#ADD8E6";
+
+      if (ColorName == 'lightcoral')  ColorValue = "#F08080";
+
+      if (ColorName == 'lightcyan')  ColorValue = "#E0FFFF";
+
+      if (ColorName == 'lightgoldenrodyellow')  ColorValue = "#FAFAD2";
+
+      if (ColorName == 'lightgreen')  ColorValue = "#90EE90";
+
+      if (ColorName == 'lightgrey')  ColorValue = "#D3D3D3";
+
+      if (ColorName == 'lightpink')  ColorValue = "#FFB6C1";
+
+      if (ColorName == 'lightsalmon')  ColorValue = "#FFA07A";
+
+      if (ColorName == 'lightseagreen')  ColorValue = "#20B2AA";
+
+      if (ColorName == 'lightskyblue')  ColorValue = "#87CEFA";
+
+      if (ColorName == 'lightslategray')  ColorValue = "#778899";
+
+      if (ColorName == 'lightsteelblue')  ColorValue = "#B0C4DE";
+
+      if (ColorName == 'lightyellow')  ColorValue = "#FFFFE0";
+
+      if (ColorName == 'lime')  ColorValue = "#00FF00";
+
+      if (ColorName == 'limegreen')  ColorValue = "#32CD32";
+
+      if (ColorName == 'linen')  ColorValue = "#FAF0E6";
+
+      if (ColorName == 'magenta')  ColorValue = "#FF00FF";
+
+      if (ColorName == 'maroon')  ColorValue = "#800000";
+
+      if (ColorName == 'mediumaquamarine')  ColorValue = "#66CDAA";
+
+      if (ColorName == 'mediumblue')  ColorValue = "#0000CD";
+
+      if (ColorName == 'mediumorchid')  ColorValue = "#BA55D3";
+
+      if (ColorName == 'mediumpurple')  ColorValue = "#9370DB";
+
+      if (ColorName == 'mediumseagreen')  ColorValue = "#3CB371";
+
+      if (ColorName == 'mediumslateblue')  ColorValue = "#7B68EE";
+
+      if (ColorName == 'mediumspringgreen')  ColorValue = "#00FA9A";
+
+      if (ColorName == 'mediumturquoise')  ColorValue = "#48D1CC";
+
+      if (ColorName == 'mediumvioletred')  ColorValue = "#C71585";
+
+      if (ColorName == 'midnightblue')  ColorValue = "#191970";
+
+      if (ColorName == 'mintcream')  ColorValue = "#F5FFFA";
+
+      if (ColorName == 'mistyrose')  ColorValue = "#FFE4E1";
+
+      if (ColorName == 'moccasin')  ColorValue = "#FFE4B5";
+
+      if (ColorName == 'navajowhite')  ColorValue = "#FFDEAD";
+
+      if (ColorName == 'navy')  ColorValue = "#000080";
+
+      if (ColorName == 'oldlace')  ColorValue = "#FDF5E6";
+
+      if (ColorName == 'olive')  ColorValue = "#808000";
+
+      if (ColorName == 'olivedrab')  ColorValue = "#6B8E23";
+
+      if (ColorName == 'orange')  ColorValue = "#FFA500";
+
+      if (ColorName == 'orangered')  ColorValue = "#FF4500";
+
+      if (ColorName == 'orchid')  ColorValue = "#DA70D6";
+
+      if (ColorName == 'palegoldenrod')  ColorValue = "#EEE8AA";
+
+      if (ColorName == 'palegreen')  ColorValue = "#98FB98";
+
+      if (ColorName == 'paleturquoise')  ColorValue = "#AFEEEE";
+
+      if (ColorName == 'palevioletred')  ColorValue = "#DB7093";
+
+      if (ColorName == 'papayawhip')  ColorValue = "#FFEFD5";
+
+      if (ColorName == 'peachpuff')  ColorValue = "#FFDAB9";
+
+      if (ColorName == 'peru')  ColorValue = "#CD853F";
+
+      if (ColorName == 'pink')  ColorValue = "#FFC0CB";
+
+      if (ColorName == 'plum')  ColorValue = "#DDA0DD";
+
+      if (ColorName == 'powderblue')  ColorValue = "#B0E0E6";
+
+      if (ColorName == 'purple')  ColorValue = "#800080";
+
+      if (ColorName == 'red')  ColorValue = "#FF0000";
+
+      if (ColorName == 'rosybrown')  ColorValue = "#BC8F8F";
+
+      if (ColorName == 'royalblue')  ColorValue = "#4169E1";
+
+      if (ColorName == 'saddlebrown')  ColorValue = "#8B4513";
+
+      if (ColorName == 'salmon')  ColorValue = "#FA8072";
+
+      if (ColorName == 'sandybrown')  ColorValue = "#F4A460";
+
+      if (ColorName == 'seagreen')  ColorValue = "#2E8B57";
+
+      if (ColorName == 'seashell')  ColorValue = "#FFF5EE";
+
+      if (ColorName == 'sienna')  ColorValue = "#A0522D";
+
+      if (ColorName == 'silver')  ColorValue = "#C0C0C0";
+
+      if (ColorName == 'skyblue')  ColorValue = "#87CEEB";
+
+      if (ColorName == 'slateblue')  ColorValue = "#6A5ACD";
+
+      if (ColorName == 'slategray')  ColorValue = "#708090";
+
+      if (ColorName == 'snow')  ColorValue = "#FFFAFA";
+
+      if (ColorName == 'springgreen')  ColorValue = "#00FF7F";
+
+      if (ColorName == 'steelblue')  ColorValue = "#4682B4";
+
+      if (ColorName == 'tan')  ColorValue = "#D2B48C";
+
+      if (ColorName == 'teal')  ColorValue = "#008080";
+
+      if (ColorName == 'thistle')  ColorValue = "#D8BFD8";
+
+      if (ColorName == 'tomato')  ColorValue = "#FF6347";
+
+      if (ColorName == 'turquoise')  ColorValue = "#40E0D0";
+
+      if (ColorName == 'violet')  ColorValue = "#EE82EE";
+
+      if (ColorName == 'wheat')  ColorValue = "#F5DEB3";
+
+      if (ColorName == 'white')  ColorValue = "#FFFFFF";
+
+      if (ColorName == 'whitesmoke')  ColorValue = "#F5F5F5";
+
+      if (ColorName == 'yellow')  ColorValue = "#FFFF00";
+
+      if (ColorName == 'yellowgreen')  ColorValue = "#9ACD32";
+
+      document.getElementById('t').bgColor = ColorName;
+
+      form.CName.value = ColorName;
+
+      form.CValue.value = ColorValue;
+
+    }
+
+</SCRIPT>
+{% endblock %}
+
+
+{% block main-content %}
+
+ <table id="t" width="98%" border="0" align="center" cellpadding="0" cellspacing="1">
+
+  <tr>
+
+    <td><table width="758" border="0" align="center" cellpadding="0" cellspacing="0">
+
+      <tr>
+
+        <td height="30" align="center" valign="bottom">网页颜色配色工具</td>
+
+      </tr>
+
+      <tr>
+
+        <td height="1"></td>
+
+      </tr>
+
+    </table>
+
+      <FORM name=bgcolor method=post>
+
+      <CENTER><FONT class="STYLE3"><B>颜色名称:</B> <INPUT size=21 value=snow name=CName>
+
+      <BR><B>颜色数值:</B> <INPUT size=21 value=#FFFAFA name=CValue>
+
+      </FONT><BR><BR></CENTER>
+
+      <CENTER>
+
+      <TABLE width=750 border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC"  class="STYLE3">
+
+        <TBODY bgcolor="#FFFFFF">
+
+        <TR>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'aliceblue')"
+
+            type=radio name=bgcolor> 艾利斯兰 </TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'antiquewhite')" type=radio
+
+            name=bgcolor> 古董白 </TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'aqua')"
+
+            type=radio name=bgcolor> 浅绿色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'aquamarine')" type=radio
+
+            name=bgcolor> 碧绿色</TD></TR>
+
+        <TR>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'azure')"
+
+            type=radio name=bgcolor> 天蓝色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'beige')"
+
+            type=radio name=bgcolor> 米色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'bisque')"
+
+            type=radio name=bgcolor> 桔黄色 </TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'black')"
+
+            type=radio name=bgcolor> 黑色</TD></TR>
+
+        <TR>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'blanchedalmond')" type=radio
+
+            name=bgcolor> 白杏色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'blue')"
+
+            type=radio name=bgcolor> 蓝色 </TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'blueviolet')" type=radio
+
+            name=bgcolor> 紫罗兰色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'brown')"
+
+            type=radio name=bgcolor> 褐色</TD></TR>
+
+        <TR>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'burlywood')"
+
+            type=radio name=bgcolor> 实木色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'cadetblue')"
+
+            type=radio name=bgcolor> 军兰色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'chartreuse')" type=radio
+
+            name=bgcolor> 黄绿色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'chocolate')"
+
+            type=radio name=bgcolor> 巧可力色 </TD></TR>
+
+        <TR>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'coral')"
+
+            type=radio name=bgcolor> 珊瑚色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'cornflowerblue')" type=radio
+
+            name=bgcolor> 菊兰色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'cornsilk')"
+
+            type=radio name=bgcolor> 米绸色 </TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'crimson')"
+
+            type=radio name=bgcolor> 暗深红色</TD></TR>
+
+        <TR>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'cyan')"
+
+            type=radio name=bgcolor> 青色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'darkblue')"
+
+            type=radio name=bgcolor> 暗蓝色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'darkcyan')"
+
+            type=radio name=bgcolor> 暗青色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'darkgoldenrod')" type=radio
+
+            name=bgcolor> 暗金黄色</TD></TR>
+
+        <TR>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'darkgray')"
+
+            type=radio name=bgcolor> 暗灰色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'darkgreen')"
+
+            type=radio name=bgcolor> 暗绿色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'darkkhaki')"
+
+            type=radio name=bgcolor> 暗黄褐色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'darkmagenta')" type=radio
+
+            name=bgcolor> 暗洋红 </TD></TR>
+
+        <TR>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'darkolivegreen')" type=radio
+
+            name=bgcolor> 暗橄榄绿</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'darkorange')" type=radio
+
+            name=bgcolor> 暗桔黄色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'darkorchid')" type=radio
+
+            name=bgcolor> 暗紫色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'darkred')"
+
+            type=radio name=bgcolor> 暗红色</TD></TR>
+
+        <TR>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'darksalmon')" type=radio
+
+            name=bgcolor> 暗肉色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'darkseagreen')" type=radio
+
+            name=bgcolor> 暗海兰色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'darkslateblue')" type=radio
+
+            name=bgcolor> 暗灰蓝色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'darkslategray')" type=radio
+
+            name=bgcolor> 墨绿色 </TD></TR>
+
+        <TR>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'darkturquoise')" type=radio
+
+            name=bgcolor> 暗宝石绿</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'darkviolet')" type=radio
+
+            name=bgcolor> 暗紫罗兰色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'deeppink')"
+
+            type=radio name=bgcolor> 深粉红色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'deepskyblue')" type=radio
+
+            name=bgcolor> 深天蓝色</TD></TR>
+
+        <TR>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'dimgray')"
+
+            type=radio name=bgcolor> 暗灰色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'dodgerblue')" type=radio
+
+            name=bgcolor> 闪兰色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'firebrick')"
+
+            type=radio name=bgcolor> 火砖色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'floralwhite')" type=radio
+
+            name=bgcolor> 花白色 </TD>
+
+        <TR>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'forestgreen')" type=radio
+
+            name=bgcolor> 森林绿 </TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'fuchsia')"
+
+            type=radio name=bgcolor> 紫红色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'gainsboro')"
+
+            type=radio name=bgcolor> 淡灰色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'ghostwhite')" type=radio
+
+            name=bgcolor> 幽灵白</TD>
+
+        <TR>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'gold')"
+
+            type=radio name=bgcolor> 金色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'goldenrod')"
+
+            type=radio name=bgcolor> 金麒麟色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'gray')"
+
+            type=radio name=bgcolor> 灰色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'green')"
+
+            type=radio name=bgcolor> 绿色</TD>
+
+        <TR>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'greenyellow')" type=radio
+
+            name=bgcolor> 黄绿色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'honeydew')"
+
+            type=radio name=bgcolor> 蜜色 </TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'hotpink')"
+
+            type=radio name=bgcolor> 热粉红色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'indianred')"
+
+            type=radio name=bgcolor> 印第安红</TD>
+
+        <TR>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'indigo')"
+
+            type=radio name=bgcolor> 靛青色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'ivory')"
+
+            type=radio name=bgcolor> 象牙色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'khaki')"
+
+            type=radio name=bgcolor> 黄褐色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'lavender')"
+
+            type=radio name=bgcolor> 淡紫色 </TD>
+
+        <TR>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'lavenderblush')" type=radio
+
+            name=bgcolor> 淡紫红</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'lawngreen')"
+
+            type=radio name=bgcolor> 草绿色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'lemonchiffon')" type=radio
+
+            name=bgcolor> 柠檬绸色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'lightblue')"
+
+            type=radio name=bgcolor> 亮蓝色</TD>
+
+        <TR>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'lightcoral')" type=radio
+
+            name=bgcolor> 亮珊瑚色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'lightcyan')"
+
+            type=radio name=bgcolor> 亮青色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'lightgoldenrodyellow')" type=radio
+
+            name=bgcolor> 亮金黄色 </TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'lightgreen')" type=radio
+
+            name=bgcolor> 亮绿色 </TD>
+
+        <TR>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'lightgrey')"
+
+            type=radio name=bgcolor> 亮灰色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'lightpink')"
+
+            type=radio name=bgcolor> 亮粉红色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'lightsalmon')" type=radio
+
+            name=bgcolor> 亮肉色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'lightseagreen')" type=radio
+
+            name=bgcolor> 亮海蓝色</TD>
+
+        <TR>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'lightskyblue')" type=radio
+
+            name=bgcolor> 亮天蓝色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'lightslategray')" type=radio
+
+            name=bgcolor> 亮蓝灰</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'lightsteelblue')" type=radio
+
+            name=bgcolor> 亮钢兰色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'lightyellow')" type=radio
+
+            name=bgcolor> 亮黄色</TD>
+
+        <TR>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'lime')"
+
+            type=radio name=bgcolor> 酸橙色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'limegreen')"
+
+            type=radio name=bgcolor> 橙绿以</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'linen')"
+
+            type=radio name=bgcolor> 亚麻色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'magenta')"
+
+            type=radio name=bgcolor> 红紫色</TD>
+
+        <TR>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'maroon')"
+
+            type=radio name=bgcolor> 粟色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'mediumaquamarine')" type=radio
+
+            name=bgcolor> 间绿色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'mediumblue')" type=radio
+
+            name=bgcolor> 间兰色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'mediumorchid')" type=radio
+
+            name=bgcolor> 间紫色</TD>
+
+        <TR>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'mediumpurple')" type=radio
+
+            name=bgcolor> 间紫色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'mediumseagreen')" type=radio
+
+            name=bgcolor> 间海蓝</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'mediumslateblue')" type=radio
+
+            name=bgcolor> 间暗蓝色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'mediumspringgreen')" type=radio
+
+            name=bgcolor> 间春绿色</TD>
+
+        <TR>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'mediumturquoise')" type=radio
+
+            name=bgcolor> 间绿宝石</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'mediumvioletred')" type=radio
+
+            name=bgcolor> 间紫罗兰色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'midnightblue')" type=radio
+
+            name=bgcolor> 中灰兰色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'mintcream')"
+
+            type=radio name=bgcolor> 薄荷色</TD>
+
+        <TR>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'mistyrose')"
+
+            type=radio name=bgcolor> 浅玫瑰色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'moccasin')"
+
+            type=radio name=bgcolor> 鹿皮色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'navajowhite')" type=radio
+
+            name=bgcolor> 纳瓦白</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'navy')"
+
+            type=radio name=bgcolor> 海军色</TD>
+
+        <TR>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'oldlace')"
+
+            type=radio name=bgcolor> 老花色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'olive')"
+
+            type=radio name=bgcolor> 橄榄色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'olivedrab')"
+
+            type=radio name=bgcolor> 深绿褐色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'orange')"
+
+            type=radio name=bgcolor> 橙色</TD>
+
+        <TR>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'orangered')"
+
+            type=radio name=bgcolor> 红橙色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'orchid')"
+
+            type=radio name=bgcolor> 淡紫色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'palegoldenrod')" type=radio
+
+            name=bgcolor> 苍麒麟色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'palegreen')"
+
+            type=radio name=bgcolor> 苍绿色 </TD>
+
+        <TR>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'paleturquoise')" type=radio
+
+            name=bgcolor> 苍宝石绿 </TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'palevioletred')" type=radio
+
+            name=bgcolor> 苍紫罗兰色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'papayawhip')" type=radio
+
+            name=bgcolor> 番木色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'peachpuff')"
+
+            type=radio name=bgcolor> 桃色</TD>
+
+        <TR>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'peru')"
+
+            type=radio name=bgcolor> 秘鲁色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'pink')"
+
+            type=radio name=bgcolor> 粉红色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'plum')"
+
+            type=radio name=bgcolor> 洋李色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'powderblue')" type=radio
+
+            name=bgcolor> 粉蓝色</TD>
+
+        <TR>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'purple')"
+
+            type=radio name=bgcolor> 紫色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'red')"
+
+            type=radio name=bgcolor> 红色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'rosybrown')"
+
+            type=radio name=bgcolor> 褐玫瑰红</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'royalblue')"
+
+            type=radio name=bgcolor> 皇家蓝</TD>
+
+        <TR>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'saddlebrown')" type=radio
+
+            name=bgcolor> 重褐色 </TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'salmon')"
+
+            type=radio name=bgcolor> 鲜肉色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'sandybrown')" type=radio
+
+            name=bgcolor> 沙褐色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'seagreen')"
+
+            type=radio name=bgcolor> 海绿色</TD>
+
+        <TR>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'seashell')"
+
+            type=radio name=bgcolor> 海贝色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'sienna')"
+
+            type=radio name=bgcolor> 赭色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'silver')"
+
+            type=radio name=bgcolor> 银色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'skyblue')"
+
+            type=radio name=bgcolor> 天蓝色</TD>
+
+        <TR>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'slateblue')"
+
+            type=radio name=bgcolor> 石蓝色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'slategray')"
+
+            type=radio name=bgcolor> 灰石色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'snow')"
+
+            type=radio CHECKED name=bgcolor> 雪白色</TD>
+
+          <TD width="25%"><INPUT
+
+            onclick="ChangeColor(this.form, 'springgreen')" type=radio
+
+            name=bgcolor> 春绿色</TD>
+
+        <TR>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'steelblue')"
+
+            type=radio name=bgcolor> 钢兰色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'tan')"
+
+            type=radio name=bgcolor> 茶色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'teal')"
+
+            type=radio name=bgcolor> 水鸭色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'thistle')"
+
+            type=radio name=bgcolor> 蓟色</TD>
+
+        <TR>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'tomato')"
+
+            type=radio name=bgcolor> 西红柿色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'turquoise')"
+
+            type=radio name=bgcolor> 青绿色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'violet')"
+
+            type=radio name=bgcolor> 紫罗兰色</TD>
+
+          <TD width="25%"><INPUT onClick="ChangeColor(this.form, 'wheat')"
+
+            type=radio name=bgcolor> 浅黄色</TD>
+
+        <TR>
+
+          <TD width="25%" height=28><INPUT
+
+            onclick="ChangeColor(this.form, 'white')" type=radio name=bgcolor>
+
+          白色</TD>
+
+          <TD width="25%" height=28><INPUT
+
+            onclick="ChangeColor(this.form, 'whitesmoke')" type=radio
+
+            name=bgcolor> 烟白色</TD>
+
+          <TD width="25%" height=28><INPUT
+
+            onclick="ChangeColor(this.form, 'yellow')" type=radio name=bgcolor>
+
+            黄色</TD>
+
+          <TD width="25%" height=28><INPUT
+
+            onclick="ChangeColor(this.form, 'yellowgreen')" type=radio
+
+            name=bgcolor> 黄绿色</TD></TR></TBODY></TABLE></CENTER>
+
+      <P align="center"></FORM></td>
+
+  </tr>
+
+</table>
+
+{% endblock %}

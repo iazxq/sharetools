@@ -1,0 +1,62 @@
+{% extends "shared/site.html" %}
+{% block head %}
+
+                    <script type="text/javascript">
+window.onload = function() {
+    var c = document.forms[0].content;
+    c && c.setSelectionRange && c.setSelectionRange(0, 0);
+    c && c.focus && c.focus();
+}
+function do_js_beautify()
+{
+    document.getElementById('beautify').disabled = true;
+    js_source = document.getElementById('content').value.replace(/^\s+/, '');
+    tabsize = document.getElementById('tabsize').value;
+    tabchar = ' ';
+    if (tabsize == 1) {
+        tabchar = '\t';
+    }
+
+    if (js_source && js_source[0] === '<') {
+        document.getElementById('content').value = style_html(js_source, tabsize, tabchar, 80);
+    } else {
+        document.getElementById('content').value = js_beautify(js_source, tabsize, tabchar);
+    }
+
+    document.getElementById('beautify').disabled = false;
+    return false;
+}
+</script>
+<script type="text/javascript" src="/static/js/beauty/beautify.js" ></script>
+<script type="text/javascript" src="/static/js/beauty/beautify-tests.js" ></script>
+<script type="text/javascript" src="/static/js/beauty/HTML-Beautify.js" ></script>
+
+<style type="text/css">
+form     { margin: 0 10px 0 10px }
+textarea { width: 100%; height: 320px; border: 1px solid #ccc; padding: 3px; font-family: liberation mono, consolas, courier new, courier, monospace; font-size: 12px; }
+select   { width: 19%; }
+button   { width: 40%; cursor: pointer;}
+code, .code { font-family: liberation mono, consolas, lucida console, courier new, courier, monospace; font-size: 12px; }
+pre      { font-size: 12px; font-family: liberation mono, consolas, courier new, courier, monospace; margin-left: 10px; color: #777; }
+
+</style>
+
+{% endblock %}
+
+
+{% block main-content %}
+     <form method="post" action="?">
+      <textarea rows="30" cols="30" name="content" id="content">
+/*   拷贝代码到这里，然后点击下面的按钮*/
+var latest_changes=new Object({'sharejs.com':'Javascript beautifier rewrite in javascript.','... boring history ...','2007-02-08':'Initial release'});var a=b?(c%d):e[f];
+</textarea><br />
+      <button onclick="return do_js_beautify()" id="beautify">把我的代码变漂亮一点吧</button>
+<select name="tabsize" id="tabsize">
+  <option value="1">使用Tab缩进</option>
+  <option value="2">使用2个空格缩进</option>
+  <option value="4" selected="selected">使用四个空格缩进</option>
+  <option value="8">使用8个空格缩进</option>
+</select>
+  </form>
+
+{% endblock %}

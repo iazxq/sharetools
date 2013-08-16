@@ -1,0 +1,177 @@
+{% extends "shared/site.html" %}
+{% block head %}
+
+        <style type="text/css">
+<!--
+
+
+fieldset {
+  margin: 1em 0;
+  padding: 1em;
+  border : 1px solid #cnc;
+}
+legend {
+  font-weight: bold;
+}
+label {
+  display: block;
+}
+label .required {
+  font-size: 0.75em;
+  color:#760000;
+}
+input {
+  width: 100px;
+}
+input#regular {
+  width: 400px;
+}
+input.radio, input.submit {
+  width: auto;
+}
+input:focus, textarea:focus {
+  background: #ffc;
+}
+input.radio {
+  float: left;
+  margin-right: 1em;
+}
+p.left{
+  float:left;
+  margin:0;
+  padding:0;
+}
+p.clear{
+  clear:both;
+}
+textarea {
+  width: 270px;
+  height: 130px;
+}
+textarea#str{
+  width:500px;
+}
+input.radio + label {
+  text-indent: 2em;
+}
+
+input.radio + label {
+  text-indent: 0;
+}
+-->
+</style>
+<script type="text/javascript">
+var reg = /\d/i;
+var str = '';
+var result = '';
+function $(id){
+	return document.getElementById(id);
+}
+function updateReg(){
+	var source = $('regular').value;
+	var decoration = $('decoration').value;
+	var tempReg = new RegExp(source,decoration);
+	var same = tempReg.source==reg.source&&
+		tempReg.ignoreCase==reg.ignoreCase&&
+		tempReg.global==reg.global&&
+		tempReg.multiline==reg.multiline
+		;//表示正则是否改变的布尔值
+	if(!same){
+		reg = tempReg;
+	}
+}
+function updateStr(){
+	str = $('str').value;
+}
+function updateInfo(before){
+	var infoArea = $('info');
+	var infoStr;
+	infoStr = 'reg.lastIndex:' + reg.lastIndex + '\n';
+	if(reg.global){infoStr += '全局(global)\n';}
+	if(reg.ignoreCase){infoStr += '忽略大小写(ignoreCase)\n';}
+	if(reg.multiline){infoStr += '多行(m)\n';}
+	if(before){
+		infoArea.innerHTML = '匹配前：\n'+infoStr;
+	}else{
+		infoArea.innerHTML += '匹配后：\n'+infoStr;
+	}
+}
+function updateResult(){
+	var resultArea = $('result');
+	var resultStr;
+	if(result){
+		resultStr ='result[0]：' + result[0]+ '\n';
+		for(var i=1;i<result.length;i++){
+			resultStr += 'result['+i+']：' + result[i] + '\n';
+		}
+	}else{
+		resultStr = 'null';
+	}
+	resultArea.innerHTML = resultStr;
+}
+function regExec(){
+	try{
+		updateReg();
+		updateInfo(true);
+		updateStr();
+		result = reg.exec(str);
+		updateInfo();
+		updateResult();
+	}catch(e){
+		//失败代码！
+	}
+}
+function regMatch(){
+	try{
+		updateReg();
+		updateInfo(true);
+		updateStr();
+		result = str.match(str);
+		updateInfo();
+		updateResult();
+	}catch(e){
+		//失败代码！
+	}
+}
+</script>
+
+{% endblock %}
+
+
+{% block main-content %}
+
+
+                    <form id="comments_form" action="#" method="post">
+<fieldset>
+<legend>控制部分</legend>
+  <p class="left">
+  <label for="regular">正则表达式:<em class="required">(必填)</em></label>
+  <input name="regular" id="regular" type="text" value="(\d)(\d){3}" />
+  </p>
+  <p class="left">
+  <label for="decoration">修饰符:</label>
+  <input name="decoration" id="decoration" type="text" value="g" />
+  </p>
+    <p class="clear">
+    <label for="str">字符串: <em class="required">(必填)</em></label>
+    <textarea name="str" id="str" cols="20" rows="10">01234567890</textarea>
+    </p>
+  <p>
+    执行匹配:<br />
+<input name="exec" id="exec" type="button" value="exec" onclick="regExec()" />
+<input name="match" id="match" type="button" value="match" onclick="regMatch()" />
+  </p>
+</fieldset>
+<fieldset>
+  <legend>匹配部分</legend>
+  <p class="left">
+  <label for="result">匹配结果:</label>
+<textarea name="result" id="result" cols="20" rows="10"></textarea>
+  </p>
+  <p class="left">
+  <label for="info">正则信息:</label>
+  <textarea name="info" id="info" cols="20" rows="10"></textarea>
+  </p>
+</fieldset>
+</form>
+{% endblock %}

@@ -1,0 +1,230 @@
+{% extends "shared/site.html" %}
+{% block head %}
+
+
+        <script language="JAVASCRIPT">
+/******************************************************
+* 健康指数查询  Share JavaScript (http://www.ShareJS.com)
+* 使用此脚本程序，请保留此声明
+* 获取此脚本以及更多的JavaScript程序，请访问 http://www.ShareJS.com
+******************************************************/
+<!-- hide this script tag's contents from old browsers
+
+function ClearForm(form){
+
+    form.weight.value = "";
+
+    form.height.value = "";
+
+    form.bmi.value = "";
+
+    form.my_comment.value = "";
+
+}
+
+function bmi(weight, height) {
+
+          bmindx=weight/eval(height*height);
+
+          return bmindx;
+
+}
+
+function checkform(form) {
+
+       if (form.weight.value==null||form.weight.value.length==0
+
+        || form.height.value==null||form.height.value.length==0){
+
+            alert("\n请先填写你的体重和身高");
+
+            return false;
+
+       }
+
+       else if (parseFloat(form.height.value) <= 0||
+
+                parseFloat(form.height.value) >=500||
+
+                parseFloat(form.weight.value) <= 0||
+
+                parseFloat(form.weight.value) >=500){
+
+                alert("\n八戒，知道你在做什么吗？ \n\n体重单位为公斤(kg)，身高单位为厘米(cm) \n\n请重新填写你输入的值");
+
+                ClearForm(form);
+
+                return false;
+
+       }
+
+       return true;
+
+}
+
+function computeform(form) {
+
+       if (checkform(form)) {
+
+       yourbmi=Math.round(bmi(form.weight.value, form.height.value/100));
+
+       form.bmi.value=yourbmi;
+
+       if (yourbmi >30) {
+
+          form.my_comment.value="八戒，不要再闹了！！！";
+
+       }
+
+       else if (yourbmi >28 && yourbmi <=30) {
+
+          form.my_comment.value="您实在太肥了！阿门！";
+
+       }
+
+       else if (yourbmi >23 && yourbmi <=28) {
+
+          form.my_comment.value="太胖啦！减肥啦！";
+
+       }
+
+       else if (yourbmi >21 && yourbmi <=23) {
+
+          form.my_comment.value="您现在是偏胖，应该注意饮食！";
+
+       }
+
+       else if (yourbmi >=19 && yourbmi <=21) {
+
+          form.my_comment.value="哇！您太苗条了！是标准身材";
+
+       }
+
+       else if (yourbmi >=18 && yourbmi <19) {
+
+          form.my_comment.value="您是不是营养不良？？";
+
+       }
+
+       else if (yourbmi >=17 && yourbmi <18) {
+
+          form.my_comment.value="这个不是骨头吗？？";
+
+       }
+
+       else if (yourbmi <17) {
+
+          form.my_comment.value="按照生物学来说这种生物是不能生存的";
+
+       }
+
+      }
+
+       return;
+
+}
+
+// -- done hiding from old browsers -->
+
+</script>
+
+{% endblock %}
+
+
+{% block main-content %}
+
+
+<table border="0" cellpadding="9" style="BORDER-COLLAPSE: collapse" width="100%" align="center">
+
+  <tr>
+
+    <td valign="top" height="25" align="center">
+
+      <p><font color="#333333">请输入您的体重和身高，得出您的健康值与电脑评价</font>
+
+    </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">
+
+      <form name="BMI" method="POST">
+
+        <table cellspacing="0" cellpadding="0" width="500" align="center" style="BORDER:#98a7b8 1px solid;" bgcolor="#fcfcfc">
+
+          <tr>
+
+            <td height=25 colspan=2></td>
+
+          </tr>
+
+          <tr>
+
+            <td align="center" colspan=2>体重(kg)：
+
+              <input type="TEXT" name="weight" size="6" onFocus="this.form.weight.value=''">
+
+              &nbsp; 身高(cm)：
+
+              <input type="TEXT" name="height" size="6" onFocus="this.form.height.value=''">
+
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td colspan=2 align=center height=50>
+
+              <input type="button" value=" 查 询 " onClick="computeform(this.form)" name="button">
+
+              &nbsp;
+
+              <input type="reset" value=" 清 空 " onClick="ClearForm(this.form)" name="reset">
+
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td align="right" width=190 height=30>健康值：</td>
+
+            <td width=310>
+
+              <input type="TEXT" name="bmi" size="5">
+
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td align="right" height=30>电脑对您的评价：</td>
+
+            <td>
+
+              <input type="TEXT" name="my_comment" size="40">
+
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td height=30></td>
+
+          </tr>
+
+        </table>
+
+      </form>
+
+    </td>
+
+  </tr>
+
+</table>
+{% endblock %}
