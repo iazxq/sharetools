@@ -1,0 +1,204 @@
+{% extends "shared/site.html" %}
+{% block head %}
+	<link rel="stylesheet" type="text/css" href="./static/p/csstype/master.css" />
+	<link rel="stylesheet" href="./static/p/csstype/colorChooser.css" type="text/css" media="all" />
+	<!--[if lte IE 7]>
+		<link rel="stylesheet" type="text/css" href="./static/p/csstype/ie.css" />
+	<![endif]-->
+	<script type="text/javascript" src="./static/p/csstype/makeChanges.js"></script>
+	<script type="text/javascript" src="./static/p/csstype/boxover.js"></script>
+	<script type="text/JavaScript" src="./static/p/csstype/colorChooser.js"></script>
+	<script type="text/javascript" src="./static/p/csstype/slider.js"></script>
+	<script type="text/javascript" src="./static/p/csstype/browserDetect.js"></script>
+{% endblock %}
+
+
+{% block main-content %}
+<div id="content">
+
+		<div class="preview">
+			<div class="left_col">
+				<h2>输入文字<img src="./static/p/csstype/help.gif" width="14" height="14" alt="help" title="header=[] body=[复制粘贴或者直接输入要设置样式的文本. 然后通过下面的工具进行设置生成相应的样式.] fade=[on] fadespeed=[0.1]" /></h2>
+					<form>
+						<textarea id="textInput" onkeyup="copyTextToDiv()" onblur="loseFocus()">Paste the text you want to modify here. 在此输入文本</textarea>
+						<div id="textInputViewer" onclick="gainFocus()" onmouseover="this.style.cursor='text'" onmouseout="this.style.cursor='auto'">Paste the text you want to modify here.在此输入文本</div>
+					</form>
+			</div>
+			<div class="right_col">
+				<h2>查看CSS代码 <img src="./static/p/csstype/help.gif" width="14" height="14" alt="help" title="header=[] body=[这里是生成的样式，可以直接放到html页面] fade=[on] fadespeed=[0.1]" /></h2>
+					<form>
+						<textarea id="cssOutput" onfocus="this.select()">Copy the CSS Generated here to your stylesheet.</textarea>
+					</form>
+			</div>
+		</div><!-- end preview -->	
+		<div class="controls">
+			<form class="font_style">
+				<select id="fontSel" class="font_family" name="font" onchange="setFontFamily(this.value)">
+					<option value="courier, &quot;courier new&quot;, monospace">Courier</option>
+					<option value="georgia, serif">Georgia</option>
+					<option value="&quot;palatino linotype&quot;, palatino, serif">Palatino</option>
+					<option value="&quot;times new roman&quot;, times, serif">Times New Roman</option>
+					<option value="arial, sans-serif">Arial</option>
+					<option value="helvetica, sans-serif">Helvetica</option>
+					<option value="impact, sans-serif">Impact</option>	
+					<option value="&quot;lucida sans unicode&quot;, &quot;lucida grande&quot;, sans-serif">Lucida Sans</option>
+					<option value="&quot;Tahoma&quot;, &quot;Geneva&quot;, sans-serif">Tahoma</option>	
+					<option value="&quot;trebuchet MS&quot;, sans-serif">Trebuchet MS</option>
+					<option value="verdana, sans-serif" selected>Verdana</option>
+				</select>
+				<label>字体大小:</label>
+				<input id="fontSize" type="text" name="font_size" maxlength="3" value="12" onkeyup="setFontSize()" />
+				<select id="measure" onchange="setFontSize()">
+				  <option value="px" selected>px</option>
+				  <option value="em">em</option>
+				</select>
+			</form>
+			<form class="color">
+				<div id="CLCP" class="CLCP"></div>
+				<select id="color" name="color" onchange="setColorInput()">
+				  <option value="color">Font Color</option>
+				  <option value="backgroundColor">Background Color</option>
+				</select>
+				<input class="hexValue" name="ColorChooser" id="ColorChooser" maxlength="6" value="000000" />
+				<img src="./static/p/csstype/color_wheel.png" style="vertical-align: -20%; cursor: pointer;" onclick="_whichField = 'ColorChooser'; CLCPshowPicker();" alt="Choose a color" title="Choose a color" />
+			</form>
+		  <script type="text/JavaScript">
+					_whichField = "ColorChooser";
+					CLCPHandler = function(_hex) {
+					// This function gets called by the picker when the sliders are being dragged. The variable _hex contains the current hex value from the picker
+					// This code serves as an example only, here we use it to do three things:
+					// Here we simply drop the variable _hex into the input field, so we can see what the hex value coming from the picker is:
+					document.getElementById(_whichField).value = _hex;
+					// Here is where we color the BG of a div to preview the color:
+          var selectTag = document.getElementById('color');
+          var selection = selectTag[selectTag.selectedIndex].value;
+          
+          if(selection == "color"){
+  					document.getElementById("textInput").style.color = ("#" + _hex);
+            document.getElementById("textInputViewer").style.color = ("#" + _hex);
+          }else{
+  					document.getElementById("textInput").style.backgroundColor = ("#" + _hex);
+            document.getElementById("textInputViewer").style.backgroundColor = ("#" + _hex);
+          }
+					// Giving you control over this function really puts the reigns in your hands. Rewrite this function as you see fit to really take control of this color picker.
+					}
+					// Settings:
+					_CLCPdisplay = "none"; // Values: "none", "block". Default "none"
+					_CLCPisDraggable = true; // Values: true, false. Default true
+					_CLCPposition = "absolute"; // Values: "absolute", "relative". Default "absolute"
+					_CLCPinitHex = "000000"; // Values: Any valid hex value. Default "ffffff"
+					CLCPinitPicker();
+			</script>
+			<div class="buttons">
+				<input type="image" id="bold" name="bold" src="./static/p/csstype/bold.gif" onclick="bold()" />
+				<input type="image" id="italic" name="italic" src="./static/p/csstype/italic.gif" onclick="italic()" />
+				<input type="image" id="uline" name="uline" src="./static/p/csstype/uline.gif" onclick="uline()" />
+				<input type="image" id="sthrough" name="sthrough" src="./static/p/csstype/sthrough.gif" onclick="sthrough()" />
+				<input type="image" id="allcaps" name="allcaps" src="./static/p/csstype/allcaps.gif" onclick="allcaps()" />
+				<input type="image" id="smallcaps" name="smallcaps" src="./static/p/csstype/smallcaps.gif" onclick="smallcaps()" />				
+				<input type="image" id="left" name="left" src="./static/p/csstype/left_a.gif" onclick="left()" />
+				<input type="image" id="center" name="center" src="./static/p/csstype/center.gif" onclick="center()" />
+				<input type="image" id="right" name="right" src="./static/p/csstype/right.gif" onclick="right()" />
+				<input type="image" id="justify" name="justify" src="./static/p/csstype/justify.gif" onclick="justify()" />
+			</div>
+			<div class="sliders">
+			  <div class="letterSpacing">
+			    <form action="" method="get" name="letterSpacingForm">
+			      <script language="JavaScript">
+	var A_TPL = {
+		'b_vertical' : false,
+		'b_watch': true,
+		'n_controlWidth': 246,
+		'n_controlHeight': 9,
+		'n_sliderWidth': 20,
+		'n_sliderHeight': 20,
+		'n_pathLeft' : -5,
+		'n_pathTop' : -5,
+		'n_pathLength' : 236,
+		's_imgControl': './static/p/csstype/slider_control.gif',
+		's_imgSlider': './static/p/csstype/slider.gif',
+		'n_zIndex': 1
+	}
+	var A_INIT = {
+		's_form' : 'letterSpacingForm',
+		's_name': 'letterSpacingValue',
+		'n_minValue' : -6,
+		'n_maxValue' : 20,
+		'n_value' : 1,
+		'n_step' : 0.2
+	}
+
+	new slider(A_INIT, A_TPL);
+            </script>
+			      <input name="letterSpacingValue" id="letterSpacingValue" type="text" size="3" onchange="changeLetterSpacing()" value="1" />
+			    </form>
+			  </div>
+			  <div class="wordSpacing">
+			    <form action="" method="get" name="wordSpacingForm">
+			      <script language="JavaScript">
+	var A_TPL = {
+		'b_vertical' : false,
+		'b_watch': true,
+		'n_controlWidth': 246,
+		'n_controlHeight': 9,
+		'n_sliderWidth': 20,
+		'n_sliderHeight': 20,
+		'n_pathLeft' : -5,
+		'n_pathTop' : -5,
+		'n_pathLength' : 236,
+		's_imgControl': './static/p/csstype/slider_control.gif',
+		's_imgSlider': './static/p/csstype/slider.gif',
+		'n_zIndex': 1
+	}
+	var A_INIT = {
+		's_form' : 'wordSpacingForm',
+		's_name': 'wordSpacingValue',
+		'n_minValue' : -20,
+		'n_maxValue' : 30,
+		'n_value' : 1,
+		'n_step' : 0.2
+	}
+
+	new slider(A_INIT, A_TPL);
+            </script>
+			      <input name="wordSpacingValue" id="wordSpacingValue" type="text" size="3" onchange="changeWordSpacing()" value="1" />
+          </form>
+			  </div>
+			  <div class="lineSpacing">
+			    <form action="" method="get" name="lineSpacingForm">
+			      <script language="JavaScript">
+	var A_TPL = {
+		'b_vertical' : false,
+		'b_watch': true,
+		'n_controlWidth': 246,
+		'n_controlHeight': 9,
+		'n_sliderWidth': 20,
+		'n_sliderHeight': 20,
+		'n_pathLeft' : -5,
+		'n_pathTop' : -5,
+		'n_pathLength' : 236,
+		's_imgControl': './static/p/csstype/slider_control.gif',
+		's_imgSlider': './static/p/csstype/slider.gif',
+		'n_zIndex': 1
+	}
+	var A_INIT = {
+		's_form' : 'lineSpacingForm',
+		's_name': 'lineSpacingValue',
+		'n_minValue' : 0,
+		'n_maxValue' : 4,
+		'n_value' : 1,
+		'n_step' : 0.1
+	}
+
+	new slider(A_INIT, A_TPL);
+            </script>
+			      <input name="lineSpacingValue" id="lineSpacingValue" type="text" size="3" onchange="changeLineSpacing()" value="1" />
+          </form>
+			  </div>
+			</div>
+		</div><!-- end controls -->
+
+	</div><!-- end content -->
+
+<script type="text/javascript">load();</script>
+{% endblock %}

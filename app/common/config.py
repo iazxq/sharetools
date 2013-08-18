@@ -2,7 +2,6 @@
 __author__ = 'Administrator'
 import pymongo
 from sharetools import settings
-conn =  pymongo.Connection(settings.DATABASES['default']['HOST'],settings.DATABASES['default']['PORT'])
 
 SmsState = {'unread':u'未读',
             'readed':u'已读'}
@@ -24,6 +23,12 @@ Tools = {
     'jinzhi':{'name':u'在线进制转换工具','content':u'可以实现各类进制间的相互转换，二进制、十进制、八进制、十六进制以及各种自定义的进制之间的转换'},
     'unit':{'name':u'常用单位在线换算器','content':u'此工具提供了常用的计量单位换算的功能，包括长度单位、温度单位、功率、速度、重量、面积、体积、容积等单位的转换'},
     'css-format':{'name':u'CSS代码格在线式化工具','content':u'可以将格式不规整的CSS代码格式化成比较规范的格式，同时本工具可以压缩CSS的代码，减小CSS文件大小，同时起到一定程序的代码保护作用'},
+    'html2js':{'name':u'HTML代码转换成JS代码','content':u'可以把HTML代码转换成JavaScript格式，形式如：document.write(...)，同时可以把转换后的JavaScript代码还原'},
+    'md5':{'name':u'MD5在线加密工具','content':u'可以把用户输入的字符串生成32位的MD5编码'},
+    'base64':{'name':u'Base64在线编码解码工具','content':u'对给定的文字进行标准的Base64加密和解密操作。'},
+    'htpasswd':{'name':u'在线生成htpasswd工具','content':u'如果我们不使用apache服务器，例如使用nginx等，可能手头没有这个命令行工具，就无法生成密码文件，有了在线版的可以方便服务器管理员使用。'},
+    'csstype':{'name':u'在线生成字体CSS样式工具','content':u'这是一个非常适合对CSS不熟悉的朋友的在线工具，使用这个工具可以轻松地写出具备字体、文本颜色大小位置、字符间距、单词间距等属性的CSS样式。'},
+    'strongpasswordgenerator':{'name':u'高强度密码生成器','content':u'这是一个帮助你生成高强度密码的工具，你可以选择密码长度，是否包含标点符号，系统会自动为你生成一个难以破解的密码。'},
 
 
 

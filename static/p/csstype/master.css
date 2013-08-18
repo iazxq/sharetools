@@ -1,0 +1,207 @@
+/* Global Reset
+---------------------------------------------------------------------- */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;border:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+ol,ul {list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym {border:0;}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Layout
+---------------------------------------------------------------------- */
+
+body {
+	font: .75em Verdana, sans-serif;
+	height: 100%;
+}
+
+/* Content
+---------------------------------------------------------------------- */
+
+#content {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0px 0;
+}
+
+/* Preview panes for text and code */
+.preview {
+	padding: 20px;
+	background: url(preview_bg.jpg) top left no-repeat #efefef;
+	float: left;
+}
+.left_col {
+	width: 450px;
+	height: 216px;
+	float: left;
+}
+.right_col {
+	margin-left: 20px;
+	width: 450px;
+	height: 216px;
+	float: left;
+}
+.left_col h2, .right_col h2 {
+	margin: 0;
+	padding: 0;
+	line-height: 100%;
+	height: 28px;
+	width: 450px;
+	float: left;
+}
+.left_col textarea, .right_col textarea {
+	padding: 5px;
+	width: 438px;
+	height: 176px;
+	border: 1px solid #c0c0c0;
+	background: #fff;
+	float: left;
+}
+
+/* Controls for editing text styles */
+.controls {
+	width: 920px;
+	padding: 20px;
+	background: url(controls_bg.jpg) top left no-repeat;
+	float: left;
+}
+.font_style {
+	padding-right: 20px;
+	float: left;
+}
+.font_family {
+	margin-right: 20px;
+}
+#fontSize {
+	width: 25px;
+	padding: 2px;
+	border: 1px solid #c0c0c0;
+}
+.buttons {
+	padding: 0 0 0 20px;
+	float: left;
+	font-size: 0;
+}
+.buttons input {
+	margin-right: 5px;
+}
+option {
+	padding-right: 5px;
+}
+label {
+	padding: 0 4px;
+}
+
+/* Color Chooser*/
+.color {
+	padding: 0 20px;
+	border: dotted #c0c0c0;
+	border-width: 0 1px;
+	float: left;
+}
+.hexValue {
+	width: 50px;
+	padding: 2px 5px;
+	border: 1px solid #c0c0c0;
+}
+
+/* Controls for sliders*/
+.sliders {
+	margin: 25px 0 0 0;
+	width: 960px;
+	float: left;
+	clear: both;
+}
+.letterSpacing {
+	padding: 0 20px 0 30px;
+	width: 250px;
+	background: url(letterSpacing.gif) top left no-repeat;
+	border: dotted #c0c0c0;
+	border-width: 0 1px 0 0;
+	float: left;
+}
+.letterSpacing input{
+	margin: 5px 0 0 0;
+}
+.wordSpacing {
+	margin-left: 20px;
+	padding: 0 20px 0 30px;
+	width: 250px;
+	background: url(wordSpacing.gif) top left no-repeat;
+	border: dotted #c0c0c0;
+	border-width: 0 1px 0 0;
+	float: left;
+}
+.wordSpacing input{
+	margin: 5px 0 0 0;
+}
+.lineSpacing {
+	margin-left: 20px;
+	padding-left: 30px;
+	width: 250px;
+	background: url(lineSpacing.gif) top left no-repeat;
+	float: left;
+}
+.lineSpacing input{
+	margin: 5px 0 0 0;
+}
+
+
+/* Common
+---------------------------------------------------------------------- */
+
+p, ul {
+	margin-bottom: 15px;
+	line-height: 160%;
+}
+h1, h2, h3, h4 {
+	margin-bottom: 15px;
+	font-family: Georgia, serif;
+	font-weight: normal;
+	letter-spacing: 2px;
+	line-height: 160%;
+}
+h1 { font-size: 180%; }
+h2 { font-size: 150%; }
+h3 { font-size: 120%; }
+h4 { font-size: 100%; }
+
+
+a, input {
+	outline: none;
+}
+
+.amp {
+	font-family: "Goudy Old Style", "Book Antiqua", "Palatino", serif;
+	font-style: italic;
+}
+.hide {
+	display: none;
+}
+.clear {
+	clear: both;
+}
+
+/* Floating Input Div == somebody smart should change this*/
+#textInputViewer{
+  position: relative;
+  top: -188px;
+  
+  overflow: auto;
+  
+	padding: 5px;
+	width: 438px;
+	height: 176px;
+	border: 1px solid #c0c0c0;
+	background: #fff;
+	float: left;
+}
+
+

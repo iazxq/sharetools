@@ -1,0 +1,43 @@
+{% extends "shared/site.html" %}
+{% block head %}
+
+{% endblock %}
+
+{% block main-content %}
+
+<script language="javascript">
+  function rechange(){
+ document.getElementById('re').value=document.getElementById('oresult').value.replace(/document.writeln\("/g,"").replace(/"\);/g,"").replace(/\\\"/g,"\"").replace(/\\\'/g,"\'").replace(/\\\//g,"\/").replace(/\\\\/g,"\\")
+ }
+ function change(){
+ document.getElementById('oresult2').value="document.writeln(\""+document.getElementById('osource').value.replace(/\\/g,"\\\\").replace(/\\/g,"\\/").replace(/\'/g,"\\\'").replace(/\"/g,"\\\"").split('\n').join("\");\ndocument.writeln(\"")+"\");"
+ }
+</script>
+</head>
+
+<body>
+
+
+<table width="100%" border="0" align="center" cellpadding="10" cellspacing="3" bgcolor="#e8f3fb" style="border:1px solid #6699cc">
+  <tr>
+    <td bgcolor="#6699cc"><div align="center">把代码从 Html 格式转化为 Js 格式</div></td>
+  </tr>
+  <tr>
+    <td>请将 <strong>Html</strong> 源代码拷贝到下面表单中:[由于兼容性问题，该转换功能只能在IE中使用，FIREFOX无效]<br>
+			<textarea cols="90%" rows="10" id="osource"  onfocus="change()"  onkeyup="change()" style="width:100%"></textarea>
+			</p>
+	<p>下面表单中是相应的 <strong>Js</strong> 代码: <br><textarea cols="90%" rows="10" id="oresult2"  style="width:100%"></textarea></td>
+  </tr>
+  <tr>
+    <td bgcolor="#6699cc"><div align="center" class="STYLE1">把代码从 Js 格式转为 Html 格式</div></td>
+  </tr>
+  <tr>
+    <td>请将 <strong>Js</strong> 源代码拷贝到下面表单中: [由于兼容性问题，该转换功能只能在IE中使用，FIREFOX无效]
+			<br><textarea cols="90%" rows="10" id="oresult"  onfocus="rechange()" onkeyup="rechange()" style="width:100%"></textarea>
+			</p>
+			<p>下面表单中是相应的 <strong>Html</strong> 代码: <br>
+			<textarea name="textarea" cols="90%" rows="10" id="re"  style="width:100%"></textarea></td>
+  </tr>
+</table>
+
+{% endblock %}
