@@ -1,0 +1,62 @@
+{% extends "shared/site.html" %}
+{% block head %}
+    <script type="text/javascript" src="./static/js/jquery/jquery.js"></script>
+    <script type="text/javascript">
+
+        var run = false;
+        var timer;
+        var startButton;
+        var endButton;
+
+        $(document).ready(function(){
+            startButton = $('#startButton');
+            endButton = $('#endButton');
+        });
+
+        function refresh(){
+            if (run){
+                var url = $('#url').val();
+                var frame = $('#frame');
+                frame.attr('src',url);
+                var times = $('#times');
+                times.val(parseInt(times.val())+1);
+
+            }
+        }
+
+        function startRefresh(){
+            run = true;
+            try{
+                startButton.hide();
+                endButton.show();
+                var frequency = parseInt($('#frequency').val());
+                refresh();
+                timer = setInterval("refresh()",frequency*1000);
+            }catch(Exception){
+                startButton.show();
+                endButton.hide();
+                alert("设置错误");
+            }
+        }
+
+        function endRefresh(){
+            run = false;
+            clearInterval(timer);
+            startButton.show();
+            endButton.hide();
+        }
+    </script>
+{% endblock %}
+
+
+{% block main-content %}
+  <table>
+  <tr>
+      <td>刷新网址：</td><td><input type="text" id="url" name="url" value="http://www.baidu.com" style="width:400px;" /></td>
+      <td>刷新频率：</td><td><input type="text" id="frequency" value="5"  style="width:30px;" />秒/次</td>
+      <td>已刷次数：</td><td><input type="text" id="times" value="0" style="width:30px;" disabled /></td>
+  </tr>
+  <tr><td></td><td><input type="button" value="开始刷新" onclick="startRefresh()" id="startButton" /> <input id="endButton" type="button" value="停止刷新" onclick="endRefresh()" style="display:none" /></td></tr>
+  </table>
+  <iframe id="frame" style="width:90%;padding:10px;"></iframe>
+{% endblock %}

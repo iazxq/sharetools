@@ -7,13 +7,13 @@
     <file path="/style.css" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376651464956" ignored="false" />
     <file path="/site.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376663067667" ignored="false" />
     <file path="/urls.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376622942933" ignored="false" />
-    <file path="/Dummy.txt" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376618521859" ignored="false" />
+    <file path="/Dummy.txt" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376906810552" ignored="false" />
     <file path="/home.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376661845265" ignored="false" />
     <file path="/index.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376655136118" ignored="false" />
     <file path="/periodic-table.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376621514325" ignored="false" />
     <file path="/settings.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376664893447" ignored="false" />
     <file path="/jsdecoder.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376623429977" ignored="false" />
-    <file path="/config.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376833019835" ignored="false" />
+    <file path="/config.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376921384947" ignored="false" />
     <file path="/beautify-javascript.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376632379272" ignored="false" />
     <file path="/javascript-encrypt.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376636722991" ignored="false" />
     <file path="/web-color.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376637349102" ignored="false" />
@@ -44,6 +44,20 @@
     <file path="/t1.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376828611128" ignored="false" />
     <file path="/template.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376832844539" ignored="false" />
     <file path="/lottery.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376833673610" ignored="false" />
+    <file path="$PROJECT_DIR$/../pdedu/templates/admin/site.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376906812798" ignored="false" />
+    <file path="$PROJECT_DIR$/../pdedu/app/views/admin/person.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376906812798" ignored="false" />
+    <file path="$PROJECT_DIR$/../pdedu/app/views/admin/urls.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376906812798" ignored="false" />
+    <file path="$PROJECT_DIR$/../pdedu/app/common/func.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376906812798" ignored="false" />
+    <file path="$PROJECT_DIR$/../pdedu/templates/admin/person_list.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376907155187" ignored="false" />
+    <file path="$PROJECT_DIR$/../pdedu/templates/admin/person_detail.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376907226903" ignored="false" />
+    <file path="$PROJECT_DIR$/../pdedu/app/templatetags/tags.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376906812798" ignored="false" />
+    <file path="/person_detail.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376907226903" ignored="false" />
+    <file path="$PROJECT_DIR$/../pdedu/templates/admin/person_falimy_list.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376907966842" ignored="false" />
+    <file path="/person_falimy_list.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376907966842" ignored="false" />
+    <file path="$PROJECT_DIR$/../pdedu/templates/admin/person_family_detail.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376907955531" ignored="false" />
+    <file path="/person_family_detail.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376907955531" ignored="false" />
+    <file path="/upper.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376919347995" ignored="false" />
+    <file path="/refresh.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376922903082" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,10 +77,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="config.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/common/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="107" selection-start="2421" selection-end="2421" vertical-scroll-proportion="0.0">
+            <state line="34" column="0" selection-start="2603" selection-end="2603" vertical-scroll-proportion="0.66445184">
               <folding>
                 <element signature="e#53#67#0" expanded="true" />
               </folding>
@@ -113,11 +127,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/p/lottery/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="275" selection-end="275" vertical-scroll-proportion="0.20325203">
+            <state line="17" column="0" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upper.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/upper.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="4" selection-start="54" selection-end="129" vertical-scroll-proportion="-1.4705882">
+              <folding>
+                <element signature="e#603#633#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="refresh.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/refresh.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="145" selection-start="1857" selection-end="1857" vertical-scroll-proportion="-10.088235">
+              <folding>
+                <element signature="e#1474#1494#0" expanded="true" />
+                <element signature="e#1572#1591#0" expanded="true" />
+                <element signature="e#1667#1686#0" expanded="true" />
+                <element signature="e#1882#1902#0" expanded="true" />
+                <element signature="e#1948#1979#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,27 +175,6 @@
         <entry file="file://$PROJECT_DIR$/static/p/strongpasswordgenerator/StrongPasswordGenerator.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="site.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/shared/site.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="462" selection-end="530" vertical-scroll-proportion="-5.882353">
-              <folding>
-                <element signature="n#style#0;n#h2#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pinyin.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/pinyin.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="49" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -182,8 +201,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/sharetools/settings.py" />
-        <option value="$PROJECT_DIR$/templates/htpasswd.html" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/static/p/csstype/makeChanges.js" />
         <option value="$PROJECT_DIR$/templates/shared/site.html" />
@@ -194,10 +211,12 @@
         <option value="$PROJECT_DIR$/static/p/strongpasswordgenerator/Typography.css" />
         <option value="$PROJECT_DIR$/templates/strongpasswordgenerator.html" />
         <option value="$PROJECT_DIR$/app/tools/t1.py" />
-        <option value="$PROJECT_DIR$/app/common/config.py" />
         <option value="$PROJECT_DIR$/templates/template.html" />
         <option value="$PROJECT_DIR$/templates/lottery.html" />
         <option value="$PROJECT_DIR$/static/p/lottery/style.css" />
+        <option value="$PROJECT_DIR$/templates/upper.html" />
+        <option value="$PROJECT_DIR$/app/common/config.py" />
+        <option value="$PROJECT_DIR$/templates/refresh.html" />
       </list>
     </option>
   </component>
@@ -323,8 +342,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\work\project\formal\sharetools\static\p\lottery" />
       <recent name="D:\work\project\formal\sharetools\templates" />
+      <recent name="D:\work\project\formal\sharetools\static\p\lottery" />
       <recent name="D:\work\project\formal\sharetools\static\p\csstype" />
       <recent name="D:\work\project\formal\sharetools\static\js\htpasswd" />
       <recent name="D:\work\project\formal\sharetools\static\js\jinzhi" />
@@ -566,22 +585,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/js/htpasswd/jquery-1.7.2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/p/csstype/makeChanges.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="37" selection-start="1865" selection-end="1865" vertical-scroll-proportion="-5.736842">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/p/csstype/master.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="175" column="0" selection-start="3122" selection-end="3122" vertical-scroll-proportion="-156.25">
@@ -667,22 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/common/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="107" selection-start="2421" selection-end="2421" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#53#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="-4.4117646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/lottery.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="222" column="0" selection-start="3557" selection-end="3557" vertical-scroll-proportion="-5.322581">
@@ -700,8 +687,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/p/lottery/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="275" selection-end="275" vertical-scroll-proportion="0.20325203">
+        <state line="17" column="0" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/upper.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="54" selection-end="129" vertical-scroll-proportion="-1.4705882">
+          <folding>
+            <element signature="e#603#633#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="-4.4117646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/refresh.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="145" selection-start="1857" selection-end="1857" vertical-scroll-proportion="-10.088235">
+          <folding>
+            <element signature="e#1474#1494#0" expanded="true" />
+            <element signature="e#1572#1591#0" expanded="true" />
+            <element signature="e#1667#1686#0" expanded="true" />
+            <element signature="e#1882#1902#0" expanded="true" />
+            <element signature="e#1948#1979#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/common/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="2603" selection-end="2603" vertical-scroll-proportion="0.66445184">
+          <folding>
+            <element signature="e#53#67#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
