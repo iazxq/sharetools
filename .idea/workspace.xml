@@ -13,7 +13,7 @@
     <file path="/periodic-table.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376621514325" ignored="false" />
     <file path="/settings.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376664893447" ignored="false" />
     <file path="/jsdecoder.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376623429977" ignored="false" />
-    <file path="/config.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376791874474" ignored="false" />
+    <file path="/config.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376833019835" ignored="false" />
     <file path="/beautify-javascript.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376632379272" ignored="false" />
     <file path="/javascript-encrypt.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376636722991" ignored="false" />
     <file path="/web-color.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376637349102" ignored="false" />
@@ -41,6 +41,9 @@
     <file path="/csstype.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376747867583" ignored="false" />
     <file path="/master.css" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376745117340" ignored="false" />
     <file path="/strongpasswordgenerator.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376794340246" ignored="false" />
+    <file path="/t1.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376828611128" ignored="false" />
+    <file path="/template.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376832844539" ignored="false" />
+    <file path="/lottery.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376833673610" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +66,7 @@
       <file leaf-file-name="config.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/common/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="48" selection-start="2240" selection-end="2240" vertical-scroll-proportion="0.0">
+            <state line="31" column="107" selection-start="2421" selection-end="2421" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#53#67#0" expanded="true" />
               </folding>
@@ -71,15 +74,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strongpasswordgenerator.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="strongpasswordgenerator.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/strongpasswordgenerator.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="128" selection-start="4225" selection-end="4225" vertical-scroll-proportion="0.54229933">
+            <state line="38" column="128" selection-start="4225" selection-end="4225" vertical-scroll-proportion="-14.705882">
               <folding>
                 <element signature="e#3756#3776#0" expanded="true" />
                 <element signature="e#3863#3911#0" expanded="true" />
                 <element signature="e#4090#4110#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="t1.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/tools/t1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="137" selection-start="105" selection-end="236" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lottery.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/lottery.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="222" column="0" selection-start="3557" selection-end="3557" vertical-scroll-proportion="-5.322581">
+              <folding>
+                <element signature="e#2252#2279#0" expanded="true" />
+                <element signature="e#2388#2410#0" expanded="true" />
+                <element signature="e#2429#2454#0" expanded="true" />
+                <element signature="e#2688#2713#0" expanded="true" />
+                <element signature="e#3258#3278#0" expanded="true" />
+                <element signature="e#4277#4298#0" expanded="true" />
+                <marker date="1376833758103" expanded="true" signature="695:727" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/p/lottery/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="275" selection-end="275" vertical-scroll-proportion="0.20325203">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="-4.4117646">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,19 +161,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="htpasswd.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/htpasswd.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="17" selection-start="2105" selection-end="2105" vertical-scroll-proportion="-22.794117">
-              <folding>
-                <element signature="e#485#521#0" expanded="true" />
-                <element signature="e#546#573#0" expanded="true" />
-                <element signature="e#1390#1410#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="csstype.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/csstype.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -148,10 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/templates/md5.html" />
-        <option value="$PROJECT_DIR$/templates/base64.html" />
-        <option value="$PROJECT_DIR$/templates/shared/master.html" />
-        <option value="$PROJECT_DIR$/templates/shared/head.html" />
         <option value="$PROJECT_DIR$/sharetools/settings.py" />
         <option value="$PROJECT_DIR$/templates/htpasswd.html" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
@@ -159,11 +189,15 @@
         <option value="$PROJECT_DIR$/templates/shared/site.html" />
         <option value="$PROJECT_DIR$/static/p/csstype/master.css" />
         <option value="$PROJECT_DIR$/templates/csstype.html" />
-        <option value="$PROJECT_DIR$/app/common/config.py" />
         <option value="$PROJECT_DIR$/static/p/strongpasswordgenerator/ReplaceDataURIsWithAltTextInIE7.js" />
         <option value="$PROJECT_DIR$/static/p/strongpasswordgenerator/StrongPasswordGenerator.js" />
         <option value="$PROJECT_DIR$/static/p/strongpasswordgenerator/Typography.css" />
         <option value="$PROJECT_DIR$/templates/strongpasswordgenerator.html" />
+        <option value="$PROJECT_DIR$/app/tools/t1.py" />
+        <option value="$PROJECT_DIR$/app/common/config.py" />
+        <option value="$PROJECT_DIR$/templates/template.html" />
+        <option value="$PROJECT_DIR$/templates/lottery.html" />
+        <option value="$PROJECT_DIR$/static/p/lottery/style.css" />
       </list>
     </option>
   </component>
@@ -244,46 +278,6 @@
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="p" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="strongpasswordgenerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sharetools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sharetools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="p" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sharetools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sharetools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -296,24 +290,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sharetools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sharetools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -347,14 +323,73 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\project\formal\sharetools\static\p\lottery" />
       <recent name="D:\work\project\formal\sharetools\templates" />
       <recent name="D:\work\project\formal\sharetools\static\p\csstype" />
       <recent name="D:\work\project\formal\sharetools\static\js\htpasswd" />
       <recent name="D:\work\project\formal\sharetools\static\js\jinzhi" />
-      <recent name="D:\work\project\formal\sharetools\static\js\pinyin" />
     </key>
   </component>
-  <component name="RunManager" selected="Django server.sharetools">
+  <component name="RunManager" selected="Python.t1">
+    <configuration default="false" name="t1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sharetools" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/tools/t1.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sharetools" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sharetools" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -428,9 +463,15 @@
       <option name="customRunCommand" value="" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Django server.sharetools" />
+      <item index="1" class="java.lang.String" itemvalue="Python.t1" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.t1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
@@ -449,11 +490,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25668448" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25668448" sideWeight="0.6706707" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32932934" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -601,15 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/common/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="48" selection-start="2240" selection-end="2240" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#53#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/p/strongpasswordgenerator/StrongPasswordGenerator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -619,12 +651,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/strongpasswordgenerator.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="128" selection-start="4225" selection-end="4225" vertical-scroll-proportion="0.54229933">
+        <state line="38" column="128" selection-start="4225" selection-end="4225" vertical-scroll-proportion="-14.705882">
           <folding>
             <element signature="e#3756#3776#0" expanded="true" />
             <element signature="e#3863#3911#0" expanded="true" />
             <element signature="e#4090#4110#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tools/t1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="137" selection-start="105" selection-end="236" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/common/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="107" selection-start="2421" selection-end="2421" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#53#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="-4.4117646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/lottery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="222" column="0" selection-start="3557" selection-end="3557" vertical-scroll-proportion="-5.322581">
+          <folding>
+            <element signature="e#2252#2279#0" expanded="true" />
+            <element signature="e#2388#2410#0" expanded="true" />
+            <element signature="e#2429#2454#0" expanded="true" />
+            <element signature="e#2688#2713#0" expanded="true" />
+            <element signature="e#3258#3278#0" expanded="true" />
+            <element signature="e#4277#4298#0" expanded="true" />
+            <marker date="1376833758103" expanded="true" signature="695:727" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/p/lottery/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="275" selection-end="275" vertical-scroll-proportion="0.20325203">
+          <folding />
         </state>
       </provider>
     </entry>
