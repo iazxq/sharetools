@@ -20,4 +20,6 @@ urlpatterns = patterns('',
     url(r'^sitemap.txt$',home.Sitemap,name='sitemap'),
 
     url(r'^ifconfig[/]?$',tools.ifconfig,name='ifconfig'),
+    url(r'^timer[/]?$',tools.timer,name='timer'),
+    url(r'^timer/(?P<timeLength>.+?)$',tools.timershow,name='timer.show'),
 )

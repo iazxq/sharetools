@@ -1,0 +1,36 @@
+{% load tags %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{{ tool.name }} - 脚本分享网</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{{ tool.content }}" />
+<meta name="keywords" content="{{ tool.keywords }}" />
+<link href="/static/css/style.css" rel="stylesheet" type="text/css">
+<meta name="baidu-tc-verification" content="3e8294dabe46e8def7d4b790be59d4cc" />
+{%block head%}{%endblock%}
+</head>
+
+<body class="bg index">
+<div id="container">
+{% include 'shared/head.html' %}
+<div style="text-align: center">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-0652501482160045";
+/* 728x90, 创建于 08-12-25 */
+google_ad_slot = "3889147664";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+</div>
+
+{% block main-content %}{%endblock %}
+
+
+</body>
+</html>

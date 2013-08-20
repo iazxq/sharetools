@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>{{ timeLength }}在线倒计时 - tools.sharejs.com</title>
+      <script type="text/javascript">
+         if(window.top == window.self && !window.location.href.match(/\/m\//i) && navigator.userAgent.match(/msie/i)) {
+               var labelMod = ("" !== "") ? "/until/" : "";
+               window.location.href = 'http://tools.sharejs.com/timer/' + "{{ timeLength }}" + labelMod;
+         }
+      </script>
+      <meta name="Description" content="一个使用超级简单在线倒计时工具">
+      <meta name="keywords" content="countdown, count,online countdown, online timer,倒计时,在线倒计时,倒计时工具,倒计时网站,{{ timeLength }}倒计时">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+      <link rel="stylesheet" href="/static/p/timer/timer.css" type="text/css" media="screen" title="Normal">
+   <body>
+   	<div id="wrapper">
+         <div id="progress" style="width: 92.9432px;"></div>
+         <div id="static" style="width: 1660px; height: 850px;"></div>
+      </div>
+      <div id="textWrapper">
+        <h2 id="progressText"></h2>
+      </div>
+      
+      <audio id="beepbeep" style="display:none;" preload="auto" autobuffer="">
+                  <source src="/static/p/timer/ringring.mp3" type="audio/mpeg">
+         <source src="/static/p/timer/ringring.ogg" type="audio/ogg">
+               </audio>
+      
+      <script src="/static/p/timer/jquery.min.js" type="text/javascript"></script>
+      <script src="/static/p/timer/Time.min.js" type="text/javascript"></script>
+      <script src="/static/p/timer/Egg3.min.js" type="text/javascript"></script>
+      <script type="text/javascript">
+         Egg.defaultText = "sharejs.com 在线倒计时";
+         Egg.title = "";
+         Egg.label = "";
+         Egg.expiredMessage = "倒计时结束";
+         Egg.startTime = {{ startTime }};
+         Egg.endTime = {{ endTime }};
+         Egg.parseError = "none";
+         Egg.volume = 1;
+      </script>
+    
+   
+</body></html>

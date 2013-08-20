@@ -1,0 +1,35 @@
+{% extends "shared/site.html" %}
+{% block head %}
+<script type="text/javascript" src="/static/js/jquery/jquery.js"></script>
+<script type="text/javascript">
+function timer(){
+    var delay = $('#delay').val();
+    var unit = $('#unit').val();
+    var redirectUrl = "http://tools.sharejs.com/timer/"+delay + unit;
+    location = redirectUrl;
+}
+</script>
+{% endblock %}
+
+
+{% block main-content %}
+    <input type="text" id="delay" value="5" style="padding:3px;" />
+<select id="unit" style="padding:3px;">
+    <option value="seconds" selected>秒</option>
+    <option value="minutes">分</option>
+    <option value="hours">小时</option>
+    <option value="days">天</option>
+</select>
+    <input type="button" value="开始倒计时" id="btnSubmit" onclick="timer()" style="padding:3px;" />
+<br /><br/>
+使用下面的快捷链接直接进入常用倒计时：<br/>
+5分钟倒计时：<a href="http://tools.sharejs.com/timer/5minutes" target="_blank">http://tools.sharejs.com/timer/5minutes</a><br/>
+15分钟倒计时：<a href="http://tools.sharejs.com/timer/15minutes" target="_blank">http://tools.sharejs.com/timer/5minutes</a><br/>
+30分钟倒计时：<a href="http://tools.sharejs.com/timer/30minutes" target="_blank">http://tools.sharejs.com/timer/5minutes</a><br/>
+30秒倒计时：<a href="http://tools.sharejs.com/timer/30" target="_blank">http://tools.sharejs.com/timer/30</a> （默认单位为秒）<br/>
+1小时倒计时：<a href="http://tools.sharejs.com/timer/1hours" target="_blank">http://tools.sharejs.com/timer/1hours</a><br/>
+5小时倒计时：<a href="http://tools.sharejs.com/timer/5hours" target="_blank">http://tools.sharejs.com/timer/5hours</a><br/>
+1天倒计时：<a href="http://tools.sharejs.com/timer/1days" target="_blank">http://tools.sharejs.com/timer/1days</a><br/>
+
+
+{% endblock %}
