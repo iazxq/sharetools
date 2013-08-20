@@ -1,0 +1,26 @@
+{% extends "shared/site.html" %}
+{% block head %}
+    <script type="text/javascript" src="./static/js/jquery/jquery.js"></script>
+    <script language="javascript">
+        function englishConvert(str) {
+            var text = $("#content").val();
+            if (text == "" || text == null) {alert("请输入要转换的内容");return;}
+            if (str == "xx") {$("#content").val(text.toLowerCase());}
+            else { $("#content").val(text.toUpperCase());}
+        }
+        </script>
+
+{% endblock %}
+
+
+{% block main-content %}
+ <!-- /工具开始 -->
+
+        <h3>请在下框输入您要转换的内容:</h3>
+        <form>
+        <textarea style="width:95%;padding:4px;" rows="10" id="content" name="content">welcome to tools.sharejs.com!</textarea><br/><br/>
+        <input  onclick="englishConvert('xx')" value="转换成小写" type="button"><input onclick="englishConvert('dx')" value="转换成大写" type="button">
+        </form>
+
+    <!-- /工具结束 -->
+{% endblock %}
