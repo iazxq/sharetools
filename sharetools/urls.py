@@ -1,5 +1,5 @@
 from django.conf.urls import patterns, include, url
-from app.views import home
+from app.views import home,tools
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
 # admin.autodiscover()
@@ -15,6 +15,9 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
     # url(r'^admin/', include(admin.site.urls)),
 
-    url(r'^[/]?$',home.Index,name='poll.index'),
-    url(r'^(?P<name>.+?)\.html$',home.HtmlIndex,name='poll.html.index'),
+    url(r'^[/]?$',home.Index,name='index'),
+    url(r'^(?P<name>.+?)\.html$',home.HtmlIndex,name='html.index'),
+    url(r'^sitemap.txt$',home.Sitemap,name='sitemap'),
+
+    url(r'^ifconfig[/]?$',tools.ifconfig,name='ifconfig'),
 )

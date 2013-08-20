@@ -1,0 +1,53 @@
+{% extends "shared/site.html" %}
+{% block head %}
+     <style type="text/css">
+
+      #info_table{border-collapse:collapse;margin:0 auto;line-height:20px;width:90%;table-layout:fixed;}
+      #info_table tr{height:30px;}
+      #info_table td{border: solid 1px #888;padding: 0px 10px;}
+      .info_table_label{width:200px;}
+      #table_ads{width:260px;text-align:center;}
+      #middle{height:110px;clear:both;text-align:center;padding-top:20px;}
+      #cli_wrap{margin:0 10px;}
+      h2{height:30px;line-height:30px;font-size:18px;margin:0 5px;padding-left:5px;}
+      #cli_table{border:solid 1px #888;border-collapse:collapse;width:728px;margin:0 auto;line-height:20px;table-layout:fixed;}
+      #cli_table tr{height:30px;}
+      #cli_table td{border-bottom: solid 1px #888;padding-top:3px;padding-bottom:3px;overflow:hidden;}
+      .cli_command{width:190px;padding-left:10px;}
+      .cli_arrow{width:40px;text-align:center;}
+      #ip_address{font-size:1.9em;}
+      #ip_address_cell{padding:5px;height:50px;}
+
+
+    </style>
+{% endblock %}
+
+
+{% block main-content %}
+ {% with meta=request.META %}
+ <div id="container" class="clearfix">
+      <div id="info_area">
+        <table id="info_table" summary="info">
+          <tr>
+            <td class="info_table_label">IP 地址</td>
+            <td id="ip_address_cell"><strong id="ip_address">{{ meta.REMOTE_ADDR }}</strong></td>
+          </tr>
+          <tr><td class="info_table_label">HTTP_REFERER</td><td>{{ meta.HTTP_REFERER }}</td></tr>
+          <tr><td class="info_table_label">REMOTE_PORT</td><td>{{ meta.REMOTE_PORT }}</td></tr>
+          <tr><td class="info_table_label">HTTP_USER_AGENT</td><td>{{ meta.HTTP_USER_AGENT }}</td></tr>
+          <tr><td class="info_table_label">HTTP_ACCEPT_LANGUAGE</td><td>{{ meta.HTTP_ACCEPT_LANGUAGE}}</td></tr>
+          <tr><td class="info_table_label">HTTP_CONNECTION</td><td>{{ meta.HTTP_CONNECTION }}</td></tr>
+          <tr><td class="info_table_label">HTTP_ACCEPT</td><td>{{ meta.HTTP_ACCEPT }}</td></tr>
+          <tr><td class="info_table_label">REQUEST_METHOD</td><td>{{ meta.REQUEST_METHOD }}</td></tr>
+          <tr><td class="info_table_label">HTTP_ACCEPT_ENCODING</td><td>{{ meta.HTTP_ACCEPT_ENCODING }}</td></tr>
+          <tr><td class="info_table_label">HTTP_COOKIE</td><td>{{ meta.HTTP_COOKIE }}</td></tr>
+          <tr><td class="info_table_label">HTTP_X_FORWARDED_FOR</td><td>{{ meta.HTTP_X_FORWARDED_FOR }}</td></tr>
+
+        </table>
+      </div>
+
+
+    </div>
+{% endwith %}
+
+{% endblock %}

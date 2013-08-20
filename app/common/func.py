@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import math,datetime,time,random,os,uuid,hashlib,base64
-from pdedu import settings
+from sharetools import settings
 from urlparse import urlparse
 import traceback
 
@@ -88,22 +88,21 @@ def get_str_param_from_get(request,param_name):
     #return request.GET.get(param_name,'').encode('utf-8')
     return request.GET.get(param_name,'')
 
-def get_query_params(request):
-    '''从query返回完整的查询字符串'''
-    queryStr = ''
-    for k,v in request.GET.items():
-        queryStr = ''.join((queryStr,'&',k,'=',v))
-    if queryStr:
-        queryStr = queryStr[1:]
-    return queryStr;
-
 def get_referrer(request,default_url=''):
+    if request.POST.get('referrer',None):
+        return request.POST['referrer']
+
     '返回引用页'
     f = request.META.get('HTTP_REFERER','')
     if f:
         url = urlparse(f)
         return ''.join((url.path,'?',url.query))
     return  default_url
+
+def check_referrer(request,referrer):
+    '''检查指定的来源是否合法，如果来源为空或者来源就是当前url，则来源不合法'''
+    return referrer and (referrer != request.get_full_path())
+
 
 def get_url_from(request,default_url=''):
     f= get_str_param_from_get(request,'f')
@@ -130,7 +129,7 @@ def get_new_upload_file_info(file):
     #获取上传文件的相对路径信息
     path= get_new_upload_dir()
     #获取上传文件的真实路径信息
-    real_path = os.path.join(settings.UP_DIR,path).replace('\\','/')
+    real_path = os.path.join(settings.STATIC_ROOT,settings.UP_DIR,path).replace('\\','/')
     #如果真实路径不存在,则创建
     if not os.path.exists(real_path):
         os.makedirs(real_path)
@@ -216,15 +215,31 @@ def fill_id(id,length):
     else:
         return '0'*(length-idLength) + str(id)
 
-def to_unicode(s,encoding=None):
-    if isinstance(s, unicode):
-        return s
-    else:
-        if encoding:
-            return unicode(s,encoding)
-        else:
-            return unicode(s)
+def getClientIp(request):
+    '''得到客户端的ip地址'''
+    try:
+        real_ip = request.META['HTTP_X_FORWARDED_FOR']
+        regip = real_ip.split(",")[0]
+    except:
+        try:
+            regip = request.META['REMOTE_ADDR']
+        except:
+            regip = ""
+    return regip
 
+def GetIPLocation(ip):
+    result = ''
+    try:
+        import urllib2
+        import json
+        url = 'http://ip.taobao.com/service/getIpInfo.php?ip=%s'%ip
+        content = urllib2.urlopen(url)
+        data = json.load(content,encoding='utf-8')
+        if data.get('code',None) == 0:
+            result = '%s %s %s %s'%(data['data'].get('country',''),data['data'].get('region',''),data['data'].get('city',''),data['data'].get('isp',''))
+    except:
+         pass
+    return result
 
 if __name__ == '__main__':
     print(base64_url_encode('http://www.bandao.cn'))

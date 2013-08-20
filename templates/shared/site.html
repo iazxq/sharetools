@@ -1,3 +1,4 @@
+{% load tags %}
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -51,17 +52,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
     {% block main-content %}{% endblock %}
 </div>
 <div class="h30"></div>
-
- <div class="current_nav">
-   <ul class="ulcl"><li> 在线小工具列表：</li></ul>
- </div>
-<div id="tools">
-    <ul class="ulcl">
-        {% for key,value in tools.items %}
-        <li> + <a href="./{{ key }}.html">{{ value.name }}</a></li>
-        {% endfor %}
-    </ul>
-</div>
+{% tools_list %}
 <!--body end-->
 </div>
 

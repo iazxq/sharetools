@@ -1,0 +1,71 @@
+{% extends "shared/site.html" %}
+{% block head %}
+
+<script type="text/javascript">
+function unique(ary) {
+    var i = 0,
+        gid='_'+(+new Date)+Math.random(),
+        objs = [],
+        hash = {
+            'string': {},
+            'boolean': {},
+            'number': {}
+        }, p, l = ary.length,
+        ret = [];
+    for (; i < l; i++) {
+        p = ary[i];
+        if (p == null) continue;
+        tp = typeof p;
+        if (tp in hash) {
+            if (!(p in hash[tp])) {
+                hash[tp][p] = 1;
+                ret.push(p);
+            }
+        } else {
+            if (p[gid]) continue;
+            p[gid]=1;
+            objs.push(p);
+            ret.push(p);
+        }
+    }
+    for(i=0,l=objs.length;i<l;i++) {
+        p=objs[i];
+        p[gid]=undefined;
+        delete p[gid];
+    }
+    return ret;
+}
+
+function process(){
+    list = document.getElementById('list');
+    arr = list.value.split('\n');
+    arr = unique(arr);
+    list.value = "";
+    for(key in arr){
+	    list.value += arr[key] + '\n';
+    }
+    alert("脚本分享网在线小工具提醒您：处理完成！");
+}
+
+</script>
+{% endblock %}
+
+
+{% block main-content %}
+<textarea id="list" rows="20" style="width:80%;padding:10px;">
+tools.sharejs.com
+sharejs.com
+tools.sharejs.com
+52ebook.com
+haotu.net
+google.com
+tools.sharejs.com
+baidu.com
+sharejs.com
+baidu.com
+52ebook.com
+tools.sharejs.com
+</textarea>
+<br/>
+<input type="button" onclick="process()" value="去重处理" />
+{% endblock %}
