@@ -34,7 +34,7 @@ Tools = {
     'ifconfig':{'name':u'获取本机公网ip地址工具','content':u'这个工具获取本机上网的公网ip地址及用户浏览器相关信息，如：user-agent，HTTP_ACCEPT，cookie等信息'},
     'upper':{'name':u'在线字母大小写转换工具','content':u'此工具可以将您输入的英文字母全部转换成大写或者小写字母。'},
     'refresh':{'name':u'在线定时刷新指定网址的工具','content':u'此工具可以根据用户设定的时间频率定时刷新指定的网页，非常适合用于刷票、增加网页浏览量等。'},
-
+    'unixtime':{'name':u'Unix时间戳在线转换工具','content':u'Unix时间戳转换工具可以把Unix时间戳转成北京时间，也可以把北京时间转换成unix时间戳'}
 
 
 
