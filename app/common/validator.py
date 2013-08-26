@@ -68,6 +68,9 @@ def is_valid_date(str):
         result = False
     return result
 
+def is_numeric(s):
+    '''returns True if string s is numeric'''
+    return all(c in "0123456789.+-" for c in s)
 
 
 if __name__ == "__main__":

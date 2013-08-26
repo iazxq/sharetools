@@ -1,0 +1,93 @@
+{% extends "shared/site.html" %}
+{% block head %}
+    <script src="/static/js/openurl/Openweb.js" type="text/javascript"></script>
+
+{% endblock %}
+
+
+{% block main-content %}
+
+
+                <table cellspacing="0" cellpadding="0" width="95%" align="center" bgcolor="#cccccc" border="0">
+                  <tbody>
+                  <tr>
+                    <td valign="middle" align="center" bgcolor="#ffffff">
+                     <form name="form1" method="post">
+                        <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                          <tbody>
+                          <tr>
+                            <td width="747" height="280" align="center" valign="top">
+                              <table cellspacing="1" cellpadding="0" width="100%" align="center" bgcolor="#cccccc" border="0">
+                                <tbody>
+                                <tr bgcolor="#f0f0f0">
+                                  <td colspan="4" bgcolor="#FFFFFF"><div align="left" style="margin-top:5px;">&nbsp;URL: <input class="input" size="54" value="http://www.sharejs.com" name="url"></div>
+                                  </td>
+                                </tr>
+                                <tr bgcolor="#f0f0f0">
+                                  <td bgcolor="#FFFFFF">
+                                    <input type="checkbox" value="ON" name="tool" />快捷键
+				                  </td>
+                                  <td bgcolor="#FFFFFF">
+                                    <input type="checkbox" value="ON" name="loc" />地址栏
+				                  </td>
+                                  <td bgcolor="#FFFFFF">
+                                    <input type="checkbox" value="ON" name="link" />链 接
+			                      </td>
+                                  <td bgcolor="#FFFFFF">
+                                    <input type="checkbox" value="ON" name="stat" />状态栏
+				                  </td>
+
+                                </tr>
+                                <tr bgcolor="#f0f0f0">
+                                  <td bgcolor="#FFFFFF">
+                                    <input type="checkbox" value="ON" name="menu" />菜 单
+				                  </td>
+                                  <td bgcolor="#FFFFFF">
+                                    <input type="checkbox" value="ON" name="selfopen" />在本窗口打开</td>
+                                  <td  bgcolor="#FFFFFF">
+				  	               左边距: <input size="10" name="L" />
+                                   </td>
+                                   <td  bgcolor="#FFFFFF">
+					               顶部距离:<input size="10" name="T" />
+                                  </td>
+                                </tr>
+
+                                    <tr bgcolor="#f0f0f0">
+                                  <td bgcolor="#FFFFFF">
+                                   <input type="checkbox" value="ON" name="resize" />调大小
+				                  </td>
+                                  <td bgcolor="#FFFFFF">
+                                    <input type="checkbox" value="ON" name="scroll" />滚动条</td>
+                                  <td  bgcolor="#FFFFFF">
+				  	                宽:<input size="10" name="width" />
+                                  </td>
+                                  <td  bgcolor="#FFFFFF">
+                                  高:<input size="10" name="heigh" />
+                                  </td>
+                                </tr>
+
+                                <tr bgcolor="#f0f0f0">
+                                  <td colspan="6" align="center" valign="middle" bgcolor="#FFFFFF">
+                                   <div style="margin-top:5px;"><input class="but2" type="button" value="测 试" name="button" onclick="S_Code();eval(temp)";/>
+                                    <input class="but2" type="button" value="生成代码" name="Button" onclick="S_Code();document.form1.showcode.value=temp;"/></div>
+                                  </td>
+                                </tr>
+                                </tbody>
+                              </table>
+                                <br/>
+                              <textarea id="showcode" name="textarea" rows="14" style="width:95%;padding:5px;"></textarea>
+                            </td>
+                          </tr>
+                          </tbody>
+                        </table>
+                      </form>
+                    </td>
+                  </tr>
+                  </tbody>
+                </table>
+
+
+
+
+
+{% endblock %}

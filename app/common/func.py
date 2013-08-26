@@ -241,6 +241,10 @@ def GetIPLocation(ip):
          pass
     return result
 
+
+def getTimestamp(t):
+    return int(time.mktime(t.timetuple())*1000)
+
 if __name__ == '__main__':
     print(base64_url_encode('http://www.bandao.cn'))
     print(base64_url_decode('L3VwLzIwMTMvMDQvMjEvMTM2NjU0ODgxNDQxOTE0LmpwZw=='))

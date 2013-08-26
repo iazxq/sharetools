@@ -4,8 +4,8 @@
     <list default="true" id="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" name="Default" comment="" />
     <ignored path="sharetools.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/style.css" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376651464956" ignored="false" />
-    <file path="/site.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376896272788" ignored="false" />
+    <file path="/style.css" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377350381428" ignored="false" />
+    <file path="/site.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377350216791" ignored="false" />
     <file path="/urls.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376894135647" ignored="false" />
     <file path="/Dummy.txt" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376897256781" ignored="false" />
     <file path="/home.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376893999102" ignored="false" />
@@ -13,7 +13,7 @@
     <file path="/periodic-table.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376621514325" ignored="false" />
     <file path="/settings.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376664893447" ignored="false" />
     <file path="/jsdecoder.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376623429977" ignored="false" />
-    <file path="/config.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377345246808" ignored="false" />
+    <file path="/config.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377437626394" ignored="false" />
     <file path="/beautify-javascript.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376632379272" ignored="false" />
     <file path="/javascript-encrypt.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376636722991" ignored="false" />
     <file path="/web-color.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376637349102" ignored="false" />
@@ -51,6 +51,16 @@
     <file path="/tags.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376896265310" ignored="false" />
     <file path="/func.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376901624348" ignored="false" />
     <file path="/unixtime.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377346298969" ignored="false" />
+    <file path="/unicode.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377349587407" ignored="false" />
+    <file path="/tools_list.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377350166609" ignored="false" />
+    <file path="/utf8.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377356776261" ignored="false" />
+    <file path="/html2ubb.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377417820294" ignored="false" />
+    <file path="/html2asp.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377419056333" ignored="false" />
+    <file path="/HtmlCodeCov.js" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377419049202" ignored="false" />
+    <file path="/htmlfilter.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377420683853" ignored="false" />
+    <file path="/js-confuse.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377421559827" ignored="false" />
+    <file path="/openurl.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377426597532" ignored="false" />
+    <file path="/shupai.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377437868620" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,140 +80,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="config.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/common/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="38" selection-start="2565" selection-end="2565" vertical-scroll-proportion="0.6736402">
+            <state line="46" column="4" selection-start="4052" selection-end="4052" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="unixtime.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/unixtime.html">
+      <file leaf-file-name="shupai.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/shupai.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="80" selection-start="256" selection-end="256" vertical-scroll-proportion="-3.6764705">
+            <state line="72" column="0" selection-start="2970" selection-end="3167" vertical-scroll-proportion="0.56856185">
               <folding>
-                <element signature="e#318#355#0" expanded="true" />
-                <element signature="e#1971#1991#0" expanded="true" />
-                <element signature="e#2032#2052#0" expanded="true" />
-                <element signature="e#2079#2099#0" expanded="true" />
-                <element signature="e#2146#2166#0" expanded="true" />
-                <element signature="e#2280#2300#0" expanded="true" />
-                <element signature="e#2356#2376#0" expanded="true" />
-                <element signature="e#2477#2497#0" expanded="true" />
-                <element signature="e#2539#2559#0" expanded="true" />
-                <element signature="e#2610#2630#0" expanded="true" />
-                <element signature="e#2671#2691#0" expanded="true" />
-                <element signature="e#2718#2738#0" expanded="true" />
-                <element signature="e#2778#2798#0" expanded="true" />
-                <element signature="e#2827#2847#0" expanded="true" />
-                <element signature="e#2894#2914#0" expanded="true" />
-                <element signature="e#2969#2989#0" expanded="true" />
-                <element signature="e#3032#3052#0" expanded="true" />
-                <element signature="e#3129#3149#0" expanded="true" />
-                <element signature="e#3190#3210#0" expanded="true" />
-                <element signature="e#3346#3366#0" expanded="true" />
-                <element signature="e#3413#3433#0" expanded="true" />
-                <element signature="e#3511#3531#0" expanded="true" />
-                <element signature="e#3580#3600#0" expanded="true" />
-                <element signature="e#3631#3651#0" expanded="true" />
-                <element signature="e#3702#3722#0" expanded="true" />
-                <element signature="e#3788#3808#0" expanded="true" />
-                <element signature="e#3860#3902#0" expanded="true" />
-                <element signature="e#3944#3964#0" expanded="true" />
-                <element signature="e#4171#4191#0" expanded="true" />
-                <element signature="e#4236#4256#0" expanded="true" />
-                <element signature="e#4407#4427#0" expanded="true" />
-                <element signature="e#4478#4498#0" expanded="true" />
-                <element signature="e#4658#4678#0" expanded="true" />
-                <element signature="e#4724#4744#0" expanded="true" />
-                <element signature="e#4801#4821#0" expanded="true" />
-                <element signature="e#4867#4887#0" expanded="true" />
-                <element signature="e#4950#4970#0" expanded="true" />
-                <element signature="e#5015#5035#0" expanded="true" />
-                <element signature="e#5205#5225#0" expanded="true" />
-                <element signature="e#5269#5289#0" expanded="true" />
-                <element signature="e#5348#5368#0" expanded="true" />
-                <element signature="e#5419#5439#0" expanded="true" />
-                <element signature="e#5553#5573#0" expanded="true" />
-                <element signature="e#5620#5640#0" expanded="true" />
-                <element signature="e#5744#5764#0" expanded="true" />
-                <element signature="e#5809#5829#0" expanded="true" />
-                <element signature="e#5886#5906#0" expanded="true" />
-                <element signature="e#5957#5977#0" expanded="true" />
-                <element signature="e#6060#6080#0" expanded="true" />
-                <element signature="e#6135#6155#0" expanded="true" />
-                <element signature="e#6240#6260#0" expanded="true" />
-                <element signature="e#6318#6360#0" expanded="true" />
-                <element signature="e#6406#6426#0" expanded="true" />
-                <element signature="e#6643#6663#0" expanded="true" />
-                <element signature="e#6704#6724#0" expanded="true" />
-                <element signature="e#6850#6870#0" expanded="true" />
-                <element signature="e#6917#6937#0" expanded="true" />
-                <element signature="e#7081#7101#0" expanded="true" />
-                <element signature="e#7143#7163#0" expanded="true" />
-                <element signature="e#7300#7320#0" expanded="true" />
-                <element signature="e#7361#7381#0" expanded="true" />
-                <element signature="e#7512#7532#0" expanded="true" />
-                <element signature="e#7572#7592#0" expanded="true" />
-                <element signature="e#7703#7723#0" expanded="true" />
-                <element signature="e#7770#7790#0" expanded="true" />
-                <element signature="e#7875#7895#0" expanded="true" />
-                <element signature="e#7938#7958#0" expanded="true" />
-                <element signature="e#8106#8126#0" expanded="true" />
-                <element signature="e#8167#8187#0" expanded="true" />
-                <element signature="e#8302#8322#0" expanded="true" />
-                <element signature="e#8369#8389#0" expanded="true" />
-                <element signature="e#8514#8534#0" expanded="true" />
-                <element signature="e#8590#8610#0" expanded="true" />
-                <element signature="e#8661#8681#0" expanded="true" />
+                <element signature="e#2526#2556#0" expanded="true" />
+                <element signature="e#2873#2947#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tools.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/tools.py">
+      <file leaf-file-name="gw.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/shupai/gw.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="35" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
+            <state line="98" column="32" selection-start="2568" selection-end="2568" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="func.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/common/func.py">
+      <file leaf-file-name="openurl.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/openurl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="19" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="22" column="181" selection-start="1108" selection-end="1108" vertical-scroll-proportion="-16.17647">
+              <folding>
+                <element signature="e#1013#1036#0" expanded="true" />
+                <element signature="e#3668#3691#0" expanded="true" />
+                <element signature="e#4221#4251#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="js-confuse.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/js-confuse.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="htpasswd.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/htpasswd.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ifconfig.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/ifconfig.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="47" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="12" column="19" selection-start="366" selection-end="366" vertical-scroll-proportion="-8.823529">
+              <folding>
+                <element signature="e#250#280#0" expanded="true" />
+                <element signature="e#546#576#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -211,8 +138,21 @@
       <file leaf-file-name="site.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/shared/site.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="13" selection-start="1768" selection-end="1768" vertical-scroll-proportion="0.0">
+            <state line="53" column="23" selection-start="1767" selection-end="1767" vertical-scroll-proportion="-3.5882354">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="htmlfilter.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/htmlfilter.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="52" selection-start="102" selection-end="102" vertical-scroll-proportion="-1.4705882">
+              <folding>
+                <element signature="e#271#301#0" expanded="true" />
+                <element signature="e#1166#1207#0" expanded="true" />
+                <element signature="e#1436#1466#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -220,17 +160,29 @@
       <file leaf-file-name="tools_list.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/shared/tools_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="6" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
+            <state line="4" column="12" selection-start="92" selection-end="92" vertical-scroll-proportion="-2.9411764">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tags.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templatetags/tags.py">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="22" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
+            <state line="407" column="48" selection-start="6326" selection-end="6326" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="htmlchar.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/htmlchar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="39" selection-start="138" selection-end="138" vertical-scroll-proportion="-5.147059">
+              <folding>
+                <element signature="e#111#137#0" expanded="true" />
+                <element signature="e#165#189#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -245,22 +197,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/templates/lottery.html" />
-        <option value="$PROJECT_DIR$/static/p/lottery/style.css" />
-        <option value="$PROJECT_DIR$/templates/unique.html" />
-        <option value="$PROJECT_DIR$/templates/html2js.html" />
-        <option value="$PROJECT_DIR$/app/tools/t2_format.py" />
-        <option value="$PROJECT_DIR$/templates/sitemap.html" />
-        <option value="$PROJECT_DIR$/sharetools/urls.py" />
+        <option value="$PROJECT_DIR$/templates/unixtime.html" />
+        <option value="$PROJECT_DIR$/templates/unicode.html" />
         <option value="$PROJECT_DIR$/templates/shared/tools_list.html" />
         <option value="$PROJECT_DIR$/templates/shared/site.html" />
-        <option value="$PROJECT_DIR$/app/views/home.py" />
-        <option value="$PROJECT_DIR$/app/templatetags/tags.py" />
-        <option value="$PROJECT_DIR$/app/views/tools.py" />
-        <option value="$PROJECT_DIR$/templates/ifconfig.html" />
-        <option value="$PROJECT_DIR$/app/common/func.py" />
-        <option value="$PROJECT_DIR$/templates/unixtime.html" />
+        <option value="$PROJECT_DIR$/templates/utf8.html" />
+        <option value="$PROJECT_DIR$/templates/html2ubb.html" />
+        <option value="$PROJECT_DIR$/static/js/html2asp/HtmlCodeCov.js" />
+        <option value="$PROJECT_DIR$/templates/html2asp.html" />
+        <option value="$PROJECT_DIR$/templates/htmlfilter.html" />
+        <option value="$PROJECT_DIR$/templates/htmlchar.html" />
+        <option value="$PROJECT_DIR$/templates/js-confuse.html" />
+        <option value="$PROJECT_DIR$/templates/openurl.html" />
         <option value="$PROJECT_DIR$/app/common/config.py" />
+        <option value="$PROJECT_DIR$/static/css/style.css" />
+        <option value="$PROJECT_DIR$/static/js/shupai/gw.js" />
+        <option value="$PROJECT_DIR$/templates/shupai.html" />
       </list>
     </option>
   </component>
@@ -326,6 +278,78 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharetools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharetools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shared" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharetools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharetools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharetools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharetools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharetools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharetools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shupai" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -532,9 +556,9 @@
       <method />
     </configuration>
     <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Python.t1" />
-      <item index="1" class="java.lang.String" itemvalue="Python.t2_format" />
-      <item index="2" class="java.lang.String" itemvalue="Django server.sharetools" />
+      <item index="0" class="java.lang.String" itemvalue="Django server.sharetools" />
+      <item index="1" class="java.lang.String" itemvalue="Python.t1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.t2_format" />
     </list>
     <recent_temporary>
       <list size="2">
@@ -636,182 +660,157 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/tools/t1.py">
+    <entry file="file://$PROJECT_DIR$/templates/shared/master.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="48" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sharetools/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="58" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sitemap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="86" selection-end="86" vertical-scroll-proportion="-0.7352941" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="19.941177">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home.py">
+    <entry file="file://$PROJECT_DIR$/templates/shared/simple_site.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="279" selection-end="329" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="4.117647">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tools.py">
+    <entry file="file://$PROJECT_DIR$/templates/utf8.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="35" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/common/func.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="19" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/htpasswd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/ifconfig.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="47" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/shared/site.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="13" selection-start="1768" selection-end="1768" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/shared/tools_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templatetags/tags.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/unixtime.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="80" selection-start="256" selection-end="256" vertical-scroll-proportion="-3.6764705">
+        <state line="33" column="67" selection-start="1434" selection-end="1434" vertical-scroll-proportion="-15.794118">
           <folding>
-            <element signature="e#318#355#0" expanded="true" />
-            <element signature="e#1971#1991#0" expanded="true" />
-            <element signature="e#2032#2052#0" expanded="true" />
-            <element signature="e#2079#2099#0" expanded="true" />
-            <element signature="e#2146#2166#0" expanded="true" />
-            <element signature="e#2280#2300#0" expanded="true" />
-            <element signature="e#2356#2376#0" expanded="true" />
-            <element signature="e#2477#2497#0" expanded="true" />
-            <element signature="e#2539#2559#0" expanded="true" />
-            <element signature="e#2610#2630#0" expanded="true" />
-            <element signature="e#2671#2691#0" expanded="true" />
-            <element signature="e#2718#2738#0" expanded="true" />
-            <element signature="e#2778#2798#0" expanded="true" />
-            <element signature="e#2827#2847#0" expanded="true" />
-            <element signature="e#2894#2914#0" expanded="true" />
-            <element signature="e#2969#2989#0" expanded="true" />
-            <element signature="e#3032#3052#0" expanded="true" />
-            <element signature="e#3129#3149#0" expanded="true" />
-            <element signature="e#3190#3210#0" expanded="true" />
-            <element signature="e#3346#3366#0" expanded="true" />
-            <element signature="e#3413#3433#0" expanded="true" />
-            <element signature="e#3511#3531#0" expanded="true" />
-            <element signature="e#3580#3600#0" expanded="true" />
-            <element signature="e#3631#3651#0" expanded="true" />
-            <element signature="e#3702#3722#0" expanded="true" />
-            <element signature="e#3788#3808#0" expanded="true" />
-            <element signature="e#3860#3902#0" expanded="true" />
-            <element signature="e#3944#3964#0" expanded="true" />
-            <element signature="e#4171#4191#0" expanded="true" />
-            <element signature="e#4236#4256#0" expanded="true" />
-            <element signature="e#4407#4427#0" expanded="true" />
-            <element signature="e#4478#4498#0" expanded="true" />
-            <element signature="e#4658#4678#0" expanded="true" />
-            <element signature="e#4724#4744#0" expanded="true" />
-            <element signature="e#4801#4821#0" expanded="true" />
-            <element signature="e#4867#4887#0" expanded="true" />
-            <element signature="e#4950#4970#0" expanded="true" />
-            <element signature="e#5015#5035#0" expanded="true" />
-            <element signature="e#5205#5225#0" expanded="true" />
-            <element signature="e#5269#5289#0" expanded="true" />
-            <element signature="e#5348#5368#0" expanded="true" />
-            <element signature="e#5419#5439#0" expanded="true" />
-            <element signature="e#5553#5573#0" expanded="true" />
-            <element signature="e#5620#5640#0" expanded="true" />
-            <element signature="e#5744#5764#0" expanded="true" />
-            <element signature="e#5809#5829#0" expanded="true" />
-            <element signature="e#5886#5906#0" expanded="true" />
-            <element signature="e#5957#5977#0" expanded="true" />
-            <element signature="e#6060#6080#0" expanded="true" />
-            <element signature="e#6135#6155#0" expanded="true" />
-            <element signature="e#6240#6260#0" expanded="true" />
-            <element signature="e#6318#6360#0" expanded="true" />
-            <element signature="e#6406#6426#0" expanded="true" />
-            <element signature="e#6643#6663#0" expanded="true" />
-            <element signature="e#6704#6724#0" expanded="true" />
-            <element signature="e#6850#6870#0" expanded="true" />
-            <element signature="e#6917#6937#0" expanded="true" />
-            <element signature="e#7081#7101#0" expanded="true" />
-            <element signature="e#7143#7163#0" expanded="true" />
-            <element signature="e#7300#7320#0" expanded="true" />
-            <element signature="e#7361#7381#0" expanded="true" />
-            <element signature="e#7512#7532#0" expanded="true" />
-            <element signature="e#7572#7592#0" expanded="true" />
-            <element signature="e#7703#7723#0" expanded="true" />
-            <element signature="e#7770#7790#0" expanded="true" />
-            <element signature="e#7875#7895#0" expanded="true" />
-            <element signature="e#7938#7958#0" expanded="true" />
-            <element signature="e#8106#8126#0" expanded="true" />
-            <element signature="e#8167#8187#0" expanded="true" />
-            <element signature="e#8302#8322#0" expanded="true" />
-            <element signature="e#8369#8389#0" expanded="true" />
-            <element signature="e#8514#8534#0" expanded="true" />
-            <element signature="e#8590#8610#0" expanded="true" />
-            <element signature="e#8661#8681#0" expanded="true" />
+            <element signature="e#806#831#0" expanded="true" />
+            <element signature="e#887#930#0" expanded="true" />
+            <element signature="e#1020#1068#0" expanded="true" />
+            <element signature="e#1118#1138#0" expanded="true" />
+            <element signature="e#1243#1263#0" expanded="true" />
+            <element signature="e#1526#1574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/html2ubb.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="37" selection-start="1067" selection-end="1067" vertical-scroll-proportion="-8.0">
+          <folding>
+            <element signature="e#189#214#0" expanded="true" />
+            <element signature="e#330#350#0" expanded="true" />
+            <element signature="e#550#580#0" expanded="true" />
+            <element signature="e#848#878#0" expanded="true" />
+            <element signature="e#1144#1164#0" expanded="true" />
+            <element signature="e#1394#1424#0" expanded="true" />
+            <element signature="e#1630#1660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/html2asp/HtmlCodeCov.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="317" column="11" selection-start="6710" selection-end="6710" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/html2asp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="68" selection-start="1616" selection-end="1616" vertical-scroll-proportion="-21.32353">
+          <folding>
+            <element signature="e#294#337#0" expanded="true" />
+            <element signature="e#548#573#0" expanded="true" />
+            <element signature="e#665#690#0" expanded="true" />
+            <element signature="e#782#807#0" expanded="true" />
+            <element signature="e#899#924#0" expanded="true" />
+            <element signature="e#1018#1043#0" expanded="true" />
+            <element signature="e#1135#1160#0" expanded="true" />
+            <element signature="e#1330#1373#0" expanded="true" />
+            <element signature="e#1434#1467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/htmlfilter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="52" selection-start="102" selection-end="102" vertical-scroll-proportion="-1.4705882">
+          <folding>
+            <element signature="e#271#301#0" expanded="true" />
+            <element signature="e#1166#1207#0" expanded="true" />
+            <element signature="e#1436#1466#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/htmlchar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="39" selection-start="138" selection-end="138" vertical-scroll-proportion="-5.147059">
+          <folding>
+            <element signature="e#111#137#0" expanded="true" />
+            <element signature="e#165#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js-confuse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="19" selection-start="366" selection-end="366" vertical-scroll-proportion="-8.823529">
+          <folding>
+            <element signature="e#250#280#0" expanded="true" />
+            <element signature="e#546#576#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/openurl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="181" selection-start="1108" selection-end="1108" vertical-scroll-proportion="-16.17647">
+          <folding>
+            <element signature="e#1013#1036#0" expanded="true" />
+            <element signature="e#3668#3691#0" expanded="true" />
+            <element signature="e#4221#4251#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/common/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="38" selection-start="2565" selection-end="2565" vertical-scroll-proportion="0.6736402">
+        <state line="46" column="4" selection-start="4052" selection-end="4052" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/shared/site.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="23" selection-start="1767" selection-end="1767" vertical-scroll-proportion="-3.5882354">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/shared/tools_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="12" selection-start="92" selection-end="92" vertical-scroll-proportion="-2.9411764">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="407" column="48" selection-start="6326" selection-end="6326" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/shupai/gw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="32" selection-start="2568" selection-end="2568" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/shupai.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="0" selection-start="2970" selection-end="3167" vertical-scroll-proportion="0.56856185">
+          <folding>
+            <element signature="e#2526#2556#0" expanded="true" />
+            <element signature="e#2873#2947#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

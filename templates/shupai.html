@@ -1,0 +1,85 @@
+{% extends "shared/site.html" %}
+{% block head %}
+{% endblock %}
+
+
+{% block main-content %}
+    <div>
+        <p>每页 <select id="x">
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10" selected="selected">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+        </select> 竖行，每行 <select id="y">
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8" selected="selected">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+        </select> 个字，边框风格：<select id="tbl">
+            <option value="0">粗实线+细实</option>
+            <option value="1" selected="selected">双实线+细实</option>
+            <option value="2">细实线+细虚</option>
+            <option value="3">蝌蚪往回游</option>
+            <option value="4">一切向上看</option>
+            <option value="5">清风竹节型</option>
+            <option value="6">密码错乱型</option>
+            <option value="7">红星闪闪型</option>
+            <option value="8">霓虹灯闪烁</option>
+            <option value="9">我心依旧型</option>
+            <option value="10">大圈套小圈</option>
+            <option value="11">鱼儿水中游</option>
+            <option value="12">阿米佗佛型</option>
+            <option value="13">清爽空白型</option>
+        </select></p>
+        <p>
+            <textarea id="wz" rows="8" cols="80" onfocus="this.select()" onkeydown="ctlent()" style="width:95%;padding:4px;">选择转换的边框风格后，把您要转换的文字输入到这个文本框中，然后点击『开始转换』按钮，系统就会自动生成相应的竖排古文
+            </textarea>
+        </p>
+
+        <p>
+            <input onclick="javascript:convert();" type="button" value="开始转换" />
+        </p>
+
+        <p class="center">
+            <textarea id="t" rows="13"  onfocus="this.select()"
+                      style="width:95%;font-family:宋体;overflow:auto;padding:4px;font-size:14px;">╔═╤═╤═╤═╤═╤═╤═╤═╤═╤═╗
+║　│　│文│生│钮│击│文│的│格│选║
+║　│　│　│成│，│『│本│文│后│择║
+║　│　│　│相│系│开│框│字│，│转║
+║　│　│　│应│统│始│中│输│把│换║
+║　│　│　│的│就│转│，│入│您│的║
+║　│　│　│竖│会│换│然│到│要│边║
+║　│　│　│排│自│』│后│这│转│框║
+║　│　│　│古│动│按│点│个│换│风║
+╚═╧═╧═╧═╧═╧═╧═╧═╧═╧═╝
+            </textarea>
+        </p>
+        <script language="javascript" src="/static/js/shupai/gw.js"></script>
+{% endblock %}

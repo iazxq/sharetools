@@ -1,0 +1,85 @@
+{% extends "shared/site.html" %}
+{% block head %}
+    <script src="/static/js/htmlfilter/jquery.min.js"  type="text/javascript"></script>
+{% endblock %}
+
+
+{% block main-content %}
+
+
+                    <div>
+                        <textarea id="content" name="content"  style="width:95%;padding:5px;" rows="20" onfocus="if(jQuery(this).val()=='请把你需要过滤的内容粘贴在这里') {jQuery(this).val('');}" onblur="if(jQuery(this).val()=='') {jQuery(this).val('请把你需要过滤的内容粘贴在这里');}">请把你需要过滤的内容粘贴在这里</textarea>
+                    </div>
+	                <div>
+                    <input type="checkbox"  name="type" checked="checked" value="0"/>过滤HTML&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox"  name="type" value="1"/>过滤JS&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox"  name="type" value="2"/>过滤CSS&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox"  name="type" value="3" />自定义过滤&nbsp;&nbsp;&nbsp;&nbsp;
+
+	                    <input  type="button" value="过滤" onclick="Filter();"/>
+
+	                    <input type="button" value="清空结果" onclick="jQuery('#result').val('')" />
+		            </div>
+                     <div style=" display:none; margin-bottom:5px;" id="place">想替换的字符：<input type="text"  id="preplace"/>&nbsp;&nbsp;&nbsp;&nbsp;替换后的字符：<input type="text" class="inputt" id="nextplace"/></div>
+                    <div >
+                        <textarea id="result" name="result" style="width:95%;padding:5px;" rows="20"></textarea>
+                    </div>
+
+
+
+
+<script language="javascript" type="text/javascript">
+var fhtml=true;
+var fjs=false;
+var fcss=false;
+var fself=false;
+jQuery("input[name=type]").bind("click", function () {
+    var thisv = jQuery(this).val();
+    var set = jQuery(this).attr("checked");
+    if (thisv == 3) {
+        if (set == 'checked') {
+            fhtml = false;
+            fjs = false;
+            fcss = false;
+            fself = true;
+            jQuery(this).siblings("[name=type]").attr("checked", false);
+            jQuery("#place").show();
+        }
+        else {
+            fhtml = true;
+            fself = false;
+            jQuery("#place").hide();
+            jQuery("input[name=type]").eq(0).attr("checked", true);
+        }
+    }
+    else {
+        jQuery("#place").hide();
+        jQuery("input[name=type]").eq(3).attr("checked", false);
+        switch (thisv) {
+            case "0": if (set == 'checked') { fhtml = true; fself = false; } else { fhtml = false; } break;
+            case "1": if (set == 'checked') { fjs = true; fself = false; } else { fjs = false; } break;
+            case "2": if (set == 'checked') { fcss = true; fself = false; } else { fcss = false; } break;
+        }
+    }
+
+});
+
+    function Filter() {
+        var s = jQuery("#content").val();
+        if (!fhtml && !fjs && !fcss && !fself)
+            fhtml = true;
+        if (fjs)
+            s = s.replace(/<\s*script[^>]*>(.|[\r\n])*?<\s*\/script[^>]*>/gi, '');
+        if (fcss)
+            s = s.replace(/<\s*style[^>]*>(.|[\r\n])*?<\s*\/style[^>]*>/gi, '');
+        if (fhtml) {
+            s = s.replace(/<\/?[^>]+>/g, '');
+            s = s.replace(/\&[a-z]+;/gi, '');
+        }
+        if(fself)
+            s = s.replace(new RegExp(jQuery("#preplace").val(), 'g'), $("#nextplace").val());
+        jQuery("#result").val(s);
+    }
+    </script>
+
+{% endblock %}
