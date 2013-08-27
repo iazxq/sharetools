@@ -5,7 +5,11 @@
 <div id="tools">
     <ul class="ulcl">
         {% for key,value in tools.items %}
-        <li> + <a href="./{{ key }}.html">{{ value.name }}</a></li>
+        {% if value.url %}
+         <li> + <a href="{{ value.url }}">{{ value.name }}</a></li>
+        {% else %}
+        <li> + <a href="/{{ key }}.html">{{ value.name }}</a></li>
+        {% endif %}
         {% endfor %}
     </ul>
 </div>

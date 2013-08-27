@@ -12,6 +12,7 @@ def HtmlIndex(request,name):
     return render_to_response(template,locals())
 
 def Index(request,):
+    tools = config.Tools
     return render_to_response('index.html',locals())
 
 def Sitemap(request):

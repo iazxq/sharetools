@@ -2,7 +2,7 @@
 up
 
 #ignore .idea folder
-.idea
+.idea/
 
 #ignore all .pyc
 *.pyc

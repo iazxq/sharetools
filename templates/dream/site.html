@@ -2,10 +2,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>{% block title %}{% endblock %} {{ tool.name }} - 在线小工具</title>
+<title>{% block title %}{% endblock %} 在线周公解梦</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="description" content="{{ tool.content }}" />
-<meta name="keywords" content="{{ tool.keywords }}" />
+<meta name="description" content="{% block description %}{% endblock %}" />
+<meta name="keywords" content="{% block keywords %}{% endblock %},周公解梦,解梦,梦语" />
 <meta name="baidu-tc-verification" content="3e8294dabe46e8def7d4b790be59d4cc" />
 <link href="/static/css/style.css" rel="stylesheet" type="text/css">
 {%block head%}{%endblock%}
@@ -14,7 +14,7 @@
 <body class="bg index">
 <div id="container">
 <!--header-->
-{% include 'shared/head.html' %}
+{% include 'dream/head.html' %}
 <!--header end-->
 
 <!--body-->
@@ -49,30 +49,25 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 </div>
 <div class="h20"></div>
-    {% block main-content %}{% endblock %}
+{% block main-content %}{% endblock %}
 </div>
-<div class="h30"></div>
-{% tools_list %}
 <!--body end-->
 </div>
 
 
+
+
 <!--footer-->
-<div id="footer">
-    <div class="hl_wrap">
-
-    </div>
-      <div class="links" >
-
-    <p><span class="link">
+ <div id="footer">
+      <div class="links">
+    <span class="link">
         合作网站：
             <a href="http://club.sharejs.com" target="_blank">开发者社区</a>
 			<a href="http://www.haotu.net" target="_blank" title="最好的手机壁纸下载网站">好图网</a>
             <a href="http://www.52ebook.com" target="_blank">我爱E书</a>
             <a href="http://www.haotu.net" target="_blank">手机壁纸下载</a>
             <a href="http://en.sharejs.com">Code Snippets</a>
-
-        </span></p>
+        </span>
     </div>
 
     <div class="copyright">

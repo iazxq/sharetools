@@ -1,0 +1,13 @@
+{% extends "dream/site.html" %}
+{% block head %}
+{% endblock %}
+
+
+{% block main-content %}
+{% include "dream/search-form.html" %}
+    
+    {% if not dreams.list %}
+        <div>没有找到您相关的解梦信息，请尝试输入一个较短与梦有关的关键词，比如梦见了美女，输入“美女”</div>
+    {% endif %}
+
+{% endblock %}

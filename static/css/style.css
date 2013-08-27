@@ -59,6 +59,8 @@ a:hover{
 	-moz-border-radius: 3px;
 }
 
+.text-center{text-align: center}
+
 /* god clear float */
 
 .clearfix:after{
@@ -97,10 +99,8 @@ a:hover{
 }
 
 #container {
-    min-height: 100%;
     height: auto !important;
-    height: 100%;
-    margin: 0 auto -50px;
+    margin: 0 auto;
 }
 
 /* header */
@@ -342,7 +342,7 @@ a:hover{
 /* footer */
 
 #footer{
-	overflow: hidden;
+
 	margin: 10px auto;
 }
 
@@ -362,8 +362,6 @@ a:hover{
 	}
 	
 .links{
-	float: left;
-	width: 928px;
 	padding: 10px 15px;
 	border: 1px #ccc solid;
 	border-top:2px #ccc solid;
@@ -407,3 +405,8 @@ a:hover{
 /* tools */
 #tools {overflow:hidden;margin:0 auto;border:1px solid #888888;padding:5px;}
 #tools ul li {text-align: left;margin:0 5px;float:left;font-size:14px;width:220px;line-height: 25px;}
+
+/* box */
+.box {text-align: left;padding:10px;width:95%;background-color: #eeeeee;border:1px solid #cccccc; }
+.keywords a{margin-left:8px;}
+.keywords span{font-weight: bold;color:#356635;}

@@ -1,5 +1,5 @@
 from django.conf.urls import patterns, include, url
-from app.views import home,tools
+import dream
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
 # admin.autodiscover()
@@ -15,12 +15,8 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
     # url(r'^admin/', include(admin.site.urls)),
 
-    url(r'^jiemeng/', include('app.views.jiemeng.urls')),
-    url(r'^[/]?$',home.Index,name='index'),
-    url(r'^(?P<name>.+?)\.html$',home.HtmlIndex,name='html.index'),
-    url(r'^sitemap.txt$',home.Sitemap,name='sitemap'),
+    url(r'^[/]?$',dream.Index,name='dream.index'),
+    url(r'^detail/(?P<id>.+?)[/]?$',dream.Detail,name='dream.detail'),
+    url(r'^search[/]?$',dream.Search,name='dream.search'),
 
-    url(r'^ifconfig[/]?$',tools.ifconfig,name='ifconfig'),
-    url(r'^timer[/]?$',tools.timer,name='timer'),
-    url(r'^timer/(?P<timeLength>.+?)$',tools.timershow,name='timer.show'),
 )

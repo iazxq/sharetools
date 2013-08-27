@@ -6,6 +6,7 @@ from sharetools import settings
 SmsState = {'unread':u'未读',
             'readed':u'已读'}
 
+conn =  pymongo.Connection(settings.DATABASES['default']['HOST'],settings.DATABASES['default']['PORT'])
 
 Tools = {
     'jsdecoder':{'name':u'JavaScript代码格式化整理工具','content':u'JsDecoder工具可以将凌乱的JavaScript整理的整整齐齐，并且可以高亮显示。'},
@@ -35,8 +36,6 @@ Tools = {
     'upper':{'name':u'在线字母大小写转换工具','content':u'此工具可以将您输入的英文字母全部转换成大写或者小写字母。'},
     'refresh':{'name':u'在线定时刷新指定网页的工具','content':u'此工具可以根据用户设定的时间频率定时刷新指定的网页，非常适合用于刷票、增加网页浏览量等。'},
     'timer':{'name':u'在线倒计时工具','content':u'可自己定制的在线倒计时工具，可以自己指定倒计时的时常，计时结束会有提示音。'},
-
-
-
+    'jiemeng':{'name':u'在线周公解梦','content':u'免费的在线周公解梦平台，无论您昨晚做了什么梦，只要输入与梦境相关的词，我们就能帮您解梦，是吉是凶，是爱是恨，是真是假，是桃花还是劫难一切尽在周公解梦。','url':'/jiemeng/'},
 
     }

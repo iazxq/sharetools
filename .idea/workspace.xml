@@ -4,16 +4,16 @@
     <list default="true" id="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" name="Default" comment="" />
     <ignored path="sharetools.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/style.css" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376984410126" ignored="false" />
-    <file path="/site.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376983095853" ignored="false" />
-    <file path="/urls.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376965815588" ignored="false" />
-    <file path="/Dummy.txt" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376897256781" ignored="false" />
-    <file path="/home.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376893999102" ignored="false" />
-    <file path="/index.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376655136118" ignored="false" />
+    <file path="/style.css" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377593496601" ignored="false" />
+    <file path="/site.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377593514191" ignored="false" />
+    <file path="/urls.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377571924608" ignored="false" />
+    <file path="/Dummy.txt" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377495944394" ignored="false" />
+    <file path="/home.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377155111059" ignored="false" />
+    <file path="/index.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377592702874" ignored="false" />
     <file path="/periodic-table.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376621514325" ignored="false" />
-    <file path="/settings.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376664893447" ignored="false" />
+    <file path="/settings.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377567193505" ignored="false" />
     <file path="/jsdecoder.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376623429977" ignored="false" />
-    <file path="/config.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376982117925" ignored="false" />
+    <file path="/config.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377572046113" ignored="false" />
     <file path="/beautify-javascript.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376632379272" ignored="false" />
     <file path="/javascript-encrypt.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376636722991" ignored="false" />
     <file path="/web-color.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376637349102" ignored="false" />
@@ -21,12 +21,12 @@
     <file path="/pinyin.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376640348454" ignored="false" />
     <file path="/jinzhi.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376641048739" ignored="false" />
     <file path="/unit.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376641870533" ignored="false" />
-    <file path="/master.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376982936172" ignored="false" />
-    <file path="/menu.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376656458720" ignored="false" />
+    <file path="/master.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377572293091" ignored="false" />
+    <file path="/menu.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377592580902" ignored="false" />
     <file path="/html2js.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376877703973" ignored="false" />
     <file path="/md5.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376657537976" ignored="false" />
     <file path="/base64.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376657628078" ignored="false" />
-    <file path="/head.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376660232791" ignored="false" />
+    <file path="/head.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377592641718" ignored="false" />
     <file path="$PROJECT_DIR$/../sharejs/views/home.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376661853156" ignored="false" />
     <file path="$PROJECT_DIR$/../sharejs/views/admin/article.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376660467549" ignored="false" />
     <file path="/article.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376660535265" ignored="false" />
@@ -48,14 +48,83 @@
     <file path="/sitemap.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376891611737" ignored="false" />
     <file path="/tools.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376968048347" ignored="false" />
     <file path="/ifconfig.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376898930797" ignored="false" />
-    <file path="/tags.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376896265310" ignored="false" />
+    <file path="/tags.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377153639563" ignored="false" />
     <file path="/func.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376964614998" ignored="false" />
     <file path="/timer.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376967886619" ignored="false" />
     <file path="/timer-show.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376964579134" ignored="false" />
-    <file path="/validator.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376963948445" ignored="false" />
+    <file path="/validator.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377136442546" ignored="false" />
     <file path="$PROJECT_DIR$/../touchbandao2/app/views/news.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376980957385" ignored="false" />
     <file path="/ruler.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376985247462" ignored="false" />
     <file path="/simple_site.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376984194757" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptweb/app/service/keyword_export.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377217877070" ignored="false" />
+    <file path="/keyword_export.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377159215115" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptweb/app/common/validator.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377137403259" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptweb/app/facade/indexer.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377223798985" ignored="false" />
+    <file path="/indexer.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377223171559" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptweb/app/facade/ppt.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377223776740" ignored="false" />
+    <file path="/ppt.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377223794493" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptweb/app/repository/ppt.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377223794493" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptweb/indexdir/lastread.txt" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377053572909" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptweb/pptweb/settings.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377053206322" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptweb/app/views/main/home.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377155111059" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptweb/app/facade/searcher.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377069888556" ignored="false" />
+    <file path="/searcher.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377069888556" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptweb/app/common/seg.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377054037385" ignored="false" />
+    <file path="/seg.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377590790310" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptweb/app/facade/factory.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377054112849" ignored="false" />
+    <file path="/factory.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377570725118" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptweb/templates/search.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377155306597" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptweb/pptweb/urls.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377054479785" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptweb/templates/shared/site.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377156819193" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptweb/app/templatetags/filter.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377485674919" ignored="false" />
+    <file path="/filter.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377065458690" ignored="false" />
+    <file path="/search.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377592708073" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptweb/app/common/main.dic" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377134353567" ignored="false" />
+    <file path="/main.dic" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377070061581" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptweb/templates/last.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377155356027" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptweb/templates/common/left.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377070741878" ignored="false" />
+    <file path="/left.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377070741878" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptweb/app/common/suffix.dic" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377071353505" ignored="false" />
+    <file path="/suffix.dic" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377071349301" ignored="false" />
+    <file path="/last.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377155285122" ignored="false" />
+    <file path="/ppt_detail.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377141385427" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptweb/templates/ppt_detail.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377154959323" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptweb/templates/tag_list.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377151553356" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptweb/templates/shared/ppt_item.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377487838655" ignored="false" />
+    <file path="/ppt_item.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377487783205" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptweb/app/templatetags/tags.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377153700130" ignored="false" />
+    <file path="/tag_list.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377151552446" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptweb/static/css/style.css" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377485551290" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptweb/templates/home.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377157244997" ignored="false" />
+    <file path="/home.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377157104354" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptweb/templates/shared/hot_keywords.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377153570241" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptweb/templates/shared/master.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377156996232" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptweb/templates/common/pager.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377157772411" ignored="false" />
+    <file path="/pager.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377157772411" ignored="false" />
+    <file path="$PROJECT_DIR$/../newssync/sync.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377259964902" ignored="false" />
+    <file path="$PROJECT_DIR$/../autoblog/sinablog.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377236149863" ignored="false" />
+    <file path="/sinablog.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377236147241" ignored="false" />
+    <file path="$PROJECT_DIR$/../newssync/sina.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377244841532" ignored="false" />
+    <file path="/sina.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377244699656" ignored="false" />
+    <file path="/sync.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377259846507" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptcrawl/dmoz/spiders/dmoz_spider.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377609507015" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptcrawl/dmoz/settings.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377500743830" ignored="false" />
+    <file path="/dmoz_spider.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377585280156" ignored="false" />
+    <file path="$PROJECT_DIR$/../pptcrawl/keyword.txt" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377500257799" ignored="false" />
+    <file path="/keyword.txt" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377500183365" ignored="false" />
+    <file path="$PROJECT_DIR$/../pdedu/app/views/admin/urls.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377495936130" ignored="false" />
+    <file path="$PROJECT_DIR$/../pdedu/app/common/func.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377495936130" ignored="false" />
+    <file path="$PROJECT_DIR$/../pdedu/app/views/admin/person.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377495936130" ignored="false" />
+    <file path="$PROJECT_DIR$/../pdedu/templates/admin/person_detail.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377495936130" ignored="false" />
+    <file path="$PROJECT_DIR$/../pdedu/templates/admin/person_list.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377495936130" ignored="false" />
+    <file path="$PROJECT_DIR$/../pdedu/templates/admin/site.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377495936130" ignored="false" />
+    <file path="/dream.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377591362515" ignored="false" />
+    <file path="/tools_list.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377572224788" ignored="false" />
+    <file path="/db.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377573406084" ignored="false" />
+    <file path="/detail.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377592697566" ignored="false" />
+    <file path="/service.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377590203069" ignored="false" />
+    <file path="/smallseg.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377590657149" ignored="false" />
+    <file path="/search-form.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377591565178" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,10 +144,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/common/config.py">
+      <file leaf-file-name="detail.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/dream/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="2906" selection-end="2906" vertical-scroll-proportion="0.7013142">
+            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="-0.0">
+              <folding>
+                <element signature="e#258#296#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/dream/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/dream/search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -87,74 +176,68 @@
       <file leaf-file-name="site.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/shared/site.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="30" selection-start="1809" selection-end="2816" vertical-scroll-proportion="-16.264706">
+            <state line="61" column="25" selection-start="1951" selection-end="1951" vertical-scroll-proportion="-6.2647057">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dream.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/jiemeng/dream.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="59" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0">
               <folding>
+                <element signature="e#53#94#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="393" column="0" selection-start="6076" selection-end="6076" vertical-scroll-proportion="0.39937598">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search-form.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/dream/search-form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="49" selection-start="129" selection-end="129" vertical-scroll-proportion="-1.4705882">
+              <folding>
+                <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/dream/site.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="23" selection-start="1960" selection-end="1960" vertical-scroll-proportion="-7.7058825">
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <file leaf-file-name="head.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/dream/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="20" column="25" selection-start="795" selection-end="795" vertical-scroll-proportion="-10.294118">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="menu.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/shared/menu.html">
+        <entry file="file://$PROJECT_DIR$/templates/dream/menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/template.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="107" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="head.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/shared/head.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="simple_site.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/shared/simple_site.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="1067" selection-end="1067" vertical-scroll-proportion="-24.264706">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="17" selection-start="1135" selection-end="1135" vertical-scroll-proportion="-16.035715">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="html2js.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/html2js.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="9" column="21" selection-start="543" selection-end="543" vertical-scroll-proportion="-6.617647">
               <folding />
             </state>
           </provider>
@@ -170,30 +253,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/templates/ifconfig.html" />
-        <option value="$PROJECT_DIR$/app/common/validator.py" />
-        <option value="$PROJECT_DIR$/templates/timer-show.html" />
-        <option value="$PROJECT_DIR$/app/common/func.py" />
-        <option value="$PROJECT_DIR$/static/p/timer/Egg3.min.js" />
-        <option value="$PROJECT_DIR$/static/p/timer/Time.min.js" />
-        <option value="$PROJECT_DIR$/static/p/timer/timer.css" />
-        <option value="$PROJECT_DIR$/sharetools/urls.py" />
-        <option value="$PROJECT_DIR$/templates/timer.html" />
-        <option value="$PROJECT_DIR$/app/views/tools.py" />
-        <option value="$PROJECT_DIR$/templates/shared/master.html" />
+        <option value="$PROJECT_DIR$/app/templatetags/filter.py" />
+        <option value="$PROJECT_DIR$/app/facade/dream.py" />
+        <option value="$PROJECT_DIR$/app/service.py" />
+        <option value="$PROJECT_DIR$/app/repository/dream.py" />
+        <option value="$PROJECT_DIR$/app/common/smallseg.py" />
+        <option value="$PROJECT_DIR$/app/common/seg.py" />
+        <option value="$PROJECT_DIR$/app/views/jiemeng/dream.py" />
+        <option value="$PROJECT_DIR$/templates/dream/search-form.html" />
+        <option value="$PROJECT_DIR$/templates/dream/menu.html" />
+        <option value="$PROJECT_DIR$/templates/dream/head.html" />
+        <option value="$PROJECT_DIR$/templates/dream/detail.html" />
+        <option value="$PROJECT_DIR$/templates/dream/index.html" />
+        <option value="$PROJECT_DIR$/templates/dream/search.html" />
         <option value="$PROJECT_DIR$/templates/shared/site.html" />
+        <option value="$PROJECT_DIR$/templates/dream/site.html" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
-        <option value="$PROJECT_DIR$/templates/shared/simple_site.html" />
-        <option value="$PROJECT_DIR$/templates/ruler.html" />
-        <option value="$PROJECT_DIR$/app/common/config.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-4" />
     <option name="y" value="-4" />
-    <option name="width" value="1692" />
-    <option name="height" value="1062" />
+    <option name="width" value="1928" />
+    <option name="height" value="1156" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -281,11 +364,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="p" />
+              <option name="myItemId" value="dream" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -300,6 +383,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharetools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharetools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharetools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharetools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharetools" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -331,7 +446,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -347,14 +462,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\work\project\formal\sharetools\static\p\ruler" />
-      <recent name="D:\work\project\formal\sharetools\templates\shared" />
-      <recent name="D:\work\project\formal\sharetools\templates" />
-      <recent name="D:\work\project\formal\sharetools\static\p\timer" />
-      <recent name="D:\work\project\formal\sharetools" />
+      <recent name="D:\work\project\formal\sharetools\templates\dream" />
+      <recent name="D:\work\project\formal\sharetools\app\common" />
+      <recent name="D:\work\project\formal\sharetools\app\views\jiemeng" />
+      <recent name="D:\work\project\formal\sharetools\app\facade" />
+      <recent name="D:\work\project\formal\sharetools\app\repository" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\project\formal\sharetools\app\views\jiemeng" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.t1">
+  <component name="RunManager" selected="Python.seg">
     <configuration default="false" name="t1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -393,6 +511,44 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="seg" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sharetools" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/common/seg.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="service" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sharetools" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/service.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -408,29 +564,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="sharetools" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
@@ -454,6 +587,29 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sharetools" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -506,15 +662,19 @@
       <option name="customRunCommand" value="" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Django server.sharetools" />
       <item index="1" class="java.lang.String" itemvalue="Python.t1" />
       <item index="2" class="java.lang.String" itemvalue="Python.t2_format" />
+      <item index="3" class="java.lang.String" itemvalue="Python.seg" />
+      <item index="4" class="java.lang.String" itemvalue="Python.service" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.t1" />
-        <item index="1" class="java.lang.String" itemvalue="Python.t2_format" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.seg" />
+        <item index="1" class="java.lang.String" itemvalue="Python.service" />
+        <item index="2" class="java.lang.String" itemvalue="Python.t1" />
+        <item index="3" class="java.lang.String" itemvalue="Python.t2_format" />
       </list>
     </recent_temporary>
   </component>
@@ -528,18 +688,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1692" height="1062" extended-state="0" />
-    <editor active="true" />
+    <frame x="-4" y="-4" width="1928" height="1156" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2637699" sideWeight="0.6718232" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23368984" sideWeight="0.7247247" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32795697" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2752753" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -608,123 +768,124 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/unit.html">
+    <entry file="file://$PROJECT_DIR$/app/views/home.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="23" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/timer.html">
+    <entry file="file://$PROJECT_DIR$/app/service.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="24" selection-start="806" selection-end="806" vertical-scroll-proportion="-12.970589">
+        <state line="7" column="24" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/common/suffix.dic">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="1" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/common/smallseg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="107" selection-start="1533" selection-end="1533" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/common/seg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="21" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#439#459#0" expanded="true" />
-            <element signature="e#481#501#0" expanded="true" />
-            <element signature="e#746#766#0" expanded="true" />
+            <element signature="e#25#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tools.py">
+    <entry file="file://$PROJECT_DIR$/app/repository/dream.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="866" selection-end="866" vertical-scroll-proportion="0.0">
+        <state line="39" column="44" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/jiemeng/dream.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="59" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#53#94#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/shared/head.html">
+    <entry file="file://$PROJECT_DIR$/templates/dream/search-form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/html2js.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/p/ruler/ga.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/p/ruler/widget115.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="2" column="49" selection-start="129" selection-end="129" vertical-scroll-proportion="-1.4705882">
           <folding>
-            <element signature="e#1082#1273#2" expanded="true" />
-            <element signature="e#36479#36670#2" expanded="true" />
-            <element signature="e#37220#37387#1" expanded="true" />
-            <element signature="e#39729#40336#1" expanded="true" />
-            <element signature="e#42088#42379#1" expanded="true" />
-            <element signature="e#42509#42616#1" expanded="true" />
-            <element signature="e#43312#43583#1" expanded="true" />
-            <element signature="e#43632#44023#1" expanded="true" />
-            <element signature="e#44070#44273#1" expanded="true" />
-            <element signature="e#47285#49620#1" expanded="true" />
-            <element signature="e#49933#50320#1" expanded="true" />
-            <element signature="e#50743#50934#2" expanded="true" />
-            <element signature="e#52385#52492#1" expanded="true" />
-            <element signature="e#53137#53580#2" expanded="true" />
-            <element signature="e#53988#54179#2" expanded="true" />
-            <element signature="e#56870#57061#2" expanded="true" />
-            <element signature="e#57124#57315#2" expanded="true" />
-            <element signature="e#58815#60370#2" expanded="true" />
-            <element signature="e#62177#62532#2" expanded="true" />
-            <element signature="e#65223#65330#1" expanded="true" />
-            <element signature="e#65685#65780#1" expanded="true" />
-            <element signature="e#68968#70551#2" expanded="true" />
-            <element signature="e#71720#71931#1" expanded="true" />
-            <element signature="e#72018#72125#1" expanded="true" />
-            <element signature="e#73085#75228#2" expanded="true" />
-            <element signature="e#75383#76962#2" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/template.html">
+    <entry file="file://$PROJECT_DIR$/templates/dream/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="107" vertical-scroll-proportion="-0.0">
+        <state line="9" column="21" selection-start="543" selection-end="543" vertical-scroll-proportion="-6.617647">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/shared/master.html">
+    <entry file="file://$PROJECT_DIR$/templates/dream/head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="567" selection-end="611" vertical-scroll-proportion="0.373599">
+        <state line="20" column="25" selection-start="795" selection-end="795" vertical-scroll-proportion="-10.294118">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/shared/menu.html">
+    <entry file="file://$PROJECT_DIR$/templates/dream/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="-0.0">
+          <folding>
+            <element signature="e#258#296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dream/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dream/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/shared/site.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="30" selection-start="1809" selection-end="2816" vertical-scroll-proportion="-16.264706">
+        <state line="61" column="25" selection-start="1951" selection-end="1951" vertical-scroll-proportion="-6.2647057">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dream/site.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="23" selection-start="1960" selection-end="1960" vertical-scroll-proportion="-7.7058825">
           <folding>
+            <element signature="n#style#0;n#h2#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -732,23 +893,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="17" selection-start="1135" selection-end="1135" vertical-scroll-proportion="-16.035715">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/shared/simple_site.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1067" selection-end="1067" vertical-scroll-proportion="-24.264706">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/common/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="2906" selection-end="2906" vertical-scroll-proportion="0.7013142">
+        <state line="393" column="0" selection-start="6076" selection-end="6076" vertical-scroll-proportion="0.39937598">
           <folding />
         </state>
       </provider>

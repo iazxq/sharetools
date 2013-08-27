@@ -149,6 +149,12 @@ def get_percent(value,maxValue):
     return float(value)/maxValue*100
 register.filter(get_percent)
 
+@register.filter
+def mongo_id(value):
+    '''返回mongo的_id属性'''
+    return value.get('_id','')
+register.filter(mongo_id)
+
 
 if __name__ == "__main__":
     print(left_str(u'aab我们都是害虫333',12))

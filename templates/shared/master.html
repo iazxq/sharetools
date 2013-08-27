@@ -18,16 +18,7 @@
 
 <!--body-->
 <div id="wrapper" class="mh" >
- <div class="current_nav">
-   <ul class="ulcl"><li> 在线小工具列表：</li></ul>
- </div>
-<div id="tools">
-    <ul class="ulcl">
-        {% for key,value in tools.items %}
-        <li> + <a href="./{{ key }}.html">{{ value.name }}</a></li>
-        {% endfor %}
-    </ul>
-</div>
+{% include 'shared/tools_list.html' %}
 <!--body end-->
 </div>
 
