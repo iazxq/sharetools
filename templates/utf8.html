@@ -1,0 +1,45 @@
+{% extends "shared/site.html" %}
+{% block head %}
+    <script type="text/javascript">
+    function ConvUtf(obj, btn) {
+        document.getElementById("result").value = obj.value.replace(/[^\u0000-\u00FF]/g, function ($0) { return escape($0).replace(/(%u)(\w{4})/gi, "&#x$2;") });
+    }
+    function ResChinese(obj, btn) {
+        document.getElementById("content").value = unescape(obj.value.replace(/&#x/g, '%u').replace(/;/g, ''));
+    }
+    function preview() {
+        var win = window.open();
+        win.document.open('text/html', 'replace');
+        win.document.writeln(content.value);
+        win.document.close();
+    }
+</script>
+
+{% endblock %}
+
+
+{% block main-content %}
+<form method="post" id="form1">
+<div class="box">
+      <div id="b_1">
+           <div class="box1">
+               <div  style="padding-top:10px;">
+                <textarea id="content" name="content" style="width:95%;height:150px;padding:5px;" cols="20" rows="15">请填写您要转换的中文内容。</textarea>
+                </div>
+                <div style="margin-left:2px;padding:2px 0px 0px 0px;">
+                <input  id="conv" type="button" style="width:150px;" value="中文 转换 UTF-8 ↓" onclick="ConvUtf(content,this);"/>
+                <input  id="res" type="button" style="width:150px;" value="UTF-8 还原 中文 ↑" onclick="ResChinese(result,this);" />
+               </div>
+               <div>
+                <textarea id="result" name="result" style="width:95%;height:150px;padding:5px;" rows="15"></textarea>
+              </div>
+               <div style="margin-left:2px;padding:2px 0px 0px 0px;">
+               <input class="but2" id="pre" type="button" value="预览转换代码" onclick="preview();" />
+               </div>
+           </div>
+   </div>
+   </div>
+
+</form>
+
+{% endblock %}
