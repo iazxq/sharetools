@@ -8,7 +8,7 @@
         {% if value.url %}
          <li> + <a href="{{ value.url }}">{{ value.name }}</a></li>
         {% else %}
-        <li> + <a href="/{{ key }}.html">{{ value.name }}</a></li>
+        <li> + <a href="/{{ key }}.html" class="{{ colorClassList|random }}">{{ value.name }}</a></li>
         {% endif %}
         {% endfor %}
     </ul>

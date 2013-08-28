@@ -1,7 +1,11 @@
-    <div class="box">
+{% load dream_tags %}
+<div class="box">
         <div class="padding-10">
     <form method="get" action="{% url 'dream.search' %}">
-        <input type="text" name="jiemeng" value="" style="padding:4px;width:300px" /> <input type="submit" value="解梦" style="padding:4px 8px;"/>
+        <input type="text" name="jiemeng" value="{{ keyword }}" style="padding:4px;width:300px" /> <input type="submit" value="解梦" style="padding:4px 8px;"/>
+        <input type="button" value="随机解梦" style="padding:4px 8px;" onclick="javascript:location.href='{% url 'dream.search' %}'" />
+        大家都梦到了：{% hot_keywords count=6 %}
     </form>
+
             </div>
     </div>

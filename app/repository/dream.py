@@ -2,6 +2,7 @@
 import pymongo
 from bson.objectid import ObjectId
 from db import DB
+import random
 
 class DreamRepository(DB):
 
@@ -21,7 +22,11 @@ class DreamRepository(DB):
         self.table.remove({'_id':ObjectId(id)})
         return True
 
-    def Search(self,cat=None,title=None,keywords=None,sort='_id',desc=True,start=0,count=10):
+
+    def AddHit(self,id):
+        return self.table.update({'_id':ObjectId(id)},{'$inc':{'hit':1}})
+
+    def Search(self,cat=None,title=None,keywords=None,sort='_id',desc=True,start=0,randomStart=False,count=10):
         condition = {}
         if cat:
             condition['cat'] = cat
@@ -41,11 +46,12 @@ class DreamRepository(DB):
 
         #满足条件的总记录数
         totalCount = cur.count()
-        print('total:%s'%totalCount)
         #设定排序
         sortType = pymongo.ASCENDING
         if desc:
             sortType = pymongo.DESCENDING
+        if randomStart:
+            start = random.randint(0,totalCount)
         cur = cur.skip(start).limit(count).sort(sort, sortType)
         recordList =list()
         for item in cur:

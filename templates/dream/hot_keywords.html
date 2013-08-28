@@ -1,0 +1,4 @@
+{% load filter %}
+{% for item in dreams.list %}
+    <a href="{% url 'dream.detail' id=item|mongo_id %}" class="{{ keywordClassList|random }}">{{ item.title }}</a>
+{% endfor %}

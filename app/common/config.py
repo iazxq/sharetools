@@ -6,6 +6,8 @@ from sharetools import settings
 SmsState = {'unread':u'未读',
             'readed':u'已读'}
 
+FontClassList = ('f1','f2','f3','f4','f5','f6','f7','f8','f9','f10','f11','f12')
+ColorClassList = ('c1','c2','c3','c4','c5','c6','c7','c8','c9','c10','c11','c12')
 
 conn =  pymongo.Connection(settings.DATABASES['default']['HOST'],settings.DATABASES['default']['PORT'])
 

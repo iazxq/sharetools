@@ -7,5 +7,7 @@ register = template.Library()
 def tools_list(context):
     request = context['request']
     tools = config.Tools
+    colorClassList = config.ColorClassList
     return locals()
+
 

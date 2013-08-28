@@ -1,13 +1,29 @@
 {% extends "dream/site.html" %}
+{% load filter %}
 {% block head %}
 {% endblock %}
+{% block nav %}<a href="{% url 'dream.search' %}?jiemeng={{ keyword }}">搜索：{{ keyword }}的解梦</a>{% endblock %}
 
 
 {% block main-content %}
 {% include "dream/search-form.html" %}
     
     {% if not dreams.list %}
-        <div>没有找到您相关的解梦信息，请尝试输入一个较短与梦有关的关键词，比如梦见了美女，输入“美女”</div>
+        <div class="h20"></div>
+        <div >没有找到{{ keyword }}相关的解梦信息，请尝试输入一个较短与梦有关的关键词，比如梦见了美女，输入“美女”</div>
+        <div class="h20"></div>
+        {% if relatedDreams %}
+        <div class="box">
+            <div class="padding-10">
+            <div class="keywords">
+                <span>您是不是要找这些解梦信息：</span>
+                {% for item in dreams.list %}
+                    <a href="{% url 'dream.detail' id=item|mongo_id %}" class="{{ keywordClassList|random }}">{{ item.title }}</a>
+                {% endfor %}
+            </div>
+            </div>
+        </div>
+        {% endif %}
     {% endif %}
 
 {% endblock %}

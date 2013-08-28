@@ -16,10 +16,10 @@
     <div class="box">
         <div class="padding-10">
             <div class="keywords"><span>与{{ dream.title }}相关的词解梦：</span>{% for item in relatedDreams.list %}
-                <a href="{% url 'dream.detail' id=item|mongo_id %}">{{ item.title }}</a> {% endfor %}</div>
+                <a href="{% url 'dream.detail' id=item|mongo_id %}" class="{{ keywordClassList|random }}">{{ item.title }}</a> {% endfor %}</div>
             <div class="h20"></div>
             <div class="keywords"><span>与{{ dream.title }}同类的词解梦：</span>{% for item in catDreams.list %}
-                <a href="{% url 'dream.detail' id=item|mongo_id %}">{{ item.title }}</a> {% endfor %}</div>
+                <a href="{% url 'dream.detail' id=item|mongo_id %}" class="{{ keywordClassList|random }}">{{ item.title }}</a> {% endfor %}</div>
         </div>
     </div>
 
