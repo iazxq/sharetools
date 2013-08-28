@@ -21,34 +21,16 @@
  <div class="hl_wrap"> </div>
      <div class="current_nav">
                 <ul class="ulcl">
-                    <li><a href="http://www.sharejs.com">脚本分享网</a></li>
-                    <li> > </li>
                     <li><a href="/">在线小工具</a></li>
                     <li> > </li>
                     <li><a href="{% if tool.url %}{{ tool.url }}{% else %}./{{ name }}.html{% endif %}">{{ tool.name }}</a></li>
+                    <li> > </li>
+                    <li> {% block nav %}{% endblock %} </li>
                 </ul>
             </div>
-<div class="h30"> </div>
+
 
 <div id="wrapper" class="mh" >
-<h2 style="text-align: center">{{ tool.name }}</h2>
-<div class="h20"></div>
-<div class="content">{{ tool.content }}</div>
-<div class="h20"></div>
-<div style="text-align: center">
-<script type="text/javascript"><!--
-google_ad_client = "ca-pub-0652501482160045";
-/* 728x90, 创建于 08-12-25 */
-google_ad_slot = "3889147664";
-google_ad_width = 728;
-google_ad_height = 90;
-//-->
-</script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-</div>
-<div class="h20"></div>
 {% block main-content %}{% endblock %}
 </div>
 <!--body end-->
@@ -59,7 +41,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <!--footer-->
  <div id="footer">
-      <div class="links">
+    <div class="links">
     <span class="link">
         合作网站：
             <a href="http://club.sharejs.com" target="_blank">开发者社区</a>

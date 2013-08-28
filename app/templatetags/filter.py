@@ -149,11 +149,18 @@ def get_percent(value,maxValue):
     return float(value)/maxValue*100
 register.filter(get_percent)
 
-@register.filter
 def mongo_id(value):
     '''返回mongo的_id属性'''
     return value.get('_id','')
 register.filter(mongo_id)
+
+
+def format_description(value):
+    return value.replace('"','').replace("'",'')
+register.filter(format_description)
+
+
+
 
 
 if __name__ == "__main__":

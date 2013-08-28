@@ -7,7 +7,7 @@ SmsState = {'unread':u'未读',
             'readed':u'已读'}
 
 
-#Conn =  pymongo.Connection(settings.DATABASES['default']['HOST'],settings.DATABASES['default']['PORT'])
+conn =  pymongo.Connection(settings.DATABASES['default']['HOST'],settings.DATABASES['default']['PORT'])
 
 Tools = {
     'jsdecoder':{'name':u'JavaScript代码格式化整理工具','content':u'JsDecoder工具可以将凌乱的JavaScript整理的整整齐齐，并且可以高亮显示。'},

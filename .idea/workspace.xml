@@ -4,16 +4,16 @@
     <list default="true" id="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" name="Default" comment="" />
     <ignored path="sharetools.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/style.css" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377593496601" ignored="false" />
-    <file path="/site.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377593514191" ignored="false" />
-    <file path="/urls.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377571924608" ignored="false" />
+    <file path="/style.css" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377613199536" ignored="false" />
+    <file path="/site.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377614538865" ignored="false" />
+    <file path="/urls.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377613974701" ignored="false" />
     <file path="/Dummy.txt" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377495944394" ignored="false" />
     <file path="/home.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377155111059" ignored="false" />
     <file path="/index.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377592702874" ignored="false" />
     <file path="/periodic-table.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376621514325" ignored="false" />
     <file path="/settings.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377567193505" ignored="false" />
     <file path="/jsdecoder.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376623429977" ignored="false" />
-    <file path="/config.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377611885911" ignored="false" />
+    <file path="/config.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377612587262" ignored="false" />
     <file path="/beautify-javascript.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376632379272" ignored="false" />
     <file path="/javascript-encrypt.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376636722991" ignored="false" />
     <file path="/web-color.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376637349102" ignored="false" />
@@ -22,7 +22,7 @@
     <file path="/jinzhi.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376641048739" ignored="false" />
     <file path="/unit.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376641870533" ignored="false" />
     <file path="/master.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377572293091" ignored="false" />
-    <file path="/menu.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377592580902" ignored="false" />
+    <file path="/menu.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377614302206" ignored="false" />
     <file path="/html2js.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376877703973" ignored="false" />
     <file path="/md5.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376657537976" ignored="false" />
     <file path="/base64.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1376657628078" ignored="false" />
@@ -77,7 +77,7 @@
     <file path="$PROJECT_DIR$/../pptweb/pptweb/urls.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377054479785" ignored="false" />
     <file path="$PROJECT_DIR$/../pptweb/templates/shared/site.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377156819193" ignored="false" />
     <file path="$PROJECT_DIR$/../pptweb/app/templatetags/filter.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377485674919" ignored="false" />
-    <file path="/filter.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377065458690" ignored="false" />
+    <file path="/filter.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377613857592" ignored="false" />
     <file path="/search.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377592708073" ignored="false" />
     <file path="$PROJECT_DIR$/../pptweb/app/common/main.dic" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377134353567" ignored="false" />
     <file path="/main.dic" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377070061581" ignored="false" />
@@ -118,13 +118,14 @@
     <file path="$PROJECT_DIR$/../pdedu/templates/admin/person_detail.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377495936130" ignored="false" />
     <file path="$PROJECT_DIR$/../pdedu/templates/admin/person_list.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377495936130" ignored="false" />
     <file path="$PROJECT_DIR$/../pdedu/templates/admin/site.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377495936130" ignored="false" />
-    <file path="/dream.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377591362515" ignored="false" />
+    <file path="/dream.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377615162109" ignored="false" />
     <file path="/tools_list.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377572224788" ignored="false" />
     <file path="/db.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377573406084" ignored="false" />
-    <file path="/detail.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377592697566" ignored="false" />
+    <file path="/detail.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377615292974" ignored="false" />
     <file path="/service.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377590203069" ignored="false" />
     <file path="/smallseg.py" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377590657149" ignored="false" />
-    <file path="/search-form.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377591565178" ignored="false" />
+    <file path="/search-form.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377613226642" ignored="false" />
+    <file path="/cat.html" changelist="7b08bfd9-83a1-4e4d-9d2a-e1bdb6e632dc" time="1377615280839" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,60 +145,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/common/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="1" selection-start="160" selection-end="160" vertical-scroll-proportion="0.30487806">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detail.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="detail.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/dream/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="-0.0">
-              <folding>
-                <element signature="e#258#296#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/dream/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="-0.0">
+            <state line="8" column="64" selection-start="529" selection-end="529" vertical-scroll-proportion="0.22296543">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/dream/search.html">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/jiemeng/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="site.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/shared/site.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="30" selection-start="2922" selection-end="2922" vertical-scroll-proportion="-63.97059">
+            <state line="20" column="28" selection-start="782" selection-end="782" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="n#style#0;n#h2#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#0#51#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gvar.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/common/gvar.py">
+      <file leaf-file-name="dream.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/jiemeng/dream.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="21" column="18" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#53#94#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cat.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/dream/cat.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="57" selection-start="139" selection-end="139" vertical-scroll-proportion="-2.9411764">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filter.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templatetags/filter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="156" column="0" selection-start="3445" selection-end="3445" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -206,8 +197,20 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="405" column="0" selection-start="6219" selection-end="6219" vertical-scroll-proportion="-9.5">
+            <state line="410" column="0" selection-start="6425" selection-end="6425" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search-form.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/dream/search-form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="18" selection-start="288" selection-end="288" vertical-scroll-proportion="-3.6764705">
+              <folding>
+                <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -215,19 +218,7 @@
       <file leaf-file-name="site.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/dream/site.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="23" selection-start="1960" selection-end="1960" vertical-scroll-proportion="-7.7058825">
-              <folding>
-                <element signature="n#style#0;n#h2#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="head.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/dream/head.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="25" selection-start="795" selection-end="795" vertical-scroll-proportion="-10.294118">
+            <state line="27" column="40" selection-start="1159" selection-end="1159" vertical-scroll-proportion="-19.852942">
               <folding />
             </state>
           </provider>
@@ -236,7 +227,16 @@
       <file leaf-file-name="menu.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/dream/menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="21" selection-start="543" selection-end="543" vertical-scroll-proportion="-6.617647">
+            <state line="14" column="66" selection-start="973" selection-end="973" vertical-scroll-proportion="-10.294118">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/dream/head.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="18" selection-start="415" selection-end="415" vertical-scroll-proportion="-5.882353">
               <folding />
             </state>
           </provider>
@@ -252,22 +252,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/facade/dream.py" />
-        <option value="$PROJECT_DIR$/app/service.py" />
-        <option value="$PROJECT_DIR$/app/repository/dream.py" />
         <option value="$PROJECT_DIR$/app/common/smallseg.py" />
         <option value="$PROJECT_DIR$/app/common/seg.py" />
-        <option value="$PROJECT_DIR$/app/views/jiemeng/dream.py" />
-        <option value="$PROJECT_DIR$/templates/dream/search-form.html" />
-        <option value="$PROJECT_DIR$/templates/dream/menu.html" />
         <option value="$PROJECT_DIR$/templates/dream/head.html" />
-        <option value="$PROJECT_DIR$/templates/dream/detail.html" />
         <option value="$PROJECT_DIR$/templates/dream/index.html" />
         <option value="$PROJECT_DIR$/templates/dream/search.html" />
         <option value="$PROJECT_DIR$/templates/shared/site.html" />
-        <option value="$PROJECT_DIR$/templates/dream/site.html" />
-        <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/app/common/config.py" />
+        <option value="$PROJECT_DIR$/static/css/style.css" />
+        <option value="$PROJECT_DIR$/templates/dream/search-form.html" />
+        <option value="$PROJECT_DIR$/app/templatetags/filter.py" />
+        <option value="$PROJECT_DIR$/templates/dream/menu.html" />
+        <option value="$PROJECT_DIR$/app/views/jiemeng/urls.py" />
+        <option value="$PROJECT_DIR$/templates/dream/site.html" />
+        <option value="$PROJECT_DIR$/app/views/jiemeng/dream.py" />
+        <option value="$PROJECT_DIR$/templates/dream/cat.html" />
+        <option value="$PROJECT_DIR$/templates/dream/detail.html" />
       </list>
     </option>
   </component>
@@ -445,7 +445,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -565,29 +565,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="sharetools" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -609,6 +586,29 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sharetools" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -694,11 +694,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23368984" sideWeight="0.7247247" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23636363" sideWeight="0.7247247" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2752753" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27441406" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -772,117 +772,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/common/suffix.dic">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="1" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/common/smallseg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="107" selection-start="1533" selection-end="1533" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/common/seg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="21" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#25#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/repository/dream.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="44" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#24#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/jiemeng/dream.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="59" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#53#94#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dream/search-form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="49" selection-start="129" selection-end="129" vertical-scroll-proportion="-1.4705882">
-          <folding>
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dream/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="21" selection-start="543" selection-end="543" vertical-scroll-proportion="-6.617647">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dream/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="25" selection-start="795" selection-end="795" vertical-scroll-proportion="-10.294118">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dream/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="-0.0">
-          <folding>
-            <element signature="e#258#296#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dream/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/dream/search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="-0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dream/site.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="23" selection-start="1960" selection-end="1960" vertical-scroll-proportion="-7.7058825">
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="405" column="0" selection-start="6219" selection-end="6219" vertical-scroll-proportion="-9.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/shared/site.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="30" selection-start="2922" selection-end="2922" vertical-scroll-proportion="-63.97059">
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -893,9 +786,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="16" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/common/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="160" selection-end="160" vertical-scroll-proportion="0.30487806">
+        <state line="9" column="1" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/shared/site.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="30" selection-start="2922" selection-end="2922" vertical-scroll-proportion="-19.764706">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dream/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="-5.147059">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dream/search-form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="18" selection-start="288" selection-end="288" vertical-scroll-proportion="-3.6764705">
+          <folding>
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templatetags/filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="156" column="0" selection-start="3445" selection-end="3445" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dream/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="415" selection-end="415" vertical-scroll-proportion="-5.882353">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dream/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="66" selection-start="973" selection-end="973" vertical-scroll-proportion="-10.294118">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="410" column="0" selection-start="6425" selection-end="6425" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/jiemeng/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="28" selection-start="782" selection-end="782" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dream/site.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="40" selection-start="1159" selection-end="1159" vertical-scroll-proportion="-19.852942">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/jiemeng/dream.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="18" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#53#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dream/cat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="57" selection-start="139" selection-end="139" vertical-scroll-proportion="-2.9411764">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dream/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="64" selection-start="529" selection-end="529" vertical-scroll-proportion="0.22296543">
           <folding />
         </state>
       </provider>

@@ -1,0 +1,21 @@
+{% extends "dream/site.html" %}
+{% load filter %}
+{% block head %}
+{% endblock %}
+{% block nav %}<a href="{% url 'dream.cat' cat=cat %}">梦见{{ catName }}</a>{% endblock %}
+
+
+{% block main-content %}
+{% include "dream/search-form.html" %}
+
+<div class="box">
+<div class="padding-10">
+<div class="keywords">
+    {% for item in dreams.list %}
+        <a href="{% url 'dream.detail' id=item|mongo_id %}">{{ item.title }}</a>
+    {% endfor %}
+</div>
+</div>
+</div>
+
+{% endblock %}

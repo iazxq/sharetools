@@ -16,7 +16,8 @@ urlpatterns = patterns('',
     # url(r'^admin/', include(admin.site.urls)),
 
     url(r'^[/]?$',dream.Index,name='dream.index'),
-    url(r'^detail/(?P<id>.+?)[/]?$',dream.Detail,name='dream.detail'),
-    url(r'^search[/]?$',dream.Search,name='dream.search'),
+    url(r'^detail/(?P<id>.+?)/$',dream.Detail,name='dream.detail'),
+    url(r'^search/$',dream.Search,name='dream.search'),
+    url(r'^cat/(?P<cat>.+?)/$',dream.Cat,name='dream.cat'),
 
 )

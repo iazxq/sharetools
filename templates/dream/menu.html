@@ -1,18 +1,18 @@
  <div class="navigation fl">
              <ul class="ulcl">
                 <li>
-                    <span><a href="./regex-test.html">梦见人物</a></span>
-                    <span><a href="./simple2traditional.html">梦见身体</a></span>
-                    <span><a href="./pinyin.html">梦见情感</a></span>
-                    <span><a href="./beautify-javascript.html">梦见动物</a></span>
-                    <span><a href="./css-format.html">梦见植物</a></span>
-                    <span><a href="./javascript-encrypt.html">梦见物品</a></span>
+                    <span><a href="{% url 'dream.cat' cat="renwu" %}">梦见人物</a></span>
+                    <span><a href="{% url 'dream.cat' cat="shenti" %}">梦见身体</a></span>
+                    <span><a href="{% url 'dream.cat' cat="qinggan" %}">梦见情感</a></span>
+                    <span><a href="{% url 'dream.cat' cat="dongwu" %}">梦见动物</a></span>
+                    <span><a href="{% url 'dream.cat' cat="zhiwu" %}">梦见植物</a></span>
+                    <span><a href="{% url 'dream.cat' cat="wupin" %}">梦见物品</a></span>
                 </li>
                 <li>
-                    <span><a href="./unit.html">生活类梦</a></span>
-                    <span><a href="./calendar.html">梦见鬼神</a></span>
-                    <span><a href="./health.html">梦见自然</a></span>
-                    <span><a href="./periodic-table.html">梦见建筑</a></span>
+                    <span><a href="{% url 'dream.cat' cat="shenghuo" %}">生活类梦</a></span>
+                    <span><a href="{% url 'dream.cat' cat="guishen" %}">梦见鬼神</a></span>
+                    <span><a href="{% url 'dream.cat' cat="ziran" %}">梦见自然</a></span>
+                    <span><a href="{% url 'dream.cat' cat="jianzhu" %}">梦见建筑</a></span>
 
                 </li>
             </ul>

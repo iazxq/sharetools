@@ -8,6 +8,20 @@ from app.common import func
 from app.facade import factory
 from app.common import gvar
 
+
+dreamCatDict = {
+    'renwu':u'人物',
+    'shenti':u'身体',
+    'qinggan':u'情感',
+    'wupin':u'物品',
+    'shenghuo':u'生活',
+    'guishen':u'鬼神',
+    'jianzhu':u'建筑',
+    'dongwu':u'动物',
+    'zhiwu':u'植物',
+    'ziran':u'自然',
+}
+
 def Index(request):
     tools = config.Tools
     tool = tools.get('jiemeng',{})
@@ -21,6 +35,7 @@ def Detail(request,id):
     words = gvar.seg.cut(dream['title'].encode('utf8'))
     relatedDreams = dreamFacade.Search(keywords=words,count=100)
     catDreams = dreamFacade.Search(cat=dream.get('cat',''))
+    catName = dreamCatDict.get(dream.get('cat',''),'')
     return render_to_response('dream/detail.html',locals())
 
 def Search(request):
@@ -31,6 +46,14 @@ def Search(request):
         dream = dreams['list'][0]
         return HttpResponseRedirect('/jiemeng/detail/%s/'%dream['_id'])
     return render_to_response('dream/search.html',locals())
+
+def Cat(request,cat):
+    tools = config.Tools
+    tool = tools.get('jiemeng',{})
+    catName = dreamCatDict.get(cat,'')
+    dreamFacade = factory.CreateDreamFacade()
+    dreams = dreamFacade.Search(cat=cat,count=3000)
+    return render_to_response('dream/cat.html',locals())
 
 
 
