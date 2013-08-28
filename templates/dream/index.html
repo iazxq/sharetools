@@ -2,7 +2,8 @@
 {% load filter %}
 {% block head %}
 {% endblock %}
-
+{% block description %}在线周公解梦,为您解梦。免费的在线周公解梦工具网站。想了解昨晚做的梦是什么意思？向直到昨晚做的梦是吉是凶？在线周公解梦工具帮你分析！{% endblock %}
+{% block keywords %}在线周公解梦,做梦,周公解梦查询,解梦大全,免费周公解梦,原版周公解梦,新周公解梦大全,解梦网,解梦工具,解梦大师{% endblock %}
 {% block nav %}<a href="{% url 'dream.index' %}">分类解梦</a>{% endblock %}
 
 
@@ -12,7 +13,7 @@
 
 {% for k,v in dreams.items %}
 <div class="h20"></div>
-<h2>{{ v.title }}：</h2>
+<h2>梦见{{ v.title }}：</h2>
  <div class="box">
             <div class="padding-10">
             <div class="keywords">
