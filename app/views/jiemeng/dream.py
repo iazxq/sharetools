@@ -27,6 +27,7 @@ DreamCatDict = {
 
 @cache_page(60 * 60 *24)
 def Index(request):
+    return HttpResponseRedirect('/')
     tools = config.Tools
     tool = tools.get('jiemeng',{})
     dreamFacade = factory.CreateDreamFacade()
@@ -37,6 +38,7 @@ def Index(request):
     return render_to_response('dream/index.html',locals())
 
 def Detail(request,id):
+    return HttpResponseRedirect('/')
     tools = config.Tools
     tool = tools.get('jiemeng',{})
     dreamFacade = factory.CreateDreamFacade()
@@ -50,6 +52,7 @@ def Detail(request,id):
     return render_to_response('dream/detail.html',locals())
 
 def Search(request):
+    return HttpResponseRedirect('/')
     tools = config.Tools
     tool = tools.get('jiemeng',{})
     keyword = func.get_str_param_from_get(request,'jiemeng')
@@ -70,6 +73,7 @@ def Search(request):
 
 @cache_page(60 * 60 *24)
 def Cat(request,cat):
+    return HttpResponseRedirect('/')
     tools = config.Tools
     tool = tools.get('jiemeng',{})
     catName = DreamCatDict.get(cat,'')

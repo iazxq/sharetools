@@ -40,7 +40,7 @@ Tools = {
     'refresh':{'name':u'在线定时刷新指定网址的工具','content':u'此工具可以根据用户设定的时间频率定时刷新指定的网页，非常适合用于刷票、增加网页浏览量等。'},
     'unixtime':{'name':u'Unix时间戳在线转换工具','content':u'Unix时间戳转换工具可以把Unix时间戳转成北京时间，也可以把北京时间转换成unix时间戳'},
     'timer':{'name':u'在线倒计时工具','content':u'可自己定制的在线倒计时工具，可以自己指定倒计时的时常，计时结束会有提示音。'},
-    'jiemeng':{'name':u'在线周公解梦','content':u'免费的在线周公解梦平台，无论您昨晚做了什么梦，只要输入与梦境相关的词，我们就能帮您解梦，是吉是凶，是爱是恨，是真是假，是桃花还是劫难一切尽在周公解梦。','url':'/jiemeng/'},
+    #'jiemeng':{'name':u'在线周公解梦','content':u'免费的在线周公解梦平台，无论您昨晚做了什么梦，只要输入与梦境相关的词，我们就能帮您解梦，是吉是凶，是爱是恨，是真是假，是桃花还是劫难一切尽在周公解梦。','url':'/jiemeng/'},
     'unicode':{'name':u'Unicode编码在线转换工具','content':u'本工具是一个unicode编码转换工具，可以将unicode编码转换成ascii码也可以将ascii码转换成unicode编码'},
     'utf8':{'name':u'utf-8和中文相互转换工具','content':u'本工具是一个中文和utf-8编码相互转换的工具，可以把中文转换成utf-8编码，也可以把utf-8编码反向转换成中文'},
     'html2ubb':{'name':u'HTML代码和UBB在线转换工具','content':u'本工具是一个可以将html代码转换成ubb代码，也可以将ubb代码转换成html代码的工具，例如<a href="http://www.sharejs.com">脚本分享网</a>可以转换成 [url=http://www.sharejs.com]脚本分享网[/url]'},
