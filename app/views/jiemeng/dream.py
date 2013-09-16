@@ -25,7 +25,7 @@ DreamCatDict = {
 
 
 
-@cache_page(60 * 30)
+@cache_page(60 * 60 *24)
 def Index(request):
     tools = config.Tools
     tool = tools.get('jiemeng',{})
@@ -68,7 +68,7 @@ def Search(request):
     keywordClassList = config.FontClassList
     return render_to_response('dream/search.html',locals())
 
-@cache_page(60 * 30)
+@cache_page(60 * 60 *24)
 def Cat(request,cat):
     tools = config.Tools
     tool = tools.get('jiemeng',{})
